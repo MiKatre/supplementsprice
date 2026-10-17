@@ -1,0 +1,116 @@
+{
+ "sources": [
+  {
+   "id": "nutrimuscle",
+   "name": "Nutrimuscle",
+   "market": "FR",
+   "adapter": "shopify",
+   "base": "https://www.nutrimuscle.com",
+   "url": "https://www.nutrimuscle.com"
+  },
+  {
+   "id": "toutelanutrition",
+   "name": "Toutelanutrition",
+   "market": "FR",
+   "adapter": "shopify",
+   "base": "https://www.toutelanutrition.com",
+   "url": "https://www.toutelanutrition.com"
+  },
+  {
+   "id": "novoma",
+   "name": "Novoma",
+   "market": "FR",
+   "adapter": "shopify",
+   "base": "https://www.novoma.com",
+   "url": "https://www.novoma.com"
+  },
+  {
+   "id": "inshape",
+   "name": "Inshape",
+   "market": "FR",
+   "adapter": "shopify",
+   "base": "https://inshape-nutrition.com",
+   "url": "https://inshape-nutrition.com"
+  },
+  {
+   "id": "fitnessboutique",
+   "name": "Fitnessboutique",
+   "market": "FR",
+   "adapter": "shopify",
+   "base": "https://www.fitnessboutique.fr",
+   "url": "https://www.fitnessboutique.fr"
+  },
+  {
+   "id": "eiyolab",
+   "name": "Eiyolab",
+   "market": "FR",
+   "adapter": "shopify",
+   "base": "https://eiyolab.com",
+   "url": "https://eiyolab.com"
+  },
+  {
+   "id": "nutrimea",
+   "name": "Nutrimea",
+   "market": "FR",
+   "adapter": "shopify",
+   "base": "https://www.nutrimea.com",
+   "url": "https://www.nutrimea.com"
+  },
+  {
+   "id": "crown",
+   "name": "Crown Sport Nutrition",
+   "market": "ES",
+   "adapter": "shopify",
+   "base": "https://crownsportnutrition.com",
+   "url": "https://crownsportnutrition.com"
+  },
+  {
+   "id": "226ers",
+   "name": "226ERS",
+   "market": "ES",
+   "adapter": "shopify",
+   "base": "https://www.226ers.com",
+   "url": "https://www.226ers.com"
+  },
+  {
+   "id": "nutri9",
+   "name": "Nutri9",
+   "market": "ES",
+   "adapter": "shopify",
+   "base": "https://nutri9.es",
+   "url": "https://nutri9.es"
+  },
+  {
+   "id": "quamtrax",
+   "name": "Quamtrax",
+   "market": "ES",
+   "adapter": "shopify",
+   "base": "https://quamtrax.com",
+   "url": "https://quamtrax.com"
+  },
+  {
+   "id": "bodyandfit",
+   "name": "Body & Fit",
+   "market": "EU",
+   "adapter": "shopify",
+   "base": "https://www.bodyandfit.com",
+   "url": "https://www.bodyandfit.com"
+  },
+  {
+   "id": "esn",
+   "name": "ESN",
+   "market": "EU",
+   "adapter": "shopify",
+   "base": "https://www.esn.com",
+   "url": "https://www.esn.com"
+  },
+  {
+   "id": "hsn",
+   "name": "HSN",
+   "market": "ES",
+   "adapter": "hsn",
+   "browser": true,
+   "url": "https://www.hsnstore.com"
+  }
+ ]
+}

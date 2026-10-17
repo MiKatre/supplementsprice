@@ -1,0 +1,299 @@
+<title>Creatine &amp; Whey Prices</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Creatine (Creapure and monohydrate) and whey protein compared by price per kg and per kg of protein, across Spanish and French shops.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one working column; a compact control bar, a one-line verdict, then the table does the work. */
+:root {
+  --bg: #f5f7f6; --surface: #ffffff; --ink: #15201f; --muted: #5b6866; --line: #dde3e0;
+  --accent: #0e5a78; --accent-soft: #e1edf2; --good: #1b7547; --good-soft: #e2f1e7; --flag: #94570a; --flag-soft: #f8eedf;
+  --bad: #a3312a;
+  --display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e1413; --surface: #141c1b; --ink: #e4ebe9; --muted: #93a19e; --line: #26312f;
+  --accent: #72bddb; --accent-soft: #15303b; --good: #62cf94; --good-soft: #14301f; --flag: #e3a957; --flag-soft: #3a2a12;
+  --bad: #ef8a80; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0e1413; --surface: #141c1b; --ink: #e4ebe9; --muted: #93a19e; --line: #26312f;
+  --accent: #72bddb; --accent-soft: #15303b; --good: #62cf94; --good-soft: #14301f; --flag: #e3a957; --flag-soft: #3a2a12;
+  --bad: #ef8a80; color-scheme: dark }
+
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 14px; line-height: 1.45; margin: 0; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 28px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 16px; }
+header { display: grid; gap: 4px; }
+h1 { font-family: var(--display); font-stretch: 82%; font-weight: 750; font-size: clamp(26px, 4vw, 34px); letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); margin: 0; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 2px; }
+.seg button { font: inherit; font-weight: 500; color: var(--muted); background: none; border: 0; border-radius: 6px; padding: 6px 11px; cursor: pointer; white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.seg.kind button { font-family: var(--display); font-stretch: 90%; font-size: 15px; font-weight: 650; padding: 6px 14px; }
+button:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.count { font-size: 12px; opacity: .7; margin-left: 4px; font-variant-numeric: tabular-nums; }
+.check { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); cursor: pointer; user-select: none; }
+.check input { accent-color: var(--accent); margin: 0; }
+#q { font: inherit; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 7px 10px; min-width: 0; width: 210px; }
+.spacer { flex: 1; }
+
+.verdict { margin: 0; padding: 10px 14px; border-radius: 8px; background: var(--good-soft); color: var(--ink); }
+.verdict b { color: var(--good); }
+
+.table-box { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; min-width: 820px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tbody tr:last-child td { border-bottom: 0; }
+th { position: sticky; top: 0; background: var(--surface); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+th[aria-sort] button::after { content: "↕"; opacity: .35; }
+th[aria-sort="ascending"] button::after { content: "↑"; opacity: 1; color: var(--accent); }
+th[aria-sort="descending"] button::after { content: "↓"; opacity: 1; color: var(--accent); }
+.num { text-align: right; white-space: nowrap; }
+th.num button { justify-content: flex-end; }
+tbody tr:hover { background: color-mix(in srgb, var(--accent-soft) 45%, transparent); }
+tr.out { opacity: .55; }
+
+.prod { min-width: 240px; }
+.prod a { color: var(--ink); font-weight: 600; text-decoration: none; }
+.prod a:hover { color: var(--accent); text-decoration: underline; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 3px; align-items: center; font-size: 12px; color: var(--muted); }
+.chip { font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.chip.flag { background: var(--flag-soft); color: var(--flag); }
+.chip.good { background: var(--good-soft); color: var(--good); }
+.stale { font-size: 12px; color: var(--flag); }
+.shop { white-space: nowrap; }
+.shop small, .size small, .price small { display: block; color: var(--muted); font-size: 12px; }
+.price s { color: var(--muted); font-size: 12px; }
+.mkt { font-size: 12px; font-weight: 600; color: var(--muted); }
+
+.perkg { font-weight: 700; font-size: 15px; }
+.bar { height: 3px; border-radius: 2px; background: var(--line); margin-top: 5px; margin-left: auto; width: 90px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+tr.best .perkg { color: var(--good); }
+tr.best .bar i { background: var(--good); }
+.dim { color: var(--muted); }
+.empty { padding: 28px; text-align: center; color: var(--muted); }
+.more { justify-self: center; font: inherit; font-weight: 600; color: var(--accent); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 16px; cursor: pointer; }
+
+footer { color: var(--muted); font-size: 12.5px; display: grid; gap: 8px; }
+footer p { margin: 0; max-width: 80ch; }
+details summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+.sources { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 4px 16px; margin-top: 8px; }
+.sources span { display: flex; gap: 6px; align-items: baseline; min-width: 0; }
+.dot { width: 7px; height: 7px; border-radius: 50%; flex: none; background: var(--good); transform: translateY(-1px); }
+.dot.blocked, .dot.failed { background: var(--bad); }
+.dot.paused, .dot.skipped, .dot.reviewed { background: var(--flag); }
+@media (max-width: 560px) { #q { width: 100%; } .spacer { display: none; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Creatine &amp; Whey Prices</h1>
+    <p class="sub" id="sub"></p>
+  </header>
+
+  <div class="controls">
+    <div class="seg kind" role="group" aria-label="Product">
+      <button id="k-creatine" data-kind="creatine">Creatine<span class="count"></span></button>
+      <button id="k-whey" data-kind="whey">Whey<span class="count"></span></button>
+    </div>
+    <div class="seg" role="group" aria-label="Where the shop sells" id="market">
+      <button id="m-all" data-v="all">All shops</button>
+      <button id="m-es" data-v="ES">Spain</button>
+      <button id="m-fr" data-v="FR">France</button>
+    </div>
+    <div class="seg" role="group" aria-label="Type" id="type"></div>
+  </div>
+  <div class="controls">
+    <label class="check" for="instock"><input type="checkbox" id="instock" checked> In stock only</label>
+    <label class="check" for="allsizes"><input type="checkbox" id="allsizes"> Every size</label>
+    <span class="spacer"></span>
+    <input id="q" type="search" placeholder="Search brand, product or shop" aria-label="Search brand, product or shop">
+  </div>
+
+  <p class="verdict" id="verdict"></p>
+
+  <div class="table-box">
+    <table>
+      <thead><tr id="head"></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <button class="more" id="more" hidden></button>
+
+  <footer>
+    <p>Prices include VAT and exclude shipping. Each row is the cheapest in-stock flavour; with “Every size” off, each product shows its best-value size. “All shops” includes EU shops that ship to Spain and France (Body &amp; Fit, ESN); their checkout price can differ slightly.</p>
+    <p><b>€ / kg protein</b> divides the price per kg by the protein per 100 g read from the shop’s nutrition label. A blank means the label wasn’t readable. Creatine € / month assumes 3 g a day.</p>
+    <details id="sources-box"><summary id="sources-sum">Sources</summary><div class="sources" id="sources"></div></details>
+  </footer>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const SHOPS = DATA.shops;
+const eur = new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' });
+const n2 = new Intl.NumberFormat('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const n0 = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 1 });
+const size = g => g >= 1000 ? `${n2.format(g / 1000).replace(/,?0+$/, '')} kg` : `${Math.round(g)} g`;
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const day = iso => new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+const latestDay = DATA.generated_at.slice(0, 10);
+
+const TYPES = {
+  creatine: [['all', 'All'], ['creapure', 'Creapure®'], ['plain', 'Other monohydrate']],
+  whey: [['all', 'All'], ['concentrate', 'Concentrate'], ['isolate', 'Isolate'], ['hydrolysed', 'Hydrolysed']],
+};
+const DEFAULT_SORT = { creatine: 'eur_kg', whey: 'eur_kg_protein' };
+const PAGE = 80;
+let state = { kind: 'creatine', market: 'all', type: 'all', instock: true, allsizes: false, q: '', sort: 'eur_kg', dir: 1, shown: PAGE };
+try { Object.assign(state, JSON.parse(localStorage.getItem('cwp2') || '{}'), { q: '', shown: PAGE }); } catch (e) {}
+if (!TYPES[state.kind]) state.kind = 'creatine';
+const save = () => { try { const { q, shown, ...keep } = state; localStorage.setItem('cwp2', JSON.stringify(keep)); } catch (e) {} };
+
+const rowsAll = DATA.offers.map(o => ({ ...o, month: o.kind === 'creatine' ? o.eur_kg * 0.09 : null, shopName: SHOPS[o.shop]?.name || o.shop }));
+const okShops = Object.values(SHOPS).filter(s => s.status === 'ok').length;
+document.getElementById('sub').textContent =
+  `Spain and France · ${rowsAll.length} offers from ${new Set(rowsAll.map(r => r.shop)).size} shops · updated ${new Date(DATA.generated_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}`;
+for (const k of ['creatine', 'whey'])
+  document.querySelector(`#k-${k} .count`).textContent = new Set(rowsAll.filter(r => r.kind === k).map(r => r.shop + r.url)).size;
+
+function columns() {
+  const c = [['product', 'Product'], ['shopName', 'Shop'], ['grams', 'Size', 'num'], ['price', 'Price', 'num']];
+  if (state.kind === 'whey') c.push(['protein_100g', 'Protein', 'num'], ['eur_kg', '€ / kg', 'num'], ['eur_kg_protein', '€ / kg protein', 'num']);
+  else c.push(['eur_kg', '€ / kg', 'num'], ['month', '€ / month', 'num']);
+  return c;
+}
+const metric = () => state.kind === 'whey' ? 'eur_kg_protein' : 'eur_kg';
+const typeOf = r => r.whey_type === 'blend' ? 'concentrate' : r.whey_type;
+
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  let rows = rowsAll.filter(r => r.kind === state.kind
+    && (state.market === 'all' || r.market === state.market)
+    && (!state.instock || r.available !== false)
+    && (state.type === 'all'
+        || (state.type === 'creapure' && r.creapure) || (state.type === 'plain' && r.kind === 'creatine' && !r.creapure)
+        || typeOf(r) === state.type)
+    && (!q || [r.product, r.shopName, r.seller, r.brand].join(' ').toLowerCase().includes(q)));
+  if (!state.allsizes) {
+    const best = new Map();
+    const m = metric();
+    for (const r of rows) {
+      const k = r.shop + '|' + r.url;
+      const cur = best.get(k);
+      const score = x => x[m] ?? x.eur_kg * 10;
+      if (!cur) best.set(k, { ...r, sizes: 1 });
+      else best.set(k, score(r) < score(cur) ? { ...r, sizes: cur.sizes + 1 } : { ...cur, sizes: cur.sizes + 1 });
+    }
+    rows = [...best.values()];
+  }
+  return rows;
+}
+
+function render() {
+  for (const b of document.querySelectorAll('.kind button')) b.setAttribute('aria-pressed', b.dataset.kind === state.kind);
+  for (const b of document.querySelectorAll('#market button')) b.setAttribute('aria-pressed', b.dataset.v === state.market);
+  document.getElementById('type').innerHTML = TYPES[state.kind].map(([v, l]) => `<button id="t-${v}" data-v="${v}" aria-pressed="${v === state.type}">${l}</button>`).join('');
+  document.getElementById('instock').checked = state.instock;
+  document.getElementById('allsizes').checked = state.allsizes;
+
+  const cols = columns();
+  document.getElementById('head').innerHTML = cols.map(([k, l, cls]) =>
+    `<th class="${cls || ''}" aria-sort="${state.sort === k ? (state.dir > 0 ? 'ascending' : 'descending') : 'none'}"><button data-sort="${k}">${l}</button></th>`).join('') + '<th>Mkt</th>';
+
+  const val = (r, k) => (k === 'product' || k === 'shopName') ? String(r[k]).toLowerCase() : r[k];
+  const rows = filtered().sort((a, b) => {
+    const x = val(a, state.sort), y = val(b, state.sort);
+    if (x == null && y == null) return a.eur_kg - b.eur_kg;
+    if (x == null) return 1;
+    if (y == null) return -1;
+    return (x > y ? 1 : x < y ? -1 : a.eur_kg - b.eur_kg) * state.dir;
+  });
+  const m = metric();
+  const ranked = rows.filter(r => r[m] != null && r.available !== false);
+  const best = ranked.length ? Math.min(...ranked.map(r => r[m])) : null;
+  const maxKg = Math.max(...rows.map(r => r.eur_kg));
+  const maxP = Math.max(...rows.map(r => r.eur_kg_protein || 0));
+
+  const v = document.getElementById('verdict');
+  const top = ranked.find(r => r[m] === best);
+  v.hidden = !top;
+  if (top) {
+    const where = top.seller ? `${top.shopName} (sold by ${top.seller})` : top.shopName;
+    v.innerHTML = state.kind === 'whey'
+      ? `Cheapest protein here: <b>${esc(top.product)}</b>, ${size(top.grams)} at ${esc(where)}: <b>${eur.format(top.eur_kg_protein)} per kg of protein</b> (${n0.format(top.protein_100g)} g/100 g, ${eur.format(top.eur_kg)}/kg).`
+      : `Cheapest here: <b>${esc(top.product)}</b>, ${size(top.grams)} at ${esc(where)}: <b>${eur.format(top.eur_kg)}/kg</b>, about ${eur.format(top.month)} a month at 3 g/day.`;
+  }
+
+  const shown = rows.slice(0, state.shown);
+  document.getElementById('rows').innerHTML = shown.length ? shown.map(r => {
+    const chips = [];
+    if (r.creapure) chips.push('<span class="chip">Creapure®</span>');
+    if (r.whey_type) chips.push(`<span class="chip">${{ concentrate: 'Concentrate', isolate: 'Isolate', blend: 'Blend', hydrolysed: 'Hydrolysed' }[r.whey_type]}</span>`);
+    if (r.native) chips.push('<span class="chip">Native</span>');
+    if (r.sweetener_free) chips.push('<span class="chip good">No sweeteners</span>');
+    if (r.tested) chips.push('<span class="chip good">Third-party tested</span>');
+    if (r.list_price && r.list_price > r.price) chips.push(`<span class="chip flag">−${Math.round((1 - r.price / r.list_price) * 100)}%</span>`);
+    const brand = r.brand && r.brand.toLowerCase() !== r.shopName.toLowerCase() ? `<span>${esc(r.brand)}</span>` : '';
+    const flav = r.flavours > 1 ? `<span>${r.flavours} flavours</span>` : '';
+    const stale = r.captured_at && r.captured_at.slice(0, 10) !== latestDay ? `<span class="stale">price from ${day(r.captured_at)}</span>` : '';
+    const note = r.note ? `<span class="stale">${esc(r.note)}</span>` : '';
+    const how = { feed: 'Auto', page: 'Auto', browser: 'Auto (browser)', reviewed: 'Checked by hand' }[r.method] || '';
+    const sizes = !state.allsizes && r.sizes > 1 ? `<small>${r.sizes} sizes</small>` : '';
+    return `<tr class="${r[m] === best && r.available !== false ? 'best' : ''} ${r.available === false ? 'out' : ''}">
+      <td class="prod"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.product)}</a>
+        <div class="meta">${chips.join('')}${brand}${flav}${stale}${note}${r.available === false ? '<span class="stale">out of stock</span>' : ''}</div></td>
+      <td class="shop">${esc(r.shopName)}<small>${r.seller ? 'via ' + esc(r.seller) + ' · ' : ''}${how}</small></td>
+      <td class="num size">${size(r.grams)}${sizes}</td>
+      <td class="num price">${eur.format(r.price)}${r.list_price && r.list_price > r.price ? `<small><s>${eur.format(r.list_price)}</s></small>` : ''}</td>
+      ${state.kind === 'whey' ? `
+      <td class="num">${r.protein_100g ? n0.format(r.protein_100g) + ' g' : '<span class="dim">–</span>'}</td>
+      <td class="num">${n2.format(r.eur_kg)}</td>
+      <td class="num">${r.eur_kg_protein ? `<span class="perkg">${n2.format(r.eur_kg_protein)}</span><div class="bar"><i style="width:${(r.eur_kg_protein / maxP * 100).toFixed(1)}%"></i></div>` : '<span class="dim">–</span>'}</td>`
+      : `
+      <td class="num"><span class="perkg">${n2.format(r.eur_kg)}</span><div class="bar"><i style="width:${(r.eur_kg / maxKg * 100).toFixed(1)}%"></i></div></td>
+      <td class="num">${eur.format(r.month)}</td>`}
+      <td class="mkt">${r.market}</td></tr>`;
+  }).join('') : `<tr><td class="empty" colspan="${cols.length + 1}">No offers match. Clear the search or pick another market.</td></tr>`;
+  const more = document.getElementById('more');
+  more.hidden = rows.length <= state.shown;
+  more.textContent = `Show all ${rows.length}`;
+  save();
+}
+
+function renderSources() {
+  const list = Object.entries(SHOPS).sort((a, b) => a[1].name.localeCompare(b[1].name));
+  const ok = list.filter(([, s]) => s.status === 'ok').length;
+  document.getElementById('sources-sum').textContent = `Sources: ${ok} of ${list.length} read automatically on ${day(DATA.generated_at)}`;
+  document.getElementById('sources').innerHTML = list.map(([id, s]) => {
+    const label = { ok: `${s.offers} offers`, blocked: 'blocked us', failed: 'failed', paused: 'paused', skipped: 'not run', reviewed: 'checked by hand' }[s.status] || s.status;
+    const kept = s.status !== 'ok' && s.kept_offers ? `, showing ${s.kept_offers} older` : '';
+    return `<span><i class="dot ${s.status}"></i><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a> <span class="dim">${s.market} · ${label}${kept}</span></span>`;
+  }).join('');
+}
+
+document.querySelector('.kind').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { state.kind = b.dataset.kind; state.type = 'all'; state.sort = DEFAULT_SORT[state.kind]; state.dir = 1; state.shown = PAGE; render(); } });
+document.getElementById('market').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { state.market = b.dataset.v; state.shown = PAGE; render(); } });
+document.getElementById('type').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { state.type = b.dataset.v; state.shown = PAGE; render(); } });
+document.getElementById('instock').addEventListener('change', e => { state.instock = e.target.checked; render(); });
+document.getElementById('allsizes').addEventListener('change', e => { state.allsizes = e.target.checked; render(); });
+document.getElementById('more').addEventListener('click', () => { state.shown = 1e9; render(); });
+document.getElementById('head').addEventListener('click', e => {
+  const b = e.target.closest('button[data-sort]'); if (!b) return;
+  const k = b.dataset.sort;
+  if (state.sort === k) state.dir *= -1; else { state.sort = k; state.dir = k === 'protein_100g' ? -1 : 1; }
+  render();
+});
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; state.shown = PAGE; render(); });
+if (!columns().some(([k]) => k === state.sort)) state.sort = DEFAULT_SORT[state.kind];
+render();
+renderSources();
+</script>
