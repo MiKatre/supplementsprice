@@ -1,4 +1,5 @@
 name: Collect prices
+# Daily at 04:23 UTC; run by hand with an optional list of source ids.
 on:
   workflow_dispatch:
     inputs:
