@@ -4,9 +4,11 @@ robots.txt, spacing between page loads, and stop at the first refusal or challen
 On CI it runs headed under xvfb (HEADED=1): a normal desktop Chrome, nothing spoofed.
 """
 
+import json
 import os
 import re
 import time
+from urllib.parse import urlsplit
 
 from .http import Blocked, Fetcher
 
@@ -38,6 +40,7 @@ class Browser:
         self.pages = 0
         self.robots = Fetcher()
         self._last = 0.0
+        self._origins: set[str] = set()
 
     def close(self):
         try:
@@ -82,9 +85,40 @@ class Browser:
     def eval(self, js: str, arg=None):
         return self.page.evaluate(js, arg)
 
-    def text(self) -> str:
+    def page_text(self) -> str:
         """Whole page text including collapsed tabs (nutrition tables hide in those)."""
         return self.page.evaluate("document.body ? document.body.textContent.replace(/\\s+/g, ' ') : ''")
+
+    def _fetch(self, url: str) -> str:
+        """GET from inside the page (real Chrome, same cookies). Opens the shop's home page first so any
+        interstitial check runs once, like a person landing on the site."""
+        origin = "{0.scheme}://{0.netloc}".format(urlsplit(url))
+        if origin not in self._origins:
+            self.goto(origin + "/", settle=1.5)
+            self._origins.add(origin)
+        if not self.robots.allowed(url):
+            raise Blocked(f"robots.txt disallows {url}")
+        gap = self._last + self.delay - time.monotonic()
+        if gap > 0:
+            time.sleep(gap)
+        self.pages += 1
+        r = self.page.evaluate(
+            "async u => { const r = await fetch(u, {credentials: 'include'}); return [r.status, await r.text()] }",
+            url,
+        )
+        self._last = time.monotonic()
+        status, body = r
+        if status in (401, 403, 429):
+            raise Blocked(f"HTTP {status} (in-browser) for {url}")
+        if status >= 400:
+            raise RuntimeError(f"HTTP {status} for {url}")
+        return body
+
+    def json(self, url: str):
+        return json.loads(self._fetch(url))
+
+    def text(self, url: str) -> str:
+        return self._fetch(url)
 
     def scroll(self, times: int = 6, pause: float = 0.7):
         for _ in range(times):

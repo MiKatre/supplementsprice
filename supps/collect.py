@@ -16,6 +16,7 @@ import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .cache import ENRICH
 from .http import Blocked, Fetcher
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,6 +28,12 @@ REPORT = ROOT / "runs" / "report.json"
 
 # €/kg outside these ranges is a parsing error (sample sachet, bundle, wrong size), not a deal.
 SANE = {"creatine": (6, 300), "whey": (12, 160)}
+
+
+def _browser():
+    from .browser import Browser
+
+    return Browser()
 
 
 def load_sources() -> list[dict]:
@@ -78,13 +85,18 @@ def run(only: set[str] | None = None, skip_browser: bool = False) -> dict:
             try:
                 mod = importlib.import_module(f".adapters.{src['adapter']}", __package__)
                 if src.get("browser"):
-                    if browser is None:
-                        from .browser import Browser
-
-                        browser = Browser()
+                    browser = browser or _browser()
                     got = mod.collect(src, browser, now)
                 else:
-                    got = mod.collect(src, fetch, now)
+                    try:
+                        got = mod.collect(src, fetch, now)
+                    except Blocked as e:
+                        if not getattr(mod, "BROWSER_FALLBACK", False) or skip_browser:
+                            raise
+                        print(f"{sid:24} {e}; retrying in the browser", flush=True)
+                        browser = browser or _browser()
+                        got = mod.collect(src, browser, now)
+                        meta["via"] = "browser"
                 rows = [o.to_dict() for o in got]
                 rows = [r for r in rows if sane(r)]
                 if not rows and src.get("expect_offers", True):
@@ -120,6 +132,8 @@ def run(only: set[str] | None = None, skip_browser: bool = False) -> dict:
         fetch.close()
         if browser:
             browser.close()
+
+    ENRICH.save()
 
     # Hand-checked observations fill in shops we couldn't read this run (never override fresh data).
     if REVIEWED.exists():

@@ -106,6 +106,23 @@ def parse_grams(*texts: str | None) -> float | None:
     return None
 
 
+_SAMPLE = re.compile(
+    r"sobre|sachet|monodos|unidos|muestra|sample|[eé]chantillon|stick|caja|box\b|bo[iî]te de \d+ |dosis individual|"
+    r"single serv|serving pack|\bx ?\d+ ?(?:sobres|sachets|sticks|doses)",
+    re.I,
+)
+
+
+def is_sample(label: str | None) -> bool:
+    """A variant that is a sachet, a box of single doses or a sample, not a tub."""
+    if not label:
+        return False
+    if _SAMPLE.search(label):
+        return True
+    m = _WEIGHT.search(label)
+    return bool(m) and _grams(m.group(1), m.group(2)) < 100
+
+
 def whey_type(title: str) -> str:
     t = title.lower()
     if re.search(r"hydro|hidroli|optipep|peptopro", t):

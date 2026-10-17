@@ -2,6 +2,7 @@
 
 import re
 
+from ..cache import ENRICH
 from ..model import Offer, Variant, group_variants
 from ..normalize import (
     FLAVOURLESS,
@@ -12,11 +13,14 @@ from ..normalize import (
     flavour_of,
     is_creapure,
     is_native,
+    is_sample,
     net_weight,
     parse_grams,
     protein_per_100g,
     whey_type,
 )
+
+BROWSER_FALLBACK = True  # Shopify answers 429 to plain clients from datacenter IPs
 
 FLAVOUR_OPTION = re.compile(r"sabor|saveur|go[uû]t|flav|ar[oô]me|aroma|geschmack", re.I)
 
@@ -55,9 +59,9 @@ def _product(src: dict, base: str, p: dict, now: str, fetch=None) -> list[Offer]
         labels = [v.get("option1"), v.get("option2"), v.get("option3")]
         named = list(zip(labels, option_names + ["", "", ""]))
         size_label = " ".join(x for x, n in named if x and not FLAVOUR_OPTION.match(n))
+        if is_sample(size_label):
+            continue
         grams = parse_grams(size_label, v.get("title"), title)
-        if grams is None and v.get("grams") and len(p.get("variants", [])) == 1 and kind == "creatine":
-            grams = None  # shipping weight includes the tub: never use it
         flavour = flavour_of(*[x for x, n in zip(labels, option_names + ["", "", ""]) if x and x != size_label])
         variants.append(
             Variant(
@@ -69,17 +73,24 @@ def _product(src: dict, base: str, p: dict, now: str, fetch=None) -> list[Offer]
             )
         )
     url = f"{src.get('product_base', base)}/products/{p['handle']}"
-    page = ""
     needs_size = any(v.grams is None for v in variants) and len(variants) <= 3
     protein = protein_per_100g(body) if kind == "whey" else None
-    if fetch is not None and src.get("pages", True) and ((kind == "whey" and protein is None) or needs_size):
-        page = _page_text(fetch, url)
-        if kind == "whey" and protein is None:
-            protein = protein_per_100g(page)
-        if needs_size:
-            g = net_weight(body) or net_weight(page)
-            for v in variants:
-                v.grams = v.grams or g
+    tested = bool(TESTED.search(body))
+    net = net_weight(body) if needs_size else None
+    wanted = (kind == "whey" and protein is None) or (needs_size and not net)
+    if fetch is not None and src.get("pages", True) and wanted:
+        facts = ENRICH.get(url)
+        if facts is None:
+            page = _page_text(fetch, url)
+            facts = ENRICH.put(
+                url, protein=protein_per_100g(page), net=net_weight(page), tested=bool(TESTED.search(page))
+            )
+        protein = protein or facts.get("protein")
+        net = net or facts.get("net")
+        tested = tested or facts.get("tested", False)
+    if needs_size and net:
+        for v in variants:
+            v.grams = v.grams or net
     out = []
     for grams, s in group_variants(variants).items():
         if s["price"] / grams * 1000 < 5:  # a sample or a bundle line; not a real per-kg price
@@ -103,7 +114,7 @@ def _product(src: dict, base: str, p: dict, now: str, fetch=None) -> list[Offer]
                 protein_100g=protein,
                 unflavoured=any(FLAVOURLESS.search(lbl) for lbl in s["labels"]) or bool(FLAVOURLESS.search(title)),
                 sweetener_free=bool(SWEETENER_FREE.search(title + " " + body[:600])),
-                tested=bool(TESTED.search(body + page)),
+                tested=tested,
                 method="feed",
                 captured_at=now,
             )

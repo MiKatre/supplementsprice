@@ -59,7 +59,7 @@ def _product(src, browser, url, now) -> list[Offer]:
     if not kind:
         return []
     raw = browser.eval(CONFIG_JS)
-    text = browser.text()
+    text = browser.page_text()
     variants = []
     if raw:
         cfg = json.loads(raw)

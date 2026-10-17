@@ -111,6 +111,35 @@
    "adapter": "hsn",
    "browser": true,
    "url": "https://www.hsnstore.com"
+  },
+  {
+   "id": "decathlon-es",
+   "name": "Decathlon España",
+   "market": "ES",
+   "adapter": "decathlon",
+   "browser": true,
+   "base": "https://www.decathlon.es",
+   "url": "https://www.decathlon.es",
+   "categories": [
+    "https://www.decathlon.es/es/salud-y-bienestar/creatina",
+    "https://www.decathlon.es/es/salud-y-bienestar/proteina-whey",
+    "https://www.decathlon.es/es/salud-y-bienestar/proteina-isolada",
+    "https://www.decathlon.es/es/salud-y-bienestar/proteina-hidrolizada"
+   ]
+  },
+  {
+   "id": "decathlon-fr",
+   "name": "Decathlon France",
+   "market": "FR",
+   "adapter": "decathlon",
+   "browser": true,
+   "base": "https://www.decathlon.fr",
+   "url": "https://www.decathlon.fr",
+   "categories": [
+    "https://www.decathlon.fr/nutrition-sante/creatine",
+    "https://www.decathlon.fr/nutrition-sante/whey-proteines",
+    "https://www.decathlon.fr/nutrition-sante/whey-hydrolysee"
+   ]
   }
  ]
 }
