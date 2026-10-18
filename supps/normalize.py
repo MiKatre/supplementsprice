@@ -17,7 +17,8 @@ CREATINE_EXCLUDE = re.compile(
     r"amino|eaa|bcaa|electrolyt|electrolit|[eé]lectrolyt|hydration|hydratation|hidrataci|isotonic|recovery|recuper|shot|gel\b|bar\b|barrit|pack\b|duo\b|bundle|"
     r"lote|kit\b|sachet|sobre|stick|monodos|caja\b|box\b|\bx\s?\d+\s*(?:sobres|sticks)|"
     r"whey|prot[eé][ií]?n|soja|gainer|carb|maltodex|beta[- ]?alan|glutamin|taurin|caf[eé]ine|cafe[ií]na|"
-    r"\shmb|vitamin|coenzim|q10|drink|malato|creamag|magnes|\s\+\s|gratis|free\b|offert",
+    r"celular|cellular|recharge|cell[- ]?tech|\shmb|vitamin|coenzim|q10|drink|malato|creamag|magnes|"
+    r"\s\+\s|gratis|free\b|offert",
     re.I,
 )
 WHEY = re.compile(r"whey|suero|lactos[eé]rum|isolat|aislad|\bwpi\b|\bwpc\b|prot[eé]ine? de lait|protimuscle", re.I)

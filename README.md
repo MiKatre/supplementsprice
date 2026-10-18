@@ -59,3 +59,14 @@ slow shop from stalling a run.
 - Whey: concentrate, isolate, hydrolysed and WPC/WPI blends; no gainers, casein, vegan, bars, drinks.
 - Protein per 100 g as sold, from the label's table; "dry matter" figures are skipped.
 - €/kg outside 6–300 (creatine) or 12–160 (whey) is treated as a parsing error and dropped.
+
+## Website
+
+Netlify site `creatine-whey-prices` (https://creatine-whey-prices.netlify.app, site id
+9eaa7e4f-30d4-42eb-a899-af161c8ecb9f). The page bakes in a snapshot at deploy time and, on each visit,
+loads the newer `data/site.json` that the nightly Action commits to this public repo, so data updates need
+no redeploy. Redeploy only after changing `site/`:
+
+```sh
+uv run python site/build.py && netlify deploy --prod --dir dist --site 9eaa7e4f-30d4-42eb-a899-af161c8ecb9f
+```

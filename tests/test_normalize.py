@@ -10,6 +10,7 @@ from supps.normalize import classify, is_sample, net_weight, parse_grams, protei
         ("Créatine (Creapure®) en poudre", "creatine"),
         ("Créatine Monohydrate Creapure® en Poudre 500 g", "creatine"),
         ("Creatina y electrolitos", None),
+        ("Creatina Celular (Creapure®) - 500g Cítricos - Nutrisport", None),
         ("BigMan Forza Protein Whey + Soja con Creatina, 2 kg, Choco Avellana", None),
         ("Café con proteína de suero", None),
         ("Creatina monohidrato en polvo (200 mesh)", "creatine"),
