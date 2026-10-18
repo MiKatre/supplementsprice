@@ -21,16 +21,16 @@
    "name": "Novoma",
    "market": "FR",
    "adapter": "shopify",
-   "base": "https://www.novoma.com",
-   "url": "https://www.novoma.com"
+   "base": "https://novoma.com",
+   "url": "https://novoma.com"
   },
   {
    "id": "inshape",
    "name": "Inshape",
    "market": "FR",
    "adapter": "shopify",
-   "base": "https://inshape-nutrition.com",
-   "url": "https://inshape-nutrition.com"
+   "base": "https://www.inshape-nutrition.com",
+   "url": "https://www.inshape-nutrition.com"
   },
   {
    "id": "fitnessboutique",
@@ -139,6 +139,87 @@
     "https://www.decathlon.fr/nutrition-sante/creatine",
     "https://www.decathlon.fr/nutrition-sante/whey-proteines",
     "https://www.decathlon.fr/nutrition-sante/whey-hydrolysee"
+   ]
+  },
+  {
+   "id": "myprotein-es",
+   "name": "Myprotein España",
+   "market": "ES",
+   "adapter": "jsonld",
+   "brand": "Myprotein",
+   "url": "https://www.myprotein.es",
+   "categories": [
+    "https://www.myprotein.es/c/nutrition/creatine/",
+    "https://www.myprotein.es/c/nutrition/protein/whey-protein/",
+    "https://www.myprotein.es/c/nutrition/protein/protein-isolate-powders/",
+    "https://www.myprotein.es/c/nutrition/protein/hydrolysed-protein/",
+    "https://www.myprotein.es/c/nutrition/protein/informed-sport/",
+    "https://www.myprotein.es/c/nutrition/protein/informed-choice/"
+   ]
+  },
+  {
+   "id": "myprotein-fr",
+   "name": "Myprotein France",
+   "market": "FR",
+   "adapter": "jsonld",
+   "brand": "Myprotein",
+   "url": "https://fr.myprotein.com",
+   "categories": [
+    "https://fr.myprotein.com/c/nutrition/creatine/",
+    "https://fr.myprotein.com/c/nutrition/protein/whey-protein/",
+    "https://fr.myprotein.com/c/nutrition/protein/protein-isolate-powders/",
+    "https://fr.myprotein.com/c/nutrition/protein/hydrolysed-protein/"
+   ]
+  },
+  {
+   "id": "prozis-es",
+   "name": "Prozis",
+   "market": "ES",
+   "adapter": "jsonld",
+   "browser": true,
+   "render": true,
+   "url": "https://www.prozis.com/es/es",
+   "link_pattern": "href=\"(https://www\\.prozis\\.com/es/es/[a-z0-9-]+/[a-z0-9-]+)\"",
+   "categories": [
+    "https://www.prozis.com/es/es/nutricion-deportiva/desarrollo-muscular/creatina",
+    "https://www.prozis.com/es/es/search?text=whey",
+    "https://www.prozis.com/es/es/search?text=isolate"
+   ],
+   "delay": 8,
+   "max_products": 45
+  },
+  {
+   "id": "prozis-fr",
+   "name": "Prozis",
+   "market": "FR",
+   "adapter": "jsonld",
+   "browser": true,
+   "render": true,
+   "url": "https://www.prozis.com/fr/fr",
+   "link_pattern": "href=\"(https://www\\.prozis\\.com/fr/fr/[a-z0-9-]+/[a-z0-9-]+)\"",
+   "categories": [
+    "https://www.prozis.com/fr/fr/search?text=creatine",
+    "https://www.prozis.com/fr/fr/search?text=whey",
+    "https://www.prozis.com/fr/fr/search?text=isolate"
+   ],
+   "delay": 8,
+   "max_products": 45
+  },
+  {
+   "id": "bulk-es",
+   "name": "Bulk",
+   "market": "ES",
+   "adapter": "jsonld",
+   "browser": true,
+   "render": true,
+   "brand": "Bulk",
+   "url": "https://www.bulk.com/es",
+   "link_pattern": "href=\"(https://www\\.bulk\\.com/es/products/[^\"?#]+)\"",
+   "sku_grams": "-(\\d{4})(?:-EU\\d?)?$",
+   "categories": [
+    "https://www.bulk.com/es/nutricion-deportiva/creatina",
+    "https://www.bulk.com/es/proteinas/proteina-de-suero",
+    "https://www.bulk.com/es/proteinas/proteina-clara"
    ]
   }
  ]

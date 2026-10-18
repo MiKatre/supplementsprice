@@ -17,7 +17,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
@@ -33,10 +33,11 @@ jobs:
       - name: Collect
         id: collect
         continue-on-error: true
+        timeout-minutes: 50
         env:
           HEADED: "1"
           ONLY: ${{ inputs.only }}
-        run: xvfb-run -a uv run python -m supps.collect ${ONLY:+--only "$ONLY"}
+        run: xvfb-run -a uv run python -m supps.collect --budget 42 ${ONLY:+--only "$ONLY"}
       - name: Build site
         run: uv run python site/build.py
       - name: Keep run report and site

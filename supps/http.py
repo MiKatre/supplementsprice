@@ -15,7 +15,7 @@ class Blocked(Exception):
 
 
 class Fetcher:
-    def __init__(self, delay: float = 1.5, timeout: float = 25, max_requests: int = 400):
+    def __init__(self, delay: float = 1.5, timeout: float = 25, max_requests: int = 5000):
         self.client = httpx.Client(
             headers={"User-Agent": USER_AGENT, "Accept-Language": "es-ES,es;q=0.9,fr;q=0.8,en;q=0.5"},
             timeout=timeout,
@@ -26,6 +26,7 @@ class Fetcher:
         self.requests = 0
         self._robots: dict[str, Protego | None] = {}
         self._last: dict[str, float] = {}
+        self.deadline = float("inf")  # set per source by the collector
 
     def close(self):
         self.client.close()
@@ -58,6 +59,8 @@ class Fetcher:
             raise Blocked(f"robots.txt disallows {url}")
         if self.requests >= self.max_requests:
             raise Blocked("request budget for this run exhausted")
+        if time.monotonic() > self.deadline:
+            raise Blocked("time budget for this source exhausted")
         for attempt in (1, 2):
             self._wait(url)
             self.requests += 1

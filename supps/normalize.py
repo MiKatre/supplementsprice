@@ -14,7 +14,7 @@ CREATINE_EXCLUDE = re.compile(
     r"gumm|gominol|chewable|mastic|c[aá]psul|caps\b|g[eé]lules?|tabs?\b|tablet|comprim|pastill|"
     r"complex|pre[- ]?work|pre[- ]?entreno|pre[- ]?training|gainer|ganador|\bhcl\b|kre[- ]?alk|alcalin|"
     r"evokalyn|nitrate|malate|citrate|orotat|magnapower|creatin[ae]? ?\+|\+ ?cr[eé]atin|"
-    r"amino|eaa|bcaa|electrolyt|isotonic|recovery|recuper|shot|gel\b|bar\b|barrit|pack\b|duo\b|bundle|"
+    r"amino|eaa|bcaa|electrolyt|electrolit|[eé]lectrolyt|hydration|hydratation|hidrataci|isotonic|recovery|recuper|shot|gel\b|bar\b|barrit|pack\b|duo\b|bundle|"
     r"lote|kit\b|sachet|sobre|stick|monodos|caja\b|box\b|\bx\s?\d+\s*(?:sobres|sticks)",
     re.I,
 )
@@ -30,7 +30,9 @@ WHEY_EXCLUDE = re.compile(
     r"rtd|ready to drink|bebida|boisson|drink|batido listo|pack\b|duo\b|bundle|lote|kit\b|box\b|caja\b|"
     r"coffret|gift|regalo|cadeau|creatin|cr[eé]atin|pre[- ]?work|glutamin|bcaa|eaa\b|amino|"
     r"lactase|diet|keto|slim|meal|repas|comida|bake|cuisine|cocina|baking|chocolate negro|"
-    r"protein water|clear protein water|ice ?cream|helado|glace|yogur|yaourt|pizza|pasta",
+    r"protein water|clear protein water|ice ?cream|helado|glace|yogur|yaourt|pizza|pasta|"
+    r"caf[eé]\b|coffee|kaffee|espresso|latte|all[- ]in[- ]one|todo en uno|tout[- ]en[- ]un|"
+    r"advent|calendar|calendario|calendrier|thanos|marvel|edici[oó]n limitada|limited edition",
     re.I,
 )
 
@@ -117,10 +119,10 @@ def is_sample(label: str | None) -> bool:
     """A variant that is a sachet, a box of single doses or a sample, not a tub."""
     if not label:
         return False
-    if _SAMPLE.search(label):
-        return True
     m = _WEIGHT.search(label)
-    return bool(m) and _grams(m.group(1), m.group(2)) < 100
+    if m:  # "Sachet de 1 kg" is a bag; "Sobre de 5 g" is a sample
+        return _grams(m.group(1), m.group(2)) < 100
+    return bool(_SAMPLE.search(label))
 
 
 def whey_type(title: str) -> str:
@@ -177,6 +179,7 @@ def protein_per_100g(text: str | None) -> float | None:
     if not text:
         return None
     text = clean(text) if "<" in text else text
+    text = re.sub(r"\s+", " ", text)
     plausible = lambda v: 50 <= v <= 97  # noqa: E731 - whey powders live in this range
     for row in _PROT_ROW.finditer(text):
         before = text[max(0, row.start() - 700): row.start()]

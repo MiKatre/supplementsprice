@@ -11,6 +11,7 @@ doesn't empty the table. Each source's status lands in data/latest.json for the 
 import argparse
 import importlib
 import json
+import signal
 import time
 import traceback
 from datetime import datetime, timezone
@@ -30,10 +31,20 @@ REPORT = ROOT / "runs" / "report.json"
 SANE = {"creatine": (6, 300), "whey": (12, 160)}
 
 
-def _browser():
+class Watchdog(Exception):
+    """A source overran its time budget inside a call that has no timeout of its own."""
+
+
+def _alarm(signum, frame):
+    raise Watchdog("source exceeded its time budget (watchdog)")
+
+
+def _browser(deadline: float = float("inf")):
     from .browser import Browser
 
-    return Browser()
+    b = Browser()
+    b.deadline = deadline
+    return b
 
 
 def load_sources() -> list[dict]:
@@ -54,8 +65,9 @@ def dedupe(offers: list[dict]) -> list[dict]:
     return list(best.values())
 
 
-def run(only: set[str] | None = None, skip_browser: bool = False) -> dict:
+def run(only: set[str] | None = None, skip_browser: bool = False, budget_minutes: float = 40) -> dict:
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    run_deadline = time.monotonic() + budget_minutes * 60
     previous = json.loads(LATEST.read_text()) if LATEST.exists() else {"offers": [], "sources": {}}
     prev_by_shop: dict[str, list] = {}
     for o in previous.get("offers", []):
@@ -77,15 +89,27 @@ def run(only: set[str] | None = None, skip_browser: bool = False) -> dict:
                 statuses[sid] = {**meta, "status": "paused", "reason": src["paused"]}
                 offers += prev_by_shop.get(sid, [])
                 continue
+            if time.monotonic() > run_deadline:
+                statuses[sid] = {**meta, "status": "skipped", "reason": "run time budget used up",
+                                 "kept_offers": len(prev_by_shop.get(sid, []))}
+                offers += prev_by_shop.get(sid, [])
+                continue
             if src.get("browser") and skip_browser:
                 statuses[sid] = previous.get("sources", {}).get(sid, {**meta, "status": "skipped"})
                 offers += prev_by_shop.get(sid, [])
                 continue
             t0 = time.monotonic()
+            source_deadline = min(run_deadline, t0 + src.get("max_minutes", 8) * 60)
+            fetch.deadline = source_deadline
+            if browser:
+                browser.deadline = source_deadline
+            signal.signal(signal.SIGALRM, _alarm)
+            signal.alarm(int(source_deadline - t0) + 90)
             try:
                 mod = importlib.import_module(f".adapters.{src['adapter']}", __package__)
                 if src.get("browser"):
-                    browser = browser or _browser()
+                    browser = browser or _browser(source_deadline)
+                    browser.delay = src.get("delay", 2.5)
                     got = mod.collect(src, browser, now)
                 else:
                     try:
@@ -94,7 +118,8 @@ def run(only: set[str] | None = None, skip_browser: bool = False) -> dict:
                         if not getattr(mod, "BROWSER_FALLBACK", False) or skip_browser:
                             raise
                         print(f"{sid:24} {e}; retrying in the browser", flush=True)
-                        browser = browser or _browser()
+                        browser = browser or _browser(source_deadline)
+                        browser.delay = src.get("delay", 2.5)
                         got = mod.collect(src, browser, now)
                         meta["via"] = "browser"
                 rows = [o.to_dict() for o in got]
@@ -110,6 +135,12 @@ def run(only: set[str] | None = None, skip_browser: bool = False) -> dict:
                     "seconds": round(time.monotonic() - t0, 1),
                 }
             except Exception as e:  # noqa: BLE001 - one source must never stop the others
+                if isinstance(e, Watchdog) and browser:
+                    try:
+                        browser.close()
+                    except Exception:  # noqa: BLE001 - it's already wedged; start a fresh one next time
+                        pass
+                    browser = None
                 kept = prev_by_shop.get(sid, [])
                 offers += kept
                 statuses[sid] = {
@@ -125,6 +156,7 @@ def run(only: set[str] | None = None, skip_browser: bool = False) -> dict:
                 }
                 if not isinstance(e, Blocked):
                     traceback.print_exc()
+            signal.alarm(0)
             s = statuses[sid]
             print(f"{sid:24} {s['status']:8} {s.get('offers', s.get('kept_offers', 0)):4}  {s.get('error', '')[:120]}",
                   flush=True)
@@ -174,8 +206,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", help="comma-separated source ids")
     ap.add_argument("--skip-browser", action="store_true")
+    ap.add_argument("--budget", type=float, default=40, help="minutes for the whole run")
     a = ap.parse_args()
-    run(set(a.only.split(",")) if a.only else None, a.skip_browser)
+    run(set(a.only.split(",")) if a.only else None, a.skip_browser, a.budget)
 
 
 if __name__ == "__main__":

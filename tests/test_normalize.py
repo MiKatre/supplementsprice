@@ -1,13 +1,16 @@
 import pytest
 
 from supps.model import Variant, group_variants
-from supps.normalize import classify, net_weight, parse_grams, protein_per_100g, whey_type
+from supps.normalize import classify, is_sample, net_weight, parse_grams, protein_per_100g, whey_type
 
 
 @pytest.mark.parametrize(
     "title, kind",
     [
         ("Créatine (Creapure®) en poudre", "creatine"),
+        ("Créatine Monohydrate Creapure® en Poudre 500 g", "creatine"),
+        ("Creatina y electrolitos", None),
+        ("Café con proteína de suero", None),
         ("Creatina monohidrato en polvo (200 mesh)", "creatine"),
         ("Créatine (Creapure®) en gélules", None),
         ("WEIDER Gummies creatina micronizada cereza x60", None),
@@ -89,3 +92,12 @@ def test_group_variants_prefers_in_stock_and_counts_flavours():
     assert sizes[1000]["price"] == 30.0 and sizes[1000]["available"] is True and sizes[1000]["flavours"] == 3
     assert sizes[1000]["list_price"] == 40.0
     assert sizes[2000]["available"] is False
+
+
+@pytest.mark.parametrize(
+    "label, sample",
+    [("Sachet de 1 kg", False), ("Sobre de 5 g / Neutro", True), ("Caja (24 monodosis) / Neutro", True),
+     ("Bote de 300 g / 60 tomas", False), ("Monodosis (30g)", True), ("2Kg", False)],
+)
+def test_is_sample(label, sample):
+    assert is_sample(label) is sample

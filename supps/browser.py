@@ -24,7 +24,7 @@ INTERSTITIAL = re.compile(r"^(un momento|un instant|one moment|momentito|please 
 
 
 class Browser:
-    def __init__(self, delay: float = 2.5, max_pages: int = 220):
+    def __init__(self, delay: float = 2.5, max_pages: int = 1500):
         from playwright.sync_api import sync_playwright
 
         self._pw = sync_playwright().start()
@@ -34,6 +34,8 @@ class Browser:
             timezone_id="Europe/Madrid",
             viewport={"width": 1366, "height": 900},
         )
+        self.context.set_default_timeout(30000)
+        self.context.set_default_navigation_timeout(45000)
         self.page = self.context.new_page()
         self.delay = delay
         self.max_pages = max_pages
@@ -41,6 +43,8 @@ class Browser:
         self.robots = Fetcher()
         self._last = 0.0
         self._origins: set[str] = set()
+        self._canonical: dict[str, str] = {}
+        self.deadline = float("inf")  # set per source by the collector
 
     def close(self):
         try:
@@ -55,6 +59,8 @@ class Browser:
             raise Blocked(f"robots.txt disallows {url}")
         if self.pages >= self.max_pages:
             raise Blocked("page budget for this run exhausted")
+        if time.monotonic() > self.deadline:
+            raise Blocked("time budget for this source exhausted")
         gap = self._last + self.delay - time.monotonic()
         if gap > 0:
             time.sleep(gap)
@@ -96,8 +102,17 @@ class Browser:
         if origin not in self._origins:
             self.goto(origin + "/", settle=1.5)
             self._origins.add(origin)
+            landed = self.page.evaluate("location.origin")
+            if landed != origin:  # e.g. inshape-nutrition.com → www.inshape-nutrition.com
+                self._canonical[origin] = landed
+        if origin in self._canonical:
+            url = self._canonical[origin] + url[len(origin):]
+        elif self.page.evaluate("location.origin") != origin:
+            self.goto(origin + "/", settle=1.0)
         if not self.robots.allowed(url):
             raise Blocked(f"robots.txt disallows {url}")
+        if time.monotonic() > self.deadline:
+            raise Blocked("time budget for this source exhausted")
         gap = self._last + self.delay - time.monotonic()
         if gap > 0:
             time.sleep(gap)
