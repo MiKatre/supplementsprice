@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T00:31:20+00:00",
+ "generated_at": "2026-10-18T08:11:19+00:00",
  "sources": {
   "nutrimuscle": {
    "name": "Nutrimuscle",
@@ -9,8 +9,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 19,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 15.8
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 15.0
   },
   "toutelanutrition": {
    "name": "Toutelanutrition",
@@ -20,7 +20,7 @@
    "via": "browser",
    "status": "ok",
    "offers": 35,
-   "checked_at": "2026-10-18T00:31:20+00:00",
+   "checked_at": "2026-10-18T08:11:19+00:00",
    "seconds": 14.4
   },
   "novoma": {
@@ -31,8 +31,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 1,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 12.8
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 12.4
   },
   "inshape": {
    "name": "Inshape",
@@ -42,8 +42,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 3,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 9.1
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 9.7
   },
   "fitnessboutique": {
    "name": "Fitnessboutique",
@@ -53,8 +53,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 32,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 37.9
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 37.8
   },
   "eiyolab": {
    "name": "Eiyolab",
@@ -64,8 +64,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 9,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 9.5
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 9.6
   },
   "nutrimea": {
    "name": "Nutrimea",
@@ -75,8 +75,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 1,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 14.0
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 13.5
   },
   "crown": {
    "name": "Crown Sport Nutrition",
@@ -86,8 +86,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 3,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 10.3
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 10.7
   },
   "226ers": {
    "name": "226ERS",
@@ -97,8 +97,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 5,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 10.0
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 10.5
   },
   "nutri9": {
    "name": "Nutri9",
@@ -108,8 +108,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 46,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 12.8
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 13.6
   },
   "quamtrax": {
    "name": "Quamtrax",
@@ -119,8 +119,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 15,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 11.3
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 11.0
   },
   "bodyandfit": {
    "name": "Body & Fit",
@@ -130,8 +130,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 55,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 18.3
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 18.4
   },
   "esn": {
    "name": "ESN",
@@ -141,8 +141,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 14,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 10.3
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 11.0
   },
   "hsn": {
    "name": "HSN",
@@ -175,8 +175,8 @@
    "adapter": "jsonld",
    "status": "ok",
    "offers": 124,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 36.8
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 36.9
   },
   "myprotein-fr": {
    "name": "Myprotein France",
@@ -185,8 +185,8 @@
    "adapter": "jsonld",
    "status": "ok",
    "offers": 118,
-   "checked_at": "2026-10-18T00:31:20+00:00",
-   "seconds": 33.7
+   "checked_at": "2026-10-18T08:11:19+00:00",
+   "seconds": 33.9
   },
   "prozis-es": {
    "name": "Prozis",
@@ -936,7 +936,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 19.98
   },
   {
@@ -1036,7 +1036,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 22.9
   },
   {
@@ -1261,7 +1261,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 25.98
   },
   {
@@ -1336,7 +1336,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 27.96
   },
   {
@@ -1361,7 +1361,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 27.99
   },
   {
@@ -1386,7 +1386,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 27.99
   },
   {
@@ -1536,7 +1536,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 29.8
   },
   {
@@ -1611,7 +1611,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 29.98
   },
   {
@@ -1636,7 +1636,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 29.98
   },
   {
@@ -1786,7 +1786,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 31.8
   },
   {
@@ -1936,7 +1936,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 33.0
   },
   {
@@ -1986,7 +1986,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 33.17
   },
   {
@@ -2186,7 +2186,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.9
   },
   {
@@ -2261,7 +2261,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.99
   },
   {
@@ -2336,7 +2336,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.67
   },
   {
@@ -2461,7 +2461,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.96
   },
   {
@@ -2486,7 +2486,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.96
   },
   {
@@ -2561,7 +2561,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.99
   },
   {
@@ -2636,7 +2636,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.98
   },
   {
@@ -2661,7 +2661,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.98
   },
   {
@@ -2836,7 +2836,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.09
   },
   {
@@ -2911,7 +2911,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.67
   },
   {
@@ -2961,7 +2961,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.8
   },
   {
@@ -2986,7 +2986,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.8
   },
   {
@@ -3011,7 +3011,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.9
   },
   {
@@ -3086,7 +3086,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.98
   },
   {
@@ -3136,7 +3136,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.51
   },
   {
@@ -3211,7 +3211,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.83
   },
   {
@@ -3336,7 +3336,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.96
   },
   {
@@ -3361,7 +3361,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.98
   },
   {
@@ -3536,7 +3536,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.6
   },
   {
@@ -3561,7 +3561,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.67
   },
   {
@@ -3786,7 +3786,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.9
   },
   {
@@ -3811,7 +3811,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.96
   },
   {
@@ -3861,7 +3861,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.98
   },
   {
@@ -4336,7 +4336,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.6
   },
   {
@@ -4361,7 +4361,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.6
   },
   {
@@ -4536,7 +4536,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.03
   },
   {
@@ -4636,7 +4636,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 66.33
   },
   {
@@ -4861,7 +4861,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 68.28
   },
   {
@@ -5136,7 +5136,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 72.83
   },
   {
@@ -5311,7 +5311,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.3
   },
   {
@@ -5386,7 +5386,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 75.83
   },
   {
@@ -5486,7 +5486,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 78.55
   },
   {
@@ -5536,7 +5536,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 79.33
   },
   {
@@ -5711,7 +5711,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 79.68
   },
   {
@@ -5761,7 +5761,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 79.78
   },
   {
@@ -5786,7 +5786,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 79.8
   },
   {
@@ -5936,7 +5936,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 80.53
   },
   {
@@ -6011,7 +6011,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 83.0
   },
   {
@@ -6336,7 +6336,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 85.8
   },
   {
@@ -6411,7 +6411,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 89.67
   },
   {
@@ -6586,7 +6586,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 91.45
   },
   {
@@ -6636,7 +6636,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 91.62
   },
   {
@@ -6761,7 +6761,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 93.0
   },
   {
@@ -6836,7 +6836,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 94.99
   },
   {
@@ -6961,7 +6961,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 96.67
   },
   {
@@ -7036,7 +7036,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 97.99
   },
   {
@@ -7136,7 +7136,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.67
   },
   {
@@ -7161,7 +7161,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.67
   },
   {
@@ -7186,7 +7186,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.67
   },
   {
@@ -7211,7 +7211,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.67
   },
   {
@@ -7411,7 +7411,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.8
   },
   {
@@ -7486,7 +7486,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.86
   },
   {
@@ -7511,7 +7511,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.86
   },
   {
@@ -7561,7 +7561,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.92
   },
   {
@@ -7586,7 +7586,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 99.93
   },
   {
@@ -7711,7 +7711,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 104.38
   },
   {
@@ -7736,7 +7736,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 104.78
   },
   {
@@ -7786,7 +7786,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 105.98
   },
   {
@@ -7811,7 +7811,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 105.98
   },
   {
@@ -7886,7 +7886,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 106.33
   },
   {
@@ -7911,7 +7911,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 106.33
   },
   {
@@ -7986,7 +7986,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 108.43
   },
   {
@@ -8011,7 +8011,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 109.67
   },
   {
@@ -8111,7 +8111,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 113.0
   },
   {
@@ -8311,7 +8311,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 114.26
   },
   {
@@ -8386,7 +8386,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 115.96
   },
   {
@@ -8411,7 +8411,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 116.33
   },
   {
@@ -8486,7 +8486,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 116.67
   },
   {
@@ -8536,7 +8536,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 119.8
   },
   {
@@ -8561,7 +8561,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 119.97
   },
   {
@@ -8636,7 +8636,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 127.96
   },
   {
@@ -8736,7 +8736,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 132.67
   },
   {
@@ -8786,7 +8786,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 138.84
   },
   {
@@ -8811,7 +8811,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 166.33
   },
   {
@@ -8861,7 +8861,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 20.99
   },
   {
@@ -8911,7 +8911,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 23.89
   },
   {
@@ -8936,7 +8936,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 23.89
   },
   {
@@ -8961,7 +8961,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 24.95,
    "eur_kg_protein": 30.43
   },
@@ -9037,7 +9037,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 25.96
   },
   {
@@ -9062,7 +9062,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 26.32,
    "eur_kg_protein": 33.74
   },
@@ -9088,7 +9088,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 26.4
   },
   {
@@ -9113,7 +9113,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 26.54
   },
   {
@@ -9138,7 +9138,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 26.63,
    "eur_kg_protein": 40.97
   },
@@ -9164,7 +9164,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 27.49
   },
   {
@@ -9292,7 +9292,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 29.52,
    "eur_kg_protein": 41.0
   },
@@ -9318,7 +9318,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 29.97,
    "eur_kg_protein": 46.11
   },
@@ -9447,7 +9447,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 30.0
   },
   {
@@ -9650,7 +9650,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 30.83
   },
   {
@@ -9726,7 +9726,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 31.29,
    "eur_kg_protein": 42.86
   },
@@ -9802,7 +9802,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 31.77,
    "eur_kg_protein": 43.52
   },
@@ -9854,7 +9854,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 32.49
   },
   {
@@ -9931,7 +9931,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 32.71
   },
   {
@@ -9956,7 +9956,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 32.75
   },
   {
@@ -9981,7 +9981,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 32.75
   },
   {
@@ -10006,7 +10006,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 32.95,
    "eur_kg_protein": 45.32
   },
@@ -10032,7 +10032,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 32.95,
    "eur_kg_protein": 41.19
   },
@@ -10289,7 +10289,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 34.48
   },
   {
@@ -10339,7 +10339,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 34.95,
    "eur_kg_protein": 44.81
   },
@@ -10365,7 +10365,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 34.95,
    "eur_kg_protein": 46.6
   },
@@ -10391,7 +10391,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.18,
    "eur_kg_protein": 51.74
   },
@@ -10417,7 +10417,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.18,
    "eur_kg_protein": 48.86
   },
@@ -10443,7 +10443,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.3,
    "eur_kg_protein": 49.03
   },
@@ -10469,7 +10469,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.3,
    "eur_kg_protein": 49.03
   },
@@ -10495,7 +10495,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.31,
    "eur_kg_protein": 59.24
   },
@@ -10546,7 +10546,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.9,
    "eur_kg_protein": 49.18
   },
@@ -10572,7 +10572,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.92,
    "eur_kg_protein": 52.82
   },
@@ -10598,7 +10598,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 35.92,
    "eur_kg_protein": 49.89
   },
@@ -10804,7 +10804,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 36.39,
    "eur_kg_protein": 53.51
   },
@@ -10830,7 +10830,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 36.39,
    "eur_kg_protein": 50.54
   },
@@ -10856,7 +10856,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 36.42
   },
   {
@@ -11011,7 +11011,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 36.9,
    "eur_kg_protein": 46.12
   },
@@ -11037,7 +11037,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 36.98
   },
   {
@@ -11140,7 +11140,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.16,
    "eur_kg_protein": 54.65
   },
@@ -11166,7 +11166,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.16,
    "eur_kg_protein": 51.61
   },
@@ -11217,7 +11217,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.45,
    "eur_kg_protein": 48.64
   },
@@ -11269,7 +11269,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.51
   },
   {
@@ -11294,7 +11294,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.62,
    "eur_kg_protein": 55.32
   },
@@ -11320,7 +11320,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.62,
    "eur_kg_protein": 52.25
   },
@@ -11346,7 +11346,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.62,
    "eur_kg_protein": 55.32
   },
@@ -11372,7 +11372,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.62,
    "eur_kg_protein": 52.25
   },
@@ -11475,7 +11475,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 37.94
   },
   {
@@ -11629,7 +11629,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.0,
    "eur_kg_protein": 52.78
   },
@@ -11655,7 +11655,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.02,
    "eur_kg_protein": 52.81
   },
@@ -11681,7 +11681,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.09
   },
   {
@@ -11706,7 +11706,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.14,
    "eur_kg_protein": 50.18
   },
@@ -11732,7 +11732,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.17
   },
   {
@@ -11757,7 +11757,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.46,
    "eur_kg_protein": 53.42
   },
@@ -11783,7 +11783,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.66,
    "eur_kg_protein": 53.69
   },
@@ -11834,7 +11834,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.83,
    "eur_kg_protein": 45.68
   },
@@ -11860,7 +11860,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.88,
    "eur_kg_protein": 57.18
   },
@@ -11886,7 +11886,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.88,
    "eur_kg_protein": 54.0
   },
@@ -11912,7 +11912,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.88,
    "eur_kg_protein": 57.18
   },
@@ -11938,7 +11938,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.88,
    "eur_kg_protein": 54.0
   },
@@ -11964,7 +11964,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.89,
    "eur_kg_protein": 54.01
   },
@@ -11990,7 +11990,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 38.99,
    "eur_kg_protein": 54.15
   },
@@ -12016,7 +12016,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.02,
    "eur_kg_protein": 50.87
   },
@@ -12042,7 +12042,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.06,
    "eur_kg_protein": 54.25
   },
@@ -12068,7 +12068,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.2,
    "eur_kg_protein": 54.44
   },
@@ -12119,7 +12119,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.31,
    "eur_kg_protein": 54.6
   },
@@ -12170,7 +12170,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.6,
    "eur_kg_protein": 52.11
   },
@@ -12196,7 +12196,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.77,
    "eur_kg_protein": 62.14
   },
@@ -12222,7 +12222,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.87,
    "eur_kg_protein": 46.91
   },
@@ -12248,7 +12248,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.89,
    "eur_kg_protein": 53.19
   },
@@ -12377,7 +12377,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.99,
    "eur_kg_protein": 51.27
   },
@@ -12403,7 +12403,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.99
   },
   {
@@ -12428,7 +12428,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 39.99,
    "eur_kg_protein": 55.54
   },
@@ -12454,7 +12454,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.0,
    "eur_kg_protein": 55.56
   },
@@ -12480,7 +12480,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.0,
    "eur_kg_protein": 55.56
   },
@@ -12506,7 +12506,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.22,
    "eur_kg_protein": 59.15
   },
@@ -12532,7 +12532,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.22,
    "eur_kg_protein": 59.15
   },
@@ -12558,7 +12558,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.23,
    "eur_kg_protein": 55.88
   },
@@ -12584,7 +12584,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.28,
    "eur_kg_protein": 55.94
   },
@@ -12610,7 +12610,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.55,
    "eur_kg_protein": 56.32
   },
@@ -12636,7 +12636,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.61,
    "eur_kg_protein": 56.4
   },
@@ -12687,7 +12687,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.85,
    "eur_kg_protein": 63.83
   },
@@ -12713,7 +12713,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.88,
    "eur_kg_protein": 56.78
   },
@@ -12739,7 +12739,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 40.9,
    "eur_kg_protein": 56.81
   },
@@ -12790,7 +12790,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.0,
    "eur_kg_protein": 54.67
   },
@@ -12816,7 +12816,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.09,
    "eur_kg_protein": 56.52
   },
@@ -12943,7 +12943,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.45,
    "eur_kg_protein": 54.04
   },
@@ -12995,7 +12995,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.54
   },
   {
@@ -13020,7 +13020,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.66,
    "eur_kg_protein": 57.86
   },
@@ -13046,7 +13046,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.66,
    "eur_kg_protein": 57.86
   },
@@ -13072,7 +13072,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.66,
    "eur_kg_protein": 57.86
   },
@@ -13098,7 +13098,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.66,
    "eur_kg_protein": 57.86
   },
@@ -13124,7 +13124,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 41.66,
    "eur_kg_protein": 57.86
   },
@@ -13150,7 +13150,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.03,
    "eur_kg_protein": 58.38
   },
@@ -13176,7 +13176,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.2,
    "eur_kg_protein": 54.1
   },
@@ -13228,7 +13228,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.29,
    "eur_kg_protein": 58.74
   },
@@ -13254,7 +13254,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.29,
    "eur_kg_protein": 58.74
   },
@@ -13305,7 +13305,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.36,
    "eur_kg_protein": 58.83
   },
@@ -13383,7 +13383,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.53,
    "eur_kg_protein": 54.53
   },
@@ -13409,7 +13409,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.59,
    "eur_kg_protein": 59.15
   },
@@ -13435,7 +13435,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.61,
    "eur_kg_protein": 59.18
   },
@@ -13461,7 +13461,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.85,
    "eur_kg_protein": 59.51
   },
@@ -13487,7 +13487,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 42.9,
    "eur_kg_protein": 55.93
   },
@@ -13564,7 +13564,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.15,
    "eur_kg_protein": 59.93
   },
@@ -13590,7 +13590,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.21,
    "eur_kg_protein": 60.01
   },
@@ -13668,7 +13668,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.47,
    "eur_kg_protein": 60.38
   },
@@ -13694,7 +13694,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.65,
    "eur_kg_protein": 60.62
   },
@@ -13746,7 +13746,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.74
   },
   {
@@ -13823,7 +13823,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.95,
    "eur_kg_protein": 56.35
   },
@@ -13849,7 +13849,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.95,
    "eur_kg_protein": 50.52
   },
@@ -13901,7 +13901,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.98,
    "eur_kg_protein": 57.34
   },
@@ -13927,7 +13927,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.99
   },
   {
@@ -13952,7 +13952,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.99,
    "eur_kg_protein": 61.1
   },
@@ -13978,7 +13978,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.99,
    "eur_kg_protein": 62.84
   },
@@ -14004,7 +14004,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 43.99,
    "eur_kg_protein": 61.1
   },
@@ -14081,7 +14081,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.07
   },
   {
@@ -14106,7 +14106,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.11,
    "eur_kg_protein": 61.26
   },
@@ -14132,7 +14132,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.11,
    "eur_kg_protein": 61.26
   },
@@ -14184,7 +14184,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.43
   },
   {
@@ -14209,7 +14209,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.44,
    "eur_kg_protein": 61.72
   },
@@ -14235,7 +14235,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.44,
    "eur_kg_protein": 61.72
   },
@@ -14261,7 +14261,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.5
   },
   {
@@ -14311,7 +14311,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.64,
    "eur_kg_protein": 61.15
   },
@@ -14362,7 +14362,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.75,
    "eur_kg_protein": 62.15
   },
@@ -14388,7 +14388,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.9,
    "eur_kg_protein": 55.43
   },
@@ -14414,7 +14414,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.9
   },
   {
@@ -14439,7 +14439,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.9,
    "eur_kg_protein": 49.89
   },
@@ -14515,7 +14515,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.95,
    "eur_kg_protein": 57.63
   },
@@ -14541,7 +14541,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 44.95,
    "eur_kg_protein": 64.21
   },
@@ -14799,7 +14799,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.14,
    "eur_kg_protein": 66.38
   },
@@ -14825,7 +14825,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.14,
    "eur_kg_protein": 62.69
   },
@@ -14876,7 +14876,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.26,
    "eur_kg_protein": 62.86
   },
@@ -14952,7 +14952,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.5,
    "eur_kg_protein": 51.01
   },
@@ -14978,7 +14978,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.57
   },
   {
@@ -15029,7 +15029,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.82,
    "eur_kg_protein": 63.64
   },
@@ -15055,7 +15055,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.82,
    "eur_kg_protein": 63.64
   },
@@ -15132,7 +15132,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 45.98,
    "eur_kg_protein": 58.2
   },
@@ -15286,7 +15286,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 46.24
   },
   {
@@ -15311,7 +15311,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 46.42,
    "eur_kg_protein": 64.47
   },
@@ -15363,7 +15363,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 46.53,
    "eur_kg_protein": 60.43
   },
@@ -15389,7 +15389,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 46.64,
    "eur_kg_protein": 68.59
   },
@@ -15415,7 +15415,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 46.64,
    "eur_kg_protein": 64.78
   },
@@ -15441,7 +15441,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 46.75,
    "eur_kg_protein": 58.44
   },
@@ -15519,7 +15519,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.29,
    "eur_kg_protein": 69.54
   },
@@ -15545,7 +15545,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.29,
    "eur_kg_protein": 65.68
   },
@@ -15571,7 +15571,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.45,
    "eur_kg_protein": 54.54
   },
@@ -15674,7 +15674,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.49,
    "eur_kg_protein": 67.84
   },
@@ -15700,7 +15700,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.57,
    "eur_kg_protein": 58.01
   },
@@ -15726,7 +15726,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.57,
    "eur_kg_protein": 64.28
   },
@@ -15752,7 +15752,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.57,
    "eur_kg_protein": 58.01
   },
@@ -15778,7 +15778,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.57,
    "eur_kg_protein": 64.28
   },
@@ -15804,7 +15804,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.6,
    "eur_kg_protein": 66.11
   },
@@ -15830,7 +15830,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.61
   },
   {
@@ -15855,7 +15855,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.61,
    "eur_kg_protein": 66.12
   },
@@ -15881,7 +15881,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.61,
    "eur_kg_protein": 61.83
   },
@@ -15933,7 +15933,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.81,
    "eur_kg_protein": 66.4
   },
@@ -15959,7 +15959,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 47.81,
    "eur_kg_protein": 66.4
   },
@@ -16036,7 +16036,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 48.14,
    "eur_kg_protein": 66.86
   },
@@ -16062,7 +16062,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 48.25,
    "eur_kg_protein": 70.96
   },
@@ -16088,7 +16088,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 48.3
   },
   {
@@ -16190,7 +16190,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 48.66,
    "eur_kg_protein": 62.38
   },
@@ -16267,7 +16267,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 48.83,
    "eur_kg_protein": 57.45
   },
@@ -16293,7 +16293,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 48.87,
    "eur_kg_protein": 71.87
   },
@@ -16319,7 +16319,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 48.87,
    "eur_kg_protein": 67.88
   },
@@ -16421,7 +16421,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.01,
    "eur_kg_protein": 63.65
   },
@@ -16447,7 +16447,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.1,
    "eur_kg_protein": 59.88
   },
@@ -16473,7 +16473,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.1,
    "eur_kg_protein": 66.35
   },
@@ -16499,7 +16499,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.1,
    "eur_kg_protein": 59.88
   },
@@ -16525,7 +16525,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.1,
    "eur_kg_protein": 66.35
   },
@@ -16551,7 +16551,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.13
   },
   {
@@ -16576,7 +16576,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.37
   },
   {
@@ -16601,7 +16601,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.37,
    "eur_kg_protein": 68.57
   },
@@ -16729,7 +16729,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.9,
    "eur_kg_protein": 63.97
   },
@@ -16755,7 +16755,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.9,
    "eur_kg_protein": 71.29
   },
@@ -16807,7 +16807,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.95
   },
   {
@@ -16857,7 +16857,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.97
   },
   {
@@ -16882,7 +16882,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.98,
    "eur_kg_protein": 60.95
   },
@@ -16908,7 +16908,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 49.98,
    "eur_kg_protein": 63.27
   },
@@ -17036,7 +17036,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.0,
    "eur_kg_protein": 64.1
   },
@@ -17138,7 +17138,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.22,
    "eur_kg_protein": 77.26
   },
@@ -17290,7 +17290,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.49,
    "eur_kg_protein": 61.57
   },
@@ -17316,7 +17316,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.49,
    "eur_kg_protein": 68.23
   },
@@ -17342,7 +17342,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.49,
    "eur_kg_protein": 61.57
   },
@@ -17368,7 +17368,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.49,
    "eur_kg_protein": 68.23
   },
@@ -17394,7 +17394,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.5,
    "eur_kg_protein": 65.58
   },
@@ -17446,7 +17446,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.53,
    "eur_kg_protein": 59.45
   },
@@ -17498,7 +17498,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.55,
    "eur_kg_protein": 74.34
   },
@@ -17600,7 +17600,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.74,
    "eur_kg_protein": 61.88
   },
@@ -17626,7 +17626,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.74,
    "eur_kg_protein": 68.57
   },
@@ -17652,7 +17652,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.74,
    "eur_kg_protein": 61.88
   },
@@ -17678,7 +17678,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 50.74,
    "eur_kg_protein": 68.57
   },
@@ -17729,7 +17729,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.0,
    "eur_kg_protein": 67.11
   },
@@ -17755,7 +17755,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.09
   },
   {
@@ -17780,7 +17780,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.11,
    "eur_kg_protein": 78.63
   },
@@ -17831,7 +17831,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.26,
    "eur_kg_protein": 71.19
   },
@@ -17857,7 +17857,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.26,
    "eur_kg_protein": 71.19
   },
@@ -17883,7 +17883,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.45
   },
   {
@@ -17934,7 +17934,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.9,
    "eur_kg_protein": 58.18
   },
@@ -17985,7 +17985,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 51.94
   },
   {
@@ -18137,7 +18137,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.07,
    "eur_kg_protein": 63.5
   },
@@ -18163,7 +18163,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.07,
    "eur_kg_protein": 70.36
   },
@@ -18189,7 +18189,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.07,
    "eur_kg_protein": 63.5
   },
@@ -18215,7 +18215,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.07,
    "eur_kg_protein": 70.36
   },
@@ -18241,7 +18241,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.08,
    "eur_kg_protein": 67.64
   },
@@ -18317,7 +18317,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.17,
    "eur_kg_protein": 62.11
   },
@@ -18343,7 +18343,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.32
   },
   {
@@ -18445,7 +18445,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.66,
    "eur_kg_protein": 66.66
   },
@@ -18471,7 +18471,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.69
   },
   {
@@ -18496,7 +18496,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 52.75
   },
   {
@@ -18597,7 +18597,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.2,
    "eur_kg_protein": 68.21
   },
@@ -18623,7 +18623,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.2
   },
   {
@@ -18648,7 +18648,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.2,
    "eur_kg_protein": 61.15
   },
@@ -18674,7 +18674,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.31,
    "eur_kg_protein": 74.04
   },
@@ -18700,7 +18700,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.31,
    "eur_kg_protein": 74.04
   },
@@ -18752,7 +18752,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.33
   },
   {
@@ -18777,7 +18777,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.33,
    "eur_kg_protein": 65.04
   },
@@ -18829,7 +18829,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.75
   },
   {
@@ -18854,7 +18854,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.75,
    "eur_kg_protein": 65.55
   },
@@ -18880,7 +18880,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.75,
    "eur_kg_protein": 72.64
   },
@@ -18906,7 +18906,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.75,
    "eur_kg_protein": 65.55
   },
@@ -18932,7 +18932,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.75,
    "eur_kg_protein": 72.64
   },
@@ -18958,7 +18958,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.98
   },
   {
@@ -19008,7 +19008,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 53.99,
    "eur_kg_protein": 83.06
   },
@@ -19086,7 +19086,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.1
   },
   {
@@ -19111,7 +19111,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.44,
    "eur_kg_protein": 66.39
   },
@@ -19163,7 +19163,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.65,
    "eur_kg_protein": 84.08
   },
@@ -19214,7 +19214,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.9,
    "eur_kg_protein": 72.24
   },
@@ -19266,7 +19266,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.95,
    "eur_kg_protein": 63.16
   },
@@ -19292,7 +19292,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.96,
    "eur_kg_protein": 65.43
   },
@@ -19344,7 +19344,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 54.99,
    "eur_kg_protein": 69.61
   },
@@ -19474,7 +19474,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.0
   },
   {
@@ -19499,7 +19499,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.09,
    "eur_kg_protein": 67.18
   },
@@ -19550,7 +19550,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.2,
    "eur_kg_protein": 78.86
   },
@@ -19576,7 +19576,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.2,
    "eur_kg_protein": 78.86
   },
@@ -19627,7 +19627,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.33,
    "eur_kg_protein": 72.8
   },
@@ -19731,7 +19731,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.53,
    "eur_kg_protein": 77.12
   },
@@ -19757,7 +19757,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.53,
    "eur_kg_protein": 77.12
   },
@@ -19783,7 +19783,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.54
   },
   {
@@ -19808,7 +19808,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.54,
    "eur_kg_protein": 67.73
   },
@@ -19834,7 +19834,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.54,
    "eur_kg_protein": 75.05
   },
@@ -19860,7 +19860,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.54,
    "eur_kg_protein": 67.73
   },
@@ -19886,7 +19886,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.54,
    "eur_kg_protein": 75.05
   },
@@ -20014,7 +20014,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 55.99
   },
   {
@@ -20064,7 +20064,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 56.03,
    "eur_kg_protein": 70.92
   },
@@ -20090,7 +20090,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 56.18,
    "eur_kg_protein": 72.96
   },
@@ -20116,7 +20116,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 56.23
   },
   {
@@ -20141,7 +20141,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 56.24
   },
   {
@@ -20166,7 +20166,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 56.33
   },
   {
@@ -20191,7 +20191,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 56.4
   },
   {
@@ -20216,7 +20216,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 56.45,
    "eur_kg_protein": 59.42
   },
@@ -20268,7 +20268,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.12,
    "eur_kg_protein": 79.33
   },
@@ -20320,7 +20320,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.13
   },
   {
@@ -20345,7 +20345,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.14,
    "eur_kg_protein": 69.68
   },
@@ -20371,7 +20371,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.2,
    "eur_kg_protein": 65.75
   },
@@ -20397,7 +20397,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.28,
    "eur_kg_protein": 72.51
   },
@@ -20448,7 +20448,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.43,
    "eur_kg_protein": 73.63
   },
@@ -20474,7 +20474,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.47,
    "eur_kg_protein": 72.75
   },
@@ -20500,7 +20500,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.56
   },
   {
@@ -20525,7 +20525,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.56
   },
   {
@@ -20550,7 +20550,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.67,
    "eur_kg_protein": 69.48
   },
@@ -20576,7 +20576,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.73
   },
   {
@@ -20601,7 +20601,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.76,
    "eur_kg_protein": 68.76
   },
@@ -20705,7 +20705,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.83,
    "eur_kg_protein": 75.1
   },
@@ -20731,7 +20731,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.94
   },
   {
@@ -20756,7 +20756,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.94,
    "eur_kg_protein": 80.47
   },
@@ -20782,7 +20782,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.94,
    "eur_kg_protein": 80.47
   },
@@ -20860,7 +20860,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 57.99,
    "eur_kg_protein": 74.35
   },
@@ -20886,7 +20886,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.04
   },
   {
@@ -20911,7 +20911,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.12
   },
   {
@@ -20936,7 +20936,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.31,
    "eur_kg_protein": 71.11
   },
@@ -20962,7 +20962,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.31,
    "eur_kg_protein": 78.8
   },
@@ -20988,7 +20988,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.33,
    "eur_kg_protein": 71.13
   },
@@ -21014,7 +21014,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.39,
    "eur_kg_protein": 73.91
   },
@@ -21040,7 +21040,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.46
   },
   {
@@ -21065,7 +21065,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.71,
    "eur_kg_protein": 65.82
   },
@@ -21116,7 +21116,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 58.95,
    "eur_kg_protein": 71.89
   },
@@ -21168,7 +21168,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.23,
    "eur_kg_protein": 82.26
   },
@@ -21194,7 +21194,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.23,
    "eur_kg_protein": 82.26
   },
@@ -21220,7 +21220,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.26,
    "eur_kg_protein": 72.27
   },
@@ -21271,7 +21271,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.52,
    "eur_kg_protein": 72.59
   },
@@ -21297,7 +21297,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.59,
    "eur_kg_protein": 77.39
   },
@@ -21400,7 +21400,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.94,
    "eur_kg_protein": 79.92
   },
@@ -21426,7 +21426,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.95,
    "eur_kg_protein": 76.86
   },
@@ -21478,7 +21478,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.96,
    "eur_kg_protein": 83.28
   },
@@ -21504,7 +21504,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.98,
    "eur_kg_protein": 75.92
   },
@@ -21530,7 +21530,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.98,
    "eur_kg_protein": 92.28
   },
@@ -21634,7 +21634,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 59.99,
    "eur_kg_protein": 75.94
   },
@@ -21660,7 +21660,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 60.19,
    "eur_kg_protein": 73.4
   },
@@ -21686,7 +21686,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 60.19,
    "eur_kg_protein": 81.34
   },
@@ -21712,7 +21712,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 60.4,
    "eur_kg_protein": 76.46
   },
@@ -21763,7 +21763,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 60.46
   },
   {
@@ -21788,7 +21788,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 60.49,
    "eur_kg_protein": 73.77
   },
@@ -21840,7 +21840,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 60.71,
    "eur_kg_protein": 74.04
   },
@@ -21866,7 +21866,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 60.89,
    "eur_kg_protein": 77.08
   },
@@ -21917,7 +21917,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.29
   },
   {
@@ -21942,7 +21942,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.29,
    "eur_kg_protein": 69.65
   },
@@ -21968,7 +21968,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.29
   },
   {
@@ -21993,7 +21993,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.43,
    "eur_kg_protein": 78.76
   },
@@ -22019,7 +22019,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.45,
    "eur_kg_protein": 79.81
   },
@@ -22045,7 +22045,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.54,
    "eur_kg_protein": 75.05
   },
@@ -22071,7 +22071,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.72,
    "eur_kg_protein": 75.27
   },
@@ -22097,7 +22097,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 61.74,
    "eur_kg_protein": 72.64
   },
@@ -22149,7 +22149,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.0
   },
   {
@@ -22174,7 +22174,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.05
   },
   {
@@ -22275,7 +22275,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.2,
    "eur_kg_protein": 75.85
   },
@@ -22301,7 +22301,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.2,
    "eur_kg_protein": 84.05
   },
@@ -22327,7 +22327,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.45,
    "eur_kg_protein": 75.24
   },
@@ -22379,7 +22379,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.48,
    "eur_kg_protein": 76.2
   },
@@ -22405,7 +22405,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.48,
    "eur_kg_protein": 84.43
   },
@@ -22431,7 +22431,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.49,
    "eur_kg_protein": 79.1
   },
@@ -22482,7 +22482,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.72,
    "eur_kg_protein": 75.57
   },
@@ -22508,7 +22508,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.82,
    "eur_kg_protein": 76.61
   },
@@ -22534,7 +22534,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 62.96,
    "eur_kg_protein": 76.78
   },
@@ -22560,7 +22560,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.27,
    "eur_kg_protein": 70.3
   },
@@ -22586,7 +22586,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.3
   },
   {
@@ -22611,7 +22611,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.31,
    "eur_kg_protein": 80.14
   },
@@ -22637,7 +22637,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.33,
    "eur_kg_protein": 80.16
   },
@@ -22688,7 +22688,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.77,
    "eur_kg_protein": 67.13
   },
@@ -22714,7 +22714,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 63.97,
    "eur_kg_protein": 98.42
   },
@@ -22740,7 +22740,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 64.1,
    "eur_kg_protein": 78.17
   },
@@ -22817,7 +22817,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 64.49,
    "eur_kg_protein": 78.65
   },
@@ -22843,7 +22843,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 64.49,
    "eur_kg_protein": 87.15
   },
@@ -22869,7 +22869,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 64.87,
    "eur_kg_protein": 68.28
   },
@@ -22971,7 +22971,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.31,
    "eur_kg_protein": 75.07
   },
@@ -22997,7 +22997,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.38,
    "eur_kg_protein": 79.73
   },
@@ -23023,7 +23023,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.44,
    "eur_kg_protein": 68.88
   },
@@ -23049,7 +23049,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.46,
    "eur_kg_protein": 79.83
   },
@@ -23075,7 +23075,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.46,
    "eur_kg_protein": 79.83
   },
@@ -23152,7 +23152,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.65,
    "eur_kg_protein": 83.1
   },
@@ -23178,7 +23178,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 65.76,
    "eur_kg_protein": 77.36
   },
@@ -23306,7 +23306,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 66.5
   },
   {
@@ -23331,7 +23331,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 66.53,
    "eur_kg_protein": 76.47
   },
@@ -23409,7 +23409,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 66.64,
    "eur_kg_protein": 81.27
   },
@@ -23435,7 +23435,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 66.64,
    "eur_kg_protein": 90.05
   },
@@ -23461,7 +23461,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 66.65,
    "eur_kg_protein": 95.21
   },
@@ -23512,7 +23512,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 67.3,
    "eur_kg_protein": 85.19
   },
@@ -23563,7 +23563,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 67.89,
    "eur_kg_protein": 82.79
   },
@@ -23589,7 +23589,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 67.89,
    "eur_kg_protein": 82.79
   },
@@ -23615,7 +23615,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 68.18,
    "eur_kg_protein": 86.3
   },
@@ -23641,7 +23641,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 68.18,
    "eur_kg_protein": 88.55
   },
@@ -23667,7 +23667,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 68.24,
    "eur_kg_protein": 76.67
   },
@@ -23693,7 +23693,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 68.33,
    "eur_kg_protein": 71.93
   },
@@ -23719,7 +23719,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 68.73,
    "eur_kg_protein": 98.19
   },
@@ -23771,7 +23771,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 69.31,
    "eur_kg_protein": 106.63
   },
@@ -23822,7 +23822,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 69.8
   },
   {
@@ -23847,7 +23847,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 69.8,
    "eur_kg_protein": 77.56
   },
@@ -23899,7 +23899,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 69.98,
    "eur_kg_protein": 107.66
   },
@@ -23976,7 +23976,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 70.0
   },
   {
@@ -24001,7 +24001,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 70.5,
    "eur_kg_protein": 85.98
   },
@@ -24027,7 +24027,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 70.5,
    "eur_kg_protein": 85.98
   },
@@ -24053,7 +24053,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 70.54,
    "eur_kg_protein": 96.63
   },
@@ -24130,7 +24130,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 70.81,
    "eur_kg_protein": 89.63
   },
@@ -24156,7 +24156,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 70.95,
    "eur_kg_protein": 83.47
   },
@@ -24207,7 +24207,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 71.13,
    "eur_kg_protein": 90.04
   },
@@ -24310,7 +24310,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 71.4,
    "eur_kg_protein": 87.07
   },
@@ -24336,7 +24336,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 71.42,
    "eur_kg_protein": 90.41
   },
@@ -24439,7 +24439,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 72.47,
    "eur_kg_protein": 86.27
   },
@@ -24465,7 +24465,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 72.9,
    "eur_kg_protein": 88.9
   },
@@ -24491,7 +24491,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 73.1,
    "eur_kg_protein": 92.53
   },
@@ -24517,7 +24517,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 73.2
   },
   {
@@ -24594,7 +24594,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 73.31,
    "eur_kg_protein": 82.37
   },
@@ -24722,7 +24722,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 73.8
   },
   {
@@ -24747,7 +24747,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.05,
    "eur_kg_protein": 90.3
   },
@@ -24773,7 +24773,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.05,
    "eur_kg_protein": 90.3
   },
@@ -24824,7 +24824,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.27,
    "eur_kg_protein": 94.01
   },
@@ -24850,7 +24850,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.88
   },
   {
@@ -24875,7 +24875,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.99,
    "eur_kg_protein": 91.45
   },
@@ -24901,7 +24901,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.99,
    "eur_kg_protein": 94.92
   },
@@ -24927,7 +24927,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.99,
    "eur_kg_protein": 91.45
   },
@@ -24953,7 +24953,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 74.99,
    "eur_kg_protein": 94.92
   },
@@ -25057,7 +25057,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 76.9,
    "eur_kg_protein": 93.78
   },
@@ -25083,7 +25083,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 76.98,
    "eur_kg_protein": 91.64
   },
@@ -25160,7 +25160,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 77.9,
    "eur_kg_protein": 91.65
   },
@@ -25211,7 +25211,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 77.97,
    "eur_kg_protein": 87.61
   },
@@ -25313,7 +25313,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 78.55,
    "eur_kg_protein": 99.43
   },
@@ -25339,7 +25339,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 79.8,
    "eur_kg_protein": 88.67
   },
@@ -25365,7 +25365,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 79.8,
    "eur_kg_protein": 101.01
   },
@@ -25391,7 +25391,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 79.8
   },
   {
@@ -25416,7 +25416,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 80.75,
    "eur_kg_protein": 102.22
   },
@@ -25467,7 +25467,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 81.39,
    "eur_kg_protein": 90.43
   },
@@ -25519,7 +25519,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 81.46,
    "eur_kg_protein": 103.11
   },
@@ -25545,7 +25545,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 81.97,
    "eur_kg_protein": 103.76
   },
@@ -25596,7 +25596,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 83.31,
    "eur_kg_protein": 101.6
   },
@@ -25622,7 +25622,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 84.59,
    "eur_kg_protein": 107.08
   },
@@ -25648,7 +25648,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 84.59,
    "eur_kg_protein": 109.86
   },
@@ -25674,7 +25674,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 85.39,
    "eur_kg_protein": 92.82
   },
@@ -25725,7 +25725,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 85.76,
    "eur_kg_protein": 102.1
   },
@@ -25881,7 +25881,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 89.72,
    "eur_kg_protein": 109.41
   },
@@ -25907,7 +25907,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 91.29,
    "eur_kg_protein": 109.99
   },
@@ -25959,7 +25959,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 91.5
   },
   {
@@ -25984,7 +25984,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 92.71,
    "eur_kg_protein": 111.7
   },
@@ -26010,7 +26010,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 94.29
   },
   {
@@ -26165,7 +26165,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 114.98,
    "eur_kg_protein": 140.22
   },
@@ -26191,7 +26191,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 117.82
   },
   {
@@ -26216,7 +26216,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-10-18T00:31:20+00:00",
+   "captured_at": "2026-10-18T08:11:19+00:00",
    "eur_kg": 117.82
   },
   {
