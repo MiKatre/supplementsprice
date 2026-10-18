@@ -484,6 +484,51 @@
 "protein": 58.6,
 "tested": true
 },
+"https://www.bulk.com/fr/products/basic-whey-protein/bpb-vwhe": {
+"checked": "2026-10-18",
+"protein": 59.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/hero-whey/bble-hwhe": {
+"checked": "2026-10-18",
+"protein": 74.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/isolat-90-de-lactoserum-pur-naturel/bpb-npwi": {
+"checked": "2026-10-18",
+"protein": 81.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/isolat-90-de-lactoserum-pur/bpb-wpi9-0000": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": true
+},
+"https://www.bulk.com/fr/products/isolat-de-lactoserum-clarifie/bpb-cwhe": {
+"checked": "2026-10-18",
+"protein": 80.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/le-proteine-de-lactoserum-hydrolyse/bpb-hwpi-0000": {
+"checked": "2026-10-18",
+"protein": 85.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/proteine-whey-biologique-1/bpb-owpc-eu": {
+"checked": "2026-10-18",
+"protein": 77.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/proteine-whey-poudre/bpb-wpc8-0000": {
+"checked": "2026-10-18",
+"protein": 71.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/pure-whey-protein-plus/bpb-pwpp": {
+"checked": "2026-10-18",
+"protein": 68.0,
+"tested": true
+},
 "https://www.esn.com/products/basic-whey": {
 "checked": "2026-10-18",
 "net": null,
@@ -1406,6 +1451,61 @@
 "checked": "2026-10-18",
 "net": null,
 "protein": 89.0,
+"tested": false
+},
+"https://www.nutritienda.com/es/amix-nutrition/black-cfm-isolate": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.nutritienda.com/es/amix-nutrition/cfm-nitro-protein-isolate": {
+"checked": "2026-10-18",
+"protein": 90.0,
+"tested": false
+},
+"https://www.nutritienda.com/es/biotech-usa/hydro-whey-zero": {
+"checked": "2026-10-18",
+"protein": 80.0,
+"tested": false
+},
+"https://www.nutritienda.com/es/biotech-usa/iso-whey-zero": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.nutritienda.com/es/biotech-usa/whey-shake-1000g": {
+"checked": "2026-10-18",
+"protein": 70.0,
+"tested": false
+},
+"https://www.nutritienda.com/es/quamtrax-direct/100-whey-isolate-700g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.nutritienda.com/es/quamtrax-direct/whey-protein": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.nutritienda.com/es/scitec/100-whey-protein-professional": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.nutritienda.com/es/scitec/whey-infusion-2-kg": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.nutritienda.com/es/vitobest/isolate-cfm-zero": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.nutritienda.com/es/vitobest/whey-protein-100-sabor-neutro-1-kg": {
+"checked": "2026-10-18",
+"protein": null,
 "tested": false
 },
 "https://www.prozis.com/es/es/prozis/100-real-whey-isolate-907g": {

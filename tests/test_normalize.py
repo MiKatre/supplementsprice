@@ -111,3 +111,14 @@ def test_amazon_prices():
     assert _eur("1\u202f249,99\xa0€") == 1249.99
     assert _eur("€24.98") == 24.98
     assert _eur("17 €") == 17.0
+
+
+def test_aggregate_offer_sizes():
+    from supps.adapters.jsonld import variants_from
+
+    page = """<script type="application/ld+json">{"@type": "Product", "name": "Hydro Whey Zero 1816g",
+      "offers": {"@type": "AggregateOffer", "lowPrice": "30.90", "highPrice": "89.90", "offers": [
+        {"@type": "Offer", "price": "30.90", "name": "Chocolate", "availability": "InStock"},
+        {"@type": "Offer", "price": "89.90", "name": "1816 g", "availability": "InStock"}]}}</script>"""
+    name, vs = variants_from(page)
+    assert [(v.grams, v.price) for v in vs] == [(None, 30.9), (1816, 89.9)]

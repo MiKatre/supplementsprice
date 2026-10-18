@@ -137,11 +137,16 @@ def variants_from(html: str, sku_rx: re.Pattern | None = None) -> tuple[str, lis
             label = n.get("name", "")
             for off in _offers(n.get("offers")):
                 if off.get("@type") == "AggregateOffer" and off.get("offers"):
-                    for sub in _offers(off["offers"]):
-                        p = _price(sub)
-                        sub_label = sub.get("name") or label
-                        if p:
-                            variants.append(Variant(sub_label, parse_grams(sub_label, label), p, None, _in_stock(sub)))
+                    subs = [x for x in _offers(off["offers"]) if _price(x)]
+                    one_price = len({_price(x) for x in subs}) == 1
+                    for sub in subs:
+                        sub_label = sub.get("name") or ""
+                        # A sub-offer without its own size only inherits the title's size when every
+                        # sub-offer costs the same (flavours of one size); otherwise sizes are unknown.
+                        grams = parse_grams(sub_label) or (parse_grams(label) if one_price else None)
+                        variants.append(
+                            Variant(sub_label or label, grams, _price(sub), _list_price(sub), _in_stock(sub))
+                        )
                     continue
                 p = _price(off)
                 if p and not (off.get("@type") == "AggregateOffer" and off.get("highPrice")
@@ -170,6 +175,10 @@ def collect(src: dict, fetch, now: str) -> list[Offer]:
                 for page in range(1, src.get("pages", 1) + 1):
                     sep = "&" if "?" in cat else "?"
                     url = cat if page == 1 else f"{cat}{sep}{src.get('page_param', 'page')}={page}"
+                    robots = getattr(fetch, "robots", None)
+                    allowed = fetch.allowed(url) if hasattr(fetch, "allowed") else robots.allowed(url)
+                    if page > 1 and not allowed:
+                        break
                     found = link_rx.findall(fetch.text(url))
                     if page > 1 and not set(found) - set(hrefs):
                         break

@@ -317,6 +317,43 @@
     "https://www.fitadium.com/761-clear-whey"
    ],
    "group": "c"
+  },
+  {
+   "id": "nutritienda",
+   "name": "Nutritienda",
+   "market": "ES",
+   "adapter": "jsonld",
+   "browser": true,
+   "group": "c",
+   "url": "https://www.nutritienda.com/es/",
+   "pages": 4,
+   "max_products": 220,
+   "max_minutes": 14,
+   "link_pattern": "href=\"(/es/[a-z0-9-]+/[a-z0-9-]+)\"",
+   "categories": [
+    "https://www.nutritienda.com/es/creatina-monohidrato",
+    "https://www.nutritienda.com/es/creatina-creapure",
+    "https://www.nutritienda.com/es/creatina-micronizada",
+    "https://www.nutritienda.com/es/proteinas-suero-whey"
+   ]
+  },
+  {
+   "id": "bulk-fr",
+   "name": "Bulk",
+   "market": "FR",
+   "adapter": "jsonld",
+   "browser": true,
+   "render": true,
+   "brand": "Bulk",
+   "group": "b",
+   "url": "https://www.bulk.com/fr",
+   "link_pattern": "href=\"(https://www\\.bulk\\.com/fr/products/[^\"?#]+)\"",
+   "sku_grams": "-(\\d{4})(?:-EU\\d?)?$",
+   "categories": [
+    "https://www.bulk.com/fr/nutrition-sportive/creatine",
+    "https://www.bulk.com/fr/proteine/proteine-whey",
+    "https://www.bulk.com/fr/proteine/proteine-transparente"
+   ]
   }
  ]
 }
