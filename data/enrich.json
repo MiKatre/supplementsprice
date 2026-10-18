@@ -494,6 +494,11 @@
 "protein": 74.0,
 "tested": true
 },
+"https://www.bulk.com/fr/products/informed-whey-fr/bpps-iwhe": {
+"checked": "2026-10-18",
+"protein": 81.0,
+"tested": true
+},
 "https://www.bulk.com/fr/products/isolat-90-de-lactoserum-pur-naturel/bpb-npwi": {
 "checked": "2026-10-18",
 "protein": 81.0,
@@ -1623,7 +1628,27 @@
 "protein": null,
 "tested": false
 },
+"https://www.prozis.com/es/es/prozis/100-real-whey-protein-400-g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
 "https://www.prozis.com/es/es/prozis/100-real-whey-protein-907g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/100-whey-hydro-isolate-900g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/100-whey-hydro-isolate-clear-700g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/100-whey-hydro-isolate-pro-ultimate-series-1814g": {
 "checked": "2026-10-18",
 "protein": null,
 "tested": false
@@ -1643,7 +1668,77 @@
 "protein": null,
 "tested": false
 },
+"https://www.prozis.com/es/es/prozis/clear-whey-isolate-mango-y-melocoton-500-g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/clear-whey-isolate-peach-ice-tea-500g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/natural-pure-native-whey-isolate-900-g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/natural-real-whey-isolate-907g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/natural-real-whey-protein-907g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/peanut-whey-protein-450g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/peanut-whey-protein-907g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/supreme-whey-protein-400g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
 "https://www.prozis.com/es/es/prozis/supreme-whey-protein-907g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/whey-choco-butter-400-g-nutchoc": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/whey-hydro-isolate-black-series-700g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/whey-hydro-isolate-pro-black-series-700g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/whey-protein-freakin-good-400-g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/whey-protein-fusion-700g": {
+"checked": "2026-10-18",
+"protein": null,
+"tested": false
+},
+"https://www.prozis.com/es/es/prozis/xtreme-whey-protein-ultimate-series-1814g": {
 "checked": "2026-10-18",
 "protein": null,
 "tested": false
