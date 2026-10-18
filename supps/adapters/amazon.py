@@ -42,6 +42,8 @@ def collect(src: dict, browser, now: str) -> list[Offer]:
             browser.goto(f"{base}/s?k={quote(q)}" + (f"&page={page}" if page > 1 else ""), settle=1.5)
             cards = browser.eval(CARDS_JS)
             if not cards:
+                if not offers and page == 1:  # say what Amazon showed instead of results
+                    raise RuntimeError(f"no results on '{browser.page.title()[:70]}' ({browser.page.url[:80]})")
                 break
             for c in cards:
                 if not c["asin"] or c["asin"] in seen:
