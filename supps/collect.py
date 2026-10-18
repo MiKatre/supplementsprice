@@ -205,10 +205,14 @@ def run(only: set[str] | None = None, skip_browser: bool = False, budget_minutes
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", help="comma-separated source ids")
+    ap.add_argument("--group", help="run the sources of one group from sources.json (a, b, c)")
     ap.add_argument("--skip-browser", action="store_true")
     ap.add_argument("--budget", type=float, default=40, help="minutes for the whole run")
     a = ap.parse_args()
-    run(set(a.only.split(",")) if a.only else None, a.skip_browser, a.budget)
+    only = set(a.only.split(",")) if a.only else None
+    if a.group:
+        only = (only or set()) | {s["id"] for s in load_sources() if s.get("group") == a.group}
+    run(only, a.skip_browser, a.budget)
 
 
 if __name__ == "__main__":

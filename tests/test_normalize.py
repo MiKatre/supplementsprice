@@ -10,6 +10,7 @@ from supps.normalize import classify, is_sample, net_weight, parse_grams, protei
         ("Créatine (Creapure®) en poudre", "creatine"),
         ("Créatine Monohydrate Creapure® en Poudre 500 g", "creatine"),
         ("Creatina y electrolitos", None),
+        ("BigMan Forza Protein Whey + Soja con Creatina, 2 kg, Choco Avellana", None),
         ("Café con proteína de suero", None),
         ("Creatina monohidrato en polvo (200 mesh)", "creatine"),
         ("Créatine (Creapure®) en gélules", None),
@@ -101,3 +102,12 @@ def test_group_variants_prefers_in_stock_and_counts_flavours():
 )
 def test_is_sample(label, sample):
     assert is_sample(label) is sample
+
+
+def test_amazon_prices():
+    from supps.adapters.amazon import _eur
+
+    assert _eur("24,98 €") == 24.98
+    assert _eur("1\u202f249,99\xa0€") == 1249.99
+    assert _eur("€24.98") == 24.98
+    assert _eur("17 €") == 17.0

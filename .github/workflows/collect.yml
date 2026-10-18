@@ -1,14 +1,21 @@
 name: Collect prices
-# Daily at 04:23 UTC; run by hand with an optional list of source ids.
+# Three nightly runs, one per source group (see "group" in sources.json), so no run nears the time limit.
+# Run by hand with a group and/or a list of source ids.
 on:
   workflow_dispatch:
     inputs:
+      group:
+        description: "Source group: a, b or c (empty = all)"
+        required: false
+        default: ""
       only:
-        description: "Comma-separated source ids (empty = all)"
+        description: "Comma-separated source ids"
         required: false
         default: ""
   schedule:
+    - cron: "23 3 * * *"
     - cron: "23 4 * * *"
+    - cron: "23 5 * * *"
 permissions:
   contents: write
 concurrency:
@@ -37,7 +44,8 @@ jobs:
         env:
           HEADED: "1"
           ONLY: ${{ inputs.only }}
-        run: xvfb-run -a uv run python -m supps.collect --budget 42 ${ONLY:+--only "$ONLY"}
+          GROUP: ${{ inputs.group || (github.event.schedule == '23 3 * * *' && 'a') || (github.event.schedule == '23 4 * * *' && 'b') || (github.event.schedule == '23 5 * * *' && 'c') || '' }}
+        run: xvfb-run -a uv run python -m supps.collect --budget 42 ${ONLY:+--only "$ONLY"} ${GROUP:+--group "$GROUP"}
       - name: Build site
         run: uv run python site/build.py
       - name: Keep run report and site
@@ -46,16 +54,19 @@ jobs:
           name: collection-${{ github.run_id }}
           path: |
             runs/report.json
+            data/latest.json
             dist/
           retention-days: 14
       - name: Commit data
+        env:
+          GROUP: ${{ inputs.group }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/history/
+          git add data/latest.json data/history/ data/enrich.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -q -m "chore(data): refresh prices"
-          git pull -q --rebase origin "$GITHUB_REF_NAME"
+          git commit -q -m "chore(data): refresh prices${GROUP:+ (group $GROUP)}"
+          git pull -q --rebase --autostash origin "$GITHUB_REF_NAME"
           git push -q origin "HEAD:$GITHUB_REF_NAME"
       - name: Summary
         run: |

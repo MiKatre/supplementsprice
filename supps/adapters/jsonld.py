@@ -98,8 +98,29 @@ def _sku_grams(offer: dict, rx: re.Pattern | None) -> float | None:
     return float(m.group(1)) if m and 100 <= float(m.group(1)) <= 10000 else None
 
 
+META = re.compile(r'<meta[^>]+(?:property|itemprop|name)="([^"]+)"[^>]+content="([^"]*)"', re.I)
+
+
+def _meta_variant(html: str) -> tuple[str, list[Variant]]:
+    """Open Graph / microdata fallback: one price for the page's own size (PrestaShop, Magento)."""
+    meta = {}
+    for k, v in META.findall(html):
+        meta.setdefault(k.lower(), v)
+    name = meta.get("og:title") or meta.get("name") or ""
+    raw = meta.get("og:price:amount") or meta.get("product:price:amount") or meta.get("price")
+    if not raw:
+        return name, []
+    try:
+        price = float(raw.replace(",", "."))
+    except ValueError:
+        return name, []
+    avail = meta.get("availability") or meta.get("product:availability") or meta.get("og:availability") or ""
+    stock = None if not avail else bool(re.search(r"instock|in stock|available|limited", avail, re.I))
+    return name, [Variant(name, parse_grams(name), price, None, stock)]
+
+
 def variants_from(html: str, sku_rx: re.Pattern | None = None) -> tuple[str, list[Variant]]:
-    """Product name and variants from a product page's JSON-LD."""
+    """Product name and variants from a product page's JSON-LD (Open Graph price as fallback)."""
     name, variants = "", []
     for n in _nodes(html):
         types = _types(n)
@@ -127,6 +148,9 @@ def variants_from(html: str, sku_rx: re.Pattern | None = None) -> tuple[str, lis
                               and float(off["highPrice"]) != p):
                     grams = _sku_grams(off, sku_rx) or _weight(n) or parse_grams(off.get("name") or "", label)
                     variants.append(Variant(str(off.get("sku") or label), grams, p, _list_price(off), _in_stock(off)))
+    if not variants:
+        meta_name, variants = _meta_variant(html)
+        name = name or meta_name
     return name, variants
 
 
@@ -142,7 +166,14 @@ def collect(src: dict, fetch, now: str) -> list[Offer]:
                 bare = ['href="' + h.split("?")[0].split("#")[0] + '"' for h in rendered]
                 hrefs = [m.group(1) for h in bare if (m := link_rx.search(h))]
             else:
-                hrefs = link_rx.findall(fetch.text(cat))
+                hrefs = []
+                for page in range(1, src.get("pages", 1) + 1):
+                    sep = "&" if "?" in cat else "?"
+                    url = cat if page == 1 else f"{cat}{sep}{src.get('page_param', 'page')}={page}"
+                    found = link_rx.findall(fetch.text(url))
+                    if page > 1 and not set(found) - set(hrefs):
+                        break
+                    hrefs += found
         except Exception as e:  # noqa: BLE001 - a moved category shouldn't drop the others
             if type(e).__name__ == "Blocked":
                 raise
@@ -167,8 +198,19 @@ def collect(src: dict, fetch, now: str) -> list[Offer]:
     return offers
 
 
+def _brand(html: str) -> str | None:
+    for n in _nodes(html):
+        if _types(n) & {"Product", "ProductGroup"}:
+            b = n.get("brand")
+            b = b.get("name") if isinstance(b, dict) else b
+            if isinstance(b, str) and b.strip():
+                return clean(b).strip()
+    return None
+
+
 def _product(src, url, html, now, tested_cat=False) -> list[Offer]:
     name, variants = variants_from(html, re.compile(src["sku_grams"]) if src.get("sku_grams") else None)
+    brand = src.get("brand") or _brand(html)
     name = clean(name)
     kind = classify(name)
     if not kind:
@@ -193,7 +235,7 @@ def _product(src, url, html, now, tested_cat=False) -> list[Offer]:
                 list_price=s["list_price"],
                 available=s["available"],
                 flavours=s["flavours"],
-                brand=src.get("brand"),
+                brand=brand,
                 creapure=is_creapure(name),
                 whey_type=whey_type(name) if kind == "whey" else None,
                 native=kind == "whey" and is_native(name),

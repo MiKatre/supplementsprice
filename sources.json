@@ -6,7 +6,8 @@
    "market": "FR",
    "adapter": "shopify",
    "base": "https://www.nutrimuscle.com",
-   "url": "https://www.nutrimuscle.com"
+   "url": "https://www.nutrimuscle.com",
+   "group": "a"
   },
   {
    "id": "toutelanutrition",
@@ -14,7 +15,8 @@
    "market": "FR",
    "adapter": "shopify",
    "base": "https://www.toutelanutrition.com",
-   "url": "https://www.toutelanutrition.com"
+   "url": "https://www.toutelanutrition.com",
+   "group": "a"
   },
   {
    "id": "novoma",
@@ -22,7 +24,8 @@
    "market": "FR",
    "adapter": "shopify",
    "base": "https://novoma.com",
-   "url": "https://novoma.com"
+   "url": "https://novoma.com",
+   "group": "a"
   },
   {
    "id": "inshape",
@@ -30,7 +33,8 @@
    "market": "FR",
    "adapter": "shopify",
    "base": "https://www.inshape-nutrition.com",
-   "url": "https://www.inshape-nutrition.com"
+   "url": "https://www.inshape-nutrition.com",
+   "group": "a"
   },
   {
    "id": "fitnessboutique",
@@ -38,7 +42,8 @@
    "market": "FR",
    "adapter": "shopify",
    "base": "https://www.fitnessboutique.fr",
-   "url": "https://www.fitnessboutique.fr"
+   "url": "https://www.fitnessboutique.fr",
+   "group": "a"
   },
   {
    "id": "eiyolab",
@@ -46,7 +51,8 @@
    "market": "FR",
    "adapter": "shopify",
    "base": "https://eiyolab.com",
-   "url": "https://eiyolab.com"
+   "url": "https://eiyolab.com",
+   "group": "a"
   },
   {
    "id": "nutrimea",
@@ -54,7 +60,8 @@
    "market": "FR",
    "adapter": "shopify",
    "base": "https://www.nutrimea.com",
-   "url": "https://www.nutrimea.com"
+   "url": "https://www.nutrimea.com",
+   "group": "a"
   },
   {
    "id": "crown",
@@ -62,7 +69,8 @@
    "market": "ES",
    "adapter": "shopify",
    "base": "https://crownsportnutrition.com",
-   "url": "https://crownsportnutrition.com"
+   "url": "https://crownsportnutrition.com",
+   "group": "a"
   },
   {
    "id": "226ers",
@@ -70,7 +78,8 @@
    "market": "ES",
    "adapter": "shopify",
    "base": "https://www.226ers.com",
-   "url": "https://www.226ers.com"
+   "url": "https://www.226ers.com",
+   "group": "a"
   },
   {
    "id": "nutri9",
@@ -78,7 +87,8 @@
    "market": "ES",
    "adapter": "shopify",
    "base": "https://nutri9.es",
-   "url": "https://nutri9.es"
+   "url": "https://nutri9.es",
+   "group": "a"
   },
   {
    "id": "quamtrax",
@@ -86,7 +96,8 @@
    "market": "ES",
    "adapter": "shopify",
    "base": "https://quamtrax.com",
-   "url": "https://quamtrax.com"
+   "url": "https://quamtrax.com",
+   "group": "a"
   },
   {
    "id": "bodyandfit",
@@ -94,7 +105,8 @@
    "market": "EU",
    "adapter": "shopify",
    "base": "https://www.bodyandfit.com",
-   "url": "https://www.bodyandfit.com"
+   "url": "https://www.bodyandfit.com",
+   "group": "a"
   },
   {
    "id": "esn",
@@ -102,7 +114,8 @@
    "market": "EU",
    "adapter": "shopify",
    "base": "https://www.esn.com",
-   "url": "https://www.esn.com"
+   "url": "https://www.esn.com",
+   "group": "a"
   },
   {
    "id": "hsn",
@@ -110,7 +123,8 @@
    "market": "ES",
    "adapter": "hsn",
    "browser": true,
-   "url": "https://www.hsnstore.com"
+   "url": "https://www.hsnstore.com",
+   "group": "b"
   },
   {
    "id": "decathlon-es",
@@ -125,7 +139,9 @@
     "https://www.decathlon.es/es/salud-y-bienestar/proteina-whey",
     "https://www.decathlon.es/es/salud-y-bienestar/proteina-isolada",
     "https://www.decathlon.es/es/salud-y-bienestar/proteina-hidrolizada"
-   ]
+   ],
+   "group": "b",
+   "delay": 4
   },
   {
    "id": "decathlon-fr",
@@ -139,7 +155,10 @@
     "https://www.decathlon.fr/nutrition-sante/creatine",
     "https://www.decathlon.fr/nutrition-sante/whey-proteines",
     "https://www.decathlon.fr/nutrition-sante/whey-hydrolysee"
-   ]
+   ],
+   "group": "b",
+   "delay": 6,
+   "max_results": 120
   },
   {
    "id": "myprotein-es",
@@ -155,7 +174,8 @@
     "https://www.myprotein.es/c/nutrition/protein/hydrolysed-protein/",
     "https://www.myprotein.es/c/nutrition/protein/informed-sport/",
     "https://www.myprotein.es/c/nutrition/protein/informed-choice/"
-   ]
+   ],
+   "group": "a"
   },
   {
    "id": "myprotein-fr",
@@ -169,7 +189,8 @@
     "https://fr.myprotein.com/c/nutrition/protein/whey-protein/",
     "https://fr.myprotein.com/c/nutrition/protein/protein-isolate-powders/",
     "https://fr.myprotein.com/c/nutrition/protein/hydrolysed-protein/"
-   ]
+   ],
+   "group": "a"
   },
   {
    "id": "prozis-es",
@@ -186,7 +207,8 @@
     "https://www.prozis.com/es/es/search?text=isolate"
    ],
    "delay": 8,
-   "max_products": 45
+   "max_products": 45,
+   "group": "b"
   },
   {
    "id": "prozis-fr",
@@ -203,7 +225,8 @@
     "https://www.prozis.com/fr/fr/search?text=isolate"
    ],
    "delay": 8,
-   "max_products": 45
+   "max_products": 45,
+   "group": "b"
   },
   {
    "id": "bulk-es",
@@ -220,7 +243,80 @@
     "https://www.bulk.com/es/nutricion-deportiva/creatina",
     "https://www.bulk.com/es/proteinas/proteina-de-suero",
     "https://www.bulk.com/es/proteinas/proteina-clara"
-   ]
+   ],
+   "group": "b"
+  },
+  {
+   "id": "amazon-es",
+   "name": "Amazon.es",
+   "market": "ES",
+   "adapter": "amazon",
+   "browser": true,
+   "base": "https://www.amazon.es",
+   "url": "https://www.amazon.es",
+   "delay": 4,
+   "queries": [
+    "creatina monohidrato",
+    "creatina creapure",
+    "proteina whey",
+    "whey isolate"
+   ],
+   "group": "c"
+  },
+  {
+   "id": "amazon-fr",
+   "name": "Amazon.fr",
+   "market": "FR",
+   "adapter": "amazon",
+   "browser": true,
+   "base": "https://www.amazon.fr",
+   "url": "https://www.amazon.fr",
+   "delay": 4,
+   "queries": [
+    "créatine monohydrate",
+    "créatine creapure",
+    "whey protéine",
+    "whey isolate"
+   ],
+   "group": "c"
+  },
+  {
+   "id": "masmusculo",
+   "name": "MASmusculo",
+   "market": "ES",
+   "adapter": "jsonld",
+   "browser": true,
+   "url": "https://www.masmusculo.com/es/",
+   "pages": 4,
+   "link_pattern": "href=\"(https://www\\.masmusculo\\.com/es/[a-z0-9-]+/[a-z0-9-]+-\\d+\\.html)",
+   "categories": [
+    "https://www.masmusculo.com/es/302-creatina",
+    "https://www.masmusculo.com/es/30102-proteinas-de-suero-whey",
+    "https://www.masmusculo.com/es/30113-proteina-clear"
+   ],
+   "max_products": 260,
+   "max_minutes": 16,
+   "group": "c"
+  },
+  {
+   "id": "fitadium",
+   "name": "Fitadium",
+   "market": "FR",
+   "adapter": "jsonld",
+   "url": "https://www.fitadium.com",
+   "pages": 5,
+   "max_products": 260,
+   "max_minutes": 14,
+   "link_pattern": "href=\"(https://www\\.fitadium\\.com/\\d+-[a-z0-9-]+\\.html)",
+   "categories": [
+    "https://www.fitadium.com/7-creatines",
+    "https://www.fitadium.com/424-whey-proteine",
+    "https://www.fitadium.com/425-whey-isolate",
+    "https://www.fitadium.com/760-whey-native",
+    "https://www.fitadium.com/602-whey-hydrolysee",
+    "https://www.fitadium.com/761-clear-whey"
+   ],
+   "group": "c"
   }
  ]
 }

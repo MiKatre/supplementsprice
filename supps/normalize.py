@@ -15,13 +15,16 @@ CREATINE_EXCLUDE = re.compile(
     r"complex|pre[- ]?work|pre[- ]?entreno|pre[- ]?training|gainer|ganador|\bhcl\b|kre[- ]?alk|alcalin|"
     r"evokalyn|nitrate|malate|citrate|orotat|magnapower|creatin[ae]? ?\+|\+ ?cr[eé]atin|"
     r"amino|eaa|bcaa|electrolyt|electrolit|[eé]lectrolyt|hydration|hydratation|hidrataci|isotonic|recovery|recuper|shot|gel\b|bar\b|barrit|pack\b|duo\b|bundle|"
-    r"lote|kit\b|sachet|sobre|stick|monodos|caja\b|box\b|\bx\s?\d+\s*(?:sobres|sticks)",
+    r"lote|kit\b|sachet|sobre|stick|monodos|caja\b|box\b|\bx\s?\d+\s*(?:sobres|sticks)|"
+    r"whey|prot[eé][ií]?n|soja|gainer|carb|maltodex|beta[- ]?alan|glutamin|taurin|caf[eé]ine|cafe[ií]na|"
+    r"\shmb|vitamin|coenzim|q10|drink|malato|creamag|magnes|\s\+\s|gratis|free\b|offert",
     re.I,
 )
 WHEY = re.compile(r"whey|suero|lactos[eé]rum|isolat|aislad|\bwpi\b|\bwpc\b|prot[eé]ine? de lait|protimuscle", re.I)
 # Whey-adjacent products that would distort a €/kg comparison.
 WHEY_EXCLUDE = re.compile(
-    r"gainer|ganador|mass\b|ca[sz][eé]in|micell|recovery|recupera|r[eé]cup|oat|avoine|avena|collag|col[aá]geno|"
+    r"no ?whey|gainer|ganador|mass\b|ca[sz][eé]in|micell|recovery|recupera|r[eé]cup|\boat|avoine|avena|"
+    r"collag|col[aá]geno|"
     r"\bbar\b|bars\b|barre|barrit|cookie|galleta|cr[eè]me de riz|crema de arroz|rice cream|pancake|porridge|"
     r"brownie|cake|crepe|cr[eê]pe|mug|pudding|snack|chips|crisp|wafer|spread|cr[eè]me|crema|"
     r"vegan|v[eé]g[eé]tal|pea\b|guisante|pois\b|riz\b|arroz|rice|soja|soy|egg|huevo|oeuf|[oœ]uf|beef|vacuno|"
