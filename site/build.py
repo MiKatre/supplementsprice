@@ -39,7 +39,9 @@ def build() -> Path:
                                                           and o[k] is not False)}
                    for o in data["offers"]],
     }
-    blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    compact = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    (ROOT / "data/site.json").write_text(compact + "\n")  # what the live page fetches each visit
+    blob = compact.replace("</", "<\\/")
     fragment = (ROOT / "site/template.html").read_text().replace("__DATA__", blob)
     out = ROOT / "dist"
     out.mkdir(exist_ok=True)
