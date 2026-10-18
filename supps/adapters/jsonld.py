@@ -197,6 +197,9 @@ def collect(src: dict, fetch, now: str) -> list[Offer]:
         slug = re.sub(r"[-_/.]+", " ", urlsplit(url).path)
         if not classify(slug) and not src.get("open_all"):
             continue
+        robots = getattr(fetch, "robots", None)
+        if not (fetch.allowed(url) if hasattr(fetch, "allowed") else robots.allowed(url)):
+            continue
         try:
             html = fetch.text(url)
         except Exception as e:  # noqa: BLE001 - one broken page shouldn't drop the shop
@@ -219,6 +222,7 @@ def _brand(html: str) -> str | None:
 
 def _product(src, url, html, now, tested_cat=False) -> list[Offer]:
     name, variants = variants_from(html, re.compile(src["sku_grams"]) if src.get("sku_grams") else None)
+    name = re.split(r"\s+[|→]\s+|\s+-\s+(?:Nutritienda|Fitadium|Prozis)\b", name)[0]
     brand = src.get("brand") or _brand(html)
     name = clean(name)
     kind = classify(name)

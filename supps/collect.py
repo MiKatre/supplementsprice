@@ -76,8 +76,14 @@ def run(only: set[str] | None = None, skip_browser: bool = False, budget_minutes
     fetch = Fetcher()
     browser = None
     statuses, offers = {}, []
+    # Browser sources that hit a challenge get one more try at the end, in a fresh browser context:
+    # these checks are often intermittent, and by then the run has spent a few minutes elsewhere.
+    queue = [(1, s) for s in load_sources()]
     try:
-        for src in load_sources():
+        i = 0
+        while i < len(queue):
+            attempt, src = queue[i]
+            i += 1
             sid = src["id"]
             if only and sid not in only:
                 if sid in previous.get("sources", {}):
@@ -94,6 +100,8 @@ def run(only: set[str] | None = None, skip_browser: bool = False, budget_minutes
                                  "kept_offers": len(prev_by_shop.get(sid, []))}
                 offers += prev_by_shop.get(sid, [])
                 continue
+            if attempt == 2 and browser:
+                browser.fresh()
             if src.get("browser") and skip_browser:
                 statuses[sid] = previous.get("sources", {}).get(sid, {**meta, "status": "skipped"})
                 offers += prev_by_shop.get(sid, [])
@@ -141,6 +149,11 @@ def run(only: set[str] | None = None, skip_browser: bool = False, budget_minutes
                     except Exception:  # noqa: BLE001 - it's already wedged; start a fresh one next time
                         pass
                     browser = None
+                if attempt == 1 and isinstance(e, Blocked) and src.get("browser") and "robots" not in str(e):
+                    queue.append((2, src))
+                    print(f"{sid:24} blocked ({str(e)[:80]}); will retry at the end", flush=True)
+                    signal.alarm(0)
+                    continue
                 kept = prev_by_shop.get(sid, [])
                 offers += kept
                 statuses[sid] = {

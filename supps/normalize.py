@@ -23,7 +23,8 @@ CREATINE_EXCLUDE = re.compile(
 WHEY = re.compile(r"whey|suero|lactos[eé]rum|isolat|aislad|\bwpi\b|\bwpc\b|prot[eé]ine? de lait|protimuscle", re.I)
 # Whey-adjacent products that would distort a €/kg comparison.
 WHEY_EXCLUDE = re.compile(
-    r"no ?whey|gainer|ganador|mass\b|ca[sz][eé]in|micell|recovery|recupera|r[eé]cup|\boat|avoine|avena|"
+    r"no ?whey|syntha|secuencial|sequential|multi[- ]?phase|"
+    r"gainer|ganador|mass\b|ca[sz][eé]in|micell|recovery|recupera|r[eé]cup|\boat|avoine|avena|"
     r"collag|col[aá]geno|"
     r"\bbar\b|bars\b|barre|barrit|cookie|galleta|cr[eè]me de riz|crema de arroz|rice cream|pancake|porridge|"
     r"brownie|cake|crepe|cr[eê]pe|mug|pudding|snack|chips|crisp|wafer|spread|cr[eè]me|crema|"

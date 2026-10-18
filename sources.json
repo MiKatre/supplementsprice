@@ -354,6 +354,22 @@
     "https://www.bulk.com/fr/proteine/proteine-whey",
     "https://www.bulk.com/fr/proteine/proteine-transparente"
    ]
+  },
+  {
+   "id": "goldnutricion",
+   "name": "Gold Nutrición",
+   "market": "ES",
+   "adapter": "jsonld",
+   "group": "c",
+   "url": "https://www.goldnutricion.es/",
+   "max_products": 150,
+   "link_pattern": "href=\"(https://www\\.goldnutricion\\.es/(?:creatinas|proteinas)/[a-z0-9-]+/(?:[a-z0-9-]+/)?)\"",
+   "categories": [
+    "https://www.goldnutricion.es/creatinas/",
+    "https://www.goldnutricion.es/proteinas/100-whey-proteinas/",
+    "https://www.goldnutricion.es/proteinas/isoladas/",
+    "https://www.goldnutricion.es/proteinas/hidrolizadas/"
+   ]
   }
  ]
 }

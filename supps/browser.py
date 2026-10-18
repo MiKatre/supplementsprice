@@ -15,7 +15,9 @@ from .http import Blocked, Fetcher
 CHALLENGE = re.compile(
     r"just a moment|attention required|access denied|robot check|are you a robot|captcha|"
     r"enter the characters you see|verify you are human|unusual traffic|pardon our interruption|"
-    r"request unsuccessful|incapsula|perimeterx|px-captcha|datadome",
+    r"request unsuccessful|incapsula|perimeterx|px-captcha|datadome|waf\b|"
+    r"continuer vos achats|continue shopping|seguir comprando|cliquez sur le bouton ci-dessous|"
+    r"click the button below to continue",
     re.I,
 )
 
@@ -46,6 +48,18 @@ class Browser:
         self._canonical: dict[str, str] = {}
         self.deadline = float("inf")  # set per source by the collector
 
+    def fresh(self):
+        """New browser context (no cookies) for a second attempt at a source that challenged us."""
+        self.context.close()
+        self.context = self.browser.new_context(
+            locale="es-ES", timezone_id="Europe/Madrid", viewport={"width": 1366, "height": 900}
+        )
+        self.context.set_default_timeout(30000)
+        self.context.set_default_navigation_timeout(45000)
+        self.page = self.context.new_page()
+        self._origins.clear()
+        self._canonical.clear()
+
     def close(self):
         try:
             self.context.close()
@@ -74,7 +88,7 @@ class Browser:
         if status in (403, 429, 503) or CHALLENGE.search(title) or INTERSTITIAL.search(title):
             # Interstitial "checking your browser" pages clear on their own in a normal browser.
             # Give it time; never click anything. Still there afterwards → treat as blocked.
-            for _ in range(10):
+            for _ in range(20):
                 self.page.wait_for_timeout(2000)
                 title = self.page.title()
                 if not (CHALLENGE.search(title) or INTERSTITIAL.search(title)):
@@ -84,7 +98,7 @@ class Browser:
         if status in (401, 403, 429) or CHALLENGE.search(title) or INTERSTITIAL.search(title):
             raise Blocked(f"HTTP {status} / '{title[:60]}' for {url}")
         head = self.page.evaluate("document.body ? document.body.innerText.slice(0, 600) : ''")
-        if CHALLENGE.search(head) and len(head) < 600:
+        if CHALLENGE.search(head) and len(head) < 600:  # a bare bot page, not a product page mentioning it
             raise Blocked(f"challenge page at {url}: {head[:80]!r}")
         return resp
 
