@@ -1783,6 +1783,11 @@
 "protein": 90.0,
 "tested": false
 },
+"https://www.nutritienda.com/es/amix-nutrition/ultra-pure-whey": {
+"checked": "2026-10-19",
+"protein": 75.0,
+"tested": false
+},
 "https://www.nutritienda.com/es/biotech-usa/hydro-whey-zero": {
 "checked": "2026-10-18",
 "protein": 80.0,
