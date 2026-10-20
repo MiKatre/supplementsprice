@@ -1680,6 +1680,11 @@
 "protein": 72.0,
 "tested": true
 },
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-clear-whey-isolate-retail/12608168/": {
+"checked": "2026-10-20",
+"protein": 78.0,
+"tested": true
+},
 "https://www.myprotein.es/p/nutricion-deportiva/proteina-de-suero-hidrolizada/10529805/": {
 "checked": "2026-10-18",
 "protein": 78.0,
@@ -2010,6 +2015,24 @@
 "protein": 76.0,
 "tested": false
 },
+"https://www.toutelanutrition.com/products/100-whey-gold-isolate": {
+"checked": "2026-10-20",
+"net": null,
+"protein": 83.3,
+"tested": false
+},
+"https://www.toutelanutrition.com/products/100-whey-gold-standard": {
+"checked": "2026-10-20",
+"net": null,
+"protein": null,
+"tested": false
+},
+"https://www.toutelanutrition.com/products/clear-protein": {
+"checked": "2026-10-20",
+"net": null,
+"protein": null,
+"tested": false
+},
 "https://www.toutelanutrition.com/products/clear-whey-ht": {
 "checked": "2026-10-18",
 "net": 500.0,
@@ -2080,6 +2103,12 @@
 "checked": "2026-10-18",
 "net": 1000.0,
 "protein": 70.0,
+"tested": false
+},
+"https://www.toutelanutrition.com/products/snickers-protein-powder": {
+"checked": "2026-10-20",
+"net": 875.0,
+"protein": 57.1,
 "tested": false
 },
 "https://www.toutelanutrition.com/products/whey-ht": {
