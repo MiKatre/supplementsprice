@@ -1814,6 +1814,11 @@
 "protein": 90.0,
 "tested": false
 },
+"https://www.nutritienda.com/es/amix-nutrition/evolution-isolate": {
+"checked": "2026-10-21",
+"protein": null,
+"tested": false
+},
 "https://www.nutritienda.com/es/amix-nutrition/ultra-pure-whey": {
 "checked": "2026-10-19",
 "protein": 75.0,
