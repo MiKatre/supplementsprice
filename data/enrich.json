@@ -56,6 +56,11 @@
 "protein": 65.0,
 "tested": false
 },
+"https://fr.myprotein.com/p/nutrition-sportive/grass-fed-impact-milk-protein-isolate/18008669/": {
+"checked": "2026-10-21",
+"protein": 81.0,
+"tested": false
+},
 "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-isolate-milkshake-krispy-kreme/17765947/": {
 "checked": "2026-10-18",
 "protein": 70.0,
@@ -79,6 +84,11 @@
 "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-protein-elite/11243021/": {
 "checked": "2026-10-18",
 "protein": 70.0,
+"tested": true
+},
+"https://fr.myprotein.com/p/nutrition-sportive/impact-whey-protein-milkshake-chupa-chups/18051985/": {
+"checked": "2026-10-21",
+"protein": 69.0,
 "tested": true
 },
 "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-protein-milkshake-krispy-kreme/17765948/": {
@@ -1774,6 +1784,12 @@
 "checked": "2026-10-18",
 "net": null,
 "protein": 78.0,
+"tested": false
+},
+"https://www.nutrimuscle.com/products/native-iso-blend": {
+"checked": "2026-10-21",
+"net": null,
+"protein": null,
 "tested": false
 },
 "https://www.nutrimuscle.com/products/protimuscle-mix-protein": {
