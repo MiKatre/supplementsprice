@@ -1831,6 +1831,11 @@
 "protein": null,
 "tested": false
 },
+"https://www.nutritienda.com/es/amix-nutrition/pro-active-whey": {
+"checked": "2026-10-22",
+"protein": null,
+"tested": false
+},
 "https://www.nutritienda.com/es/amix-nutrition/ultra-pure-whey": {
 "checked": "2026-10-19",
 "protein": 75.0,
