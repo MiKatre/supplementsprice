@@ -272,6 +272,12 @@
 "protein": null,
 "tested": false
 },
+"https://www.226ers.com/products/hydrazero-creatine-9g": {
+"checked": "2026-10-22",
+"net": null,
+"protein": null,
+"tested": false
+},
 "https://www.226ers.com/products/immune-whey-protein-batido-proteico-en-polvo": {
 "checked": "2026-10-18",
 "net": 700.0,
@@ -1796,6 +1802,12 @@
 "checked": "2026-10-18",
 "net": null,
 "protein": 78.0,
+"tested": false
+},
+"https://www.nutrimuscle.com/products/whey-native": {
+"checked": "2026-10-22",
+"net": null,
+"protein": 80.0,
 "tested": false
 },
 "https://www.nutrimuscle.com/products/whey-native-isolate-low-lactose": {
