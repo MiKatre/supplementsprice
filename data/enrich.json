@@ -1784,6 +1784,12 @@
 "protein": null,
 "tested": false
 },
+"https://www.nutrimea.com/products/whey-mix": {
+"checked": "2026-10-27",
+"net": 750.0,
+"protein": 73.3,
+"tested": false
+},
 "https://www.nutrimea.com/products/whey-mix-fr": {
 "checked": "2026-10-24",
 "net": 750.0,
