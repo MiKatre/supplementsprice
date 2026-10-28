@@ -111,6 +111,36 @@
 "protein": 78.0,
 "tested": false
 },
+"https://fr.myprotein.com/p/nutrition-sportive/myprotein-impact-whey-isolate-chocolate-smooth-30-servings-900g/17716565/": {
+"checked": "2026-10-28",
+"protein": 83.0,
+"tested": true
+},
+"https://fr.myprotein.com/p/nutrition-sportive/myprotein-impact-whey-isolate-natural-chocolate-30-servings-900g/17716512/": {
+"checked": "2026-10-28",
+"protein": 79.0,
+"tested": true
+},
+"https://fr.myprotein.com/p/nutrition-sportive/myprotein-impact-whey-isolate-natural-chocolate-90-servings-2700g/17716516/": {
+"checked": "2026-10-28",
+"protein": 79.0,
+"tested": true
+},
+"https://fr.myprotein.com/p/nutrition-sportive/myprotein-impact-whey-isolate-natural-vanilla-30-servings-900g/17716546/": {
+"checked": "2026-10-28",
+"protein": 83.0,
+"tested": true
+},
+"https://fr.myprotein.com/p/nutrition-sportive/myprotein-impact-whey-isolate-vanilla-30-servings-900g/17716566/": {
+"checked": "2026-10-28",
+"protein": 82.0,
+"tested": true
+},
+"https://fr.myprotein.com/p/nutrition-sportive/myprotein-impact-whey-isolate-vanilla-90-servings-2700g/17716572/": {
+"checked": "2026-10-28",
+"protein": 82.0,
+"tested": true
+},
 "https://fr.myprotein.com/p/nutrition-sportive/the-whey-saveur-pistache/14273015/": {
 "checked": "2026-10-18",
 "protein": 73.0,
@@ -134,6 +164,12 @@
 "protein": 73.0,
 "tested": false
 },
+"https://nutri9.es/products/100-whey-isolate-scitec-nutrition-700g": {
+"checked": "2026-10-28",
+"net": null,
+"protein": 83.0,
+"tested": false
+},
 "https://nutri9.es/products/100-whey-protein-700g-ostrovit": {
 "checked": "2026-10-18",
 "net": 700.0,
@@ -144,6 +180,12 @@
 "checked": "2026-10-18",
 "net": 700.0,
 "protein": 88.0,
+"tested": false
+},
+"https://nutri9.es/products/100-whey-protein-professional-scitec-nutrition": {
+"checked": "2026-10-28",
+"net": null,
+"protein": 73.0,
 "tested": false
 },
 "https://nutri9.es/products/critical-whey-protein-applied-nutrition": {
@@ -1719,6 +1761,51 @@
 "https://www.myprotein.es/p/nutricion-deportiva/myprotein-clear-whey-isolate-retail/12608168/": {
 "checked": "2026-10-20",
 "protein": 78.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-americano-2.52kg-90-servings/17716589/": {
+"checked": "2026-10-28",
+"protein": null,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-americano-420g-15-servings/17716587/": {
+"checked": "2026-10-28",
+"protein": null,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-americano-840g-30-servings/17716588/": {
+"checked": "2026-10-28",
+"protein": null,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-grass-fed-cocoa-naturally-derived-sweeteners-1kg/16795192/": {
+"checked": "2026-10-28",
+"protein": 79.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-milkshake-krispy-kreme-original-glazed-doughnut-15-servings-alt-2/18063345/": {
+"checked": "2026-10-28",
+"protein": 70.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-milkshake-krispy-kreme-original-glazed-doughnut-30-servings-alt-2/18063347/": {
+"checked": "2026-10-28",
+"protein": 70.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-natural-chocolate-30-servings-900g/17716512/": {
+"checked": "2026-10-28",
+"protein": 79.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-vanilla-30-servings-900g/17716566/": {
+"checked": "2026-10-28",
+"protein": 82.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-vanilla-90-servings-2700g/17716572/": {
+"checked": "2026-10-28",
+"protein": 82.0,
 "tested": true
 },
 "https://www.myprotein.es/p/nutricion-deportiva/proteina-de-suero-hidrolizada/10529805/": {
