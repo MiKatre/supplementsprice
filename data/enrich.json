@@ -492,6 +492,11 @@
 "protein": 80.0,
 "tested": true
 },
+"https://www.bulk.com/es/products/daily-whey/bpb-dwhe": {
+"checked": "2026-10-30",
+"protein": 57.0,
+"tested": true
+},
 "https://www.bulk.com/es/products/hero-whey/bble-hwhe": {
 "checked": "2026-10-18",
 "protein": 74.0,
@@ -545,6 +550,11 @@
 "https://www.bulk.com/fr/products/basic-whey-protein/bpb-vwhe": {
 "checked": "2026-10-18",
 "protein": 59.0,
+"tested": true
+},
+"https://www.bulk.com/fr/products/daily-whey/bpb-dwhe": {
+"checked": "2026-10-30",
+"protein": 57.0,
 "tested": true
 },
 "https://www.bulk.com/fr/products/hero-whey/bble-hwhe": {
