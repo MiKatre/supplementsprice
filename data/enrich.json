@@ -1079,6 +1079,11 @@
 "protein": 73.3,
 "tested": false
 },
+"https://www.fitadium.com/5514-100-pure-whey-2kg.html": {
+"checked": "2026-11-04",
+"protein": 71.4,
+"tested": false
+},
 "https://www.fitadium.com/5515-my-iso-whey-30g.html": {
 "checked": "2026-10-18",
 "protein": 83.3,
@@ -1177,6 +1182,16 @@
 "https://www.fitadium.com/6102-whey-isolate-optimum-1kg.html": {
 "checked": "2026-10-18",
 "protein": 81.0,
+"tested": false
+},
+"https://www.fitadium.com/6178-100-pure-whey-400g.html": {
+"checked": "2026-11-04",
+"protein": 71.4,
+"tested": false
+},
+"https://www.fitadium.com/6179-100-pure-whey-900g.html": {
+"checked": "2026-11-04",
+"protein": 71.4,
 "tested": false
 },
 "https://www.fitadium.com/674-100-whey-protein-5-scitec.html": {
