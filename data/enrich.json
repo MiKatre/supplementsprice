@@ -188,6 +188,12 @@
 "protein": 73.0,
 "tested": false
 },
+"https://nutri9.es/products/creatine-chews-lima-applied-nutrition-90-gomas": {
+"checked": "2026-11-05",
+"net": null,
+"protein": null,
+"tested": true
+},
 "https://nutri9.es/products/critical-whey-protein-applied-nutrition": {
 "checked": "2026-10-18",
 "net": null,
@@ -1741,6 +1747,11 @@
 "https://www.myprotein.es/p/nutricion-deportiva/hidrolizado-de-proteina-de-ternera-aislada/10902405/": {
 "checked": "2026-10-18",
 "protein": 87.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/impact-whey-isolate-chupa-chups-chocolate-vainilla/18078643/": {
+"checked": "2026-11-05",
+"protein": null,
 "tested": true
 },
 "https://www.myprotein.es/p/nutricion-deportiva/impact-whey-isolate-de-vacas-alimentadas-con-pasto/16795191/": {
