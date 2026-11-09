@@ -1051,6 +1051,11 @@
 "protein": 79.0,
 "tested": true
 },
+"https://www.fitadium.com/5417-whey-shake-1000g.html": {
+"checked": "2026-11-09",
+"protein": 72.0,
+"tested": false
+},
 "https://www.fitadium.com/5440-c4-whey-protein-770g.html": {
 "checked": "2026-10-18",
 "protein": 72.5,
