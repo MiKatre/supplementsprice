@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:48:27+00:00",
+ "generated_at": "2026-11-10T13:38:14+00:00",
  "sources": {
   "nutrimuscle": {
    "name": "Nutrimuscle",
@@ -133,6 +133,18 @@
    "checked_at": "2026-11-10T11:27:35+00:00",
    "seconds": 2.0
   },
+  "hsn": {
+   "name": "HSN",
+   "market": "ES",
+   "url": "https://www.hsnstore.com",
+   "adapter": "hsn",
+   "status": "blocked",
+   "error": "Blocked: HTTP 403 / 'Un momento…' for https://www.hsnstore.com/nutricion-deportiva/proteinas",
+   "kept_offers": 26,
+   "last_ok": "2026-10-27T09:55:02+00:00",
+   "checked_at": "2026-11-10T12:48:27+00:00",
+   "seconds": 50.9
+  },
   "decathlon-es": {
    "name": "Decathlon España",
    "market": "ES",
@@ -208,22 +220,22 @@
    "market": "ES",
    "url": "https://www.amazon.es",
    "adapter": "amazon",
-   "status": "failed",
-   "error": "RuntimeError: no results on 'Lo sentimos.' (https://www.amazon.es/s?k=creatina%20monohidrato)",
-   "kept_offers": 5,
-   "last_ok": "2026-10-23T10:15:44+00:00",
-   "checked_at": "2026-11-09T14:06:13+00:00",
-   "seconds": 4.1
+   "status": "ok",
+   "offers": 8,
+   "checked_at": "2026-11-10T13:38:14+00:00",
+   "seconds": 40.5
   },
   "amazon-fr": {
    "name": "Amazon.fr",
    "market": "FR",
    "url": "https://www.amazon.fr",
    "adapter": "amazon",
-   "status": "ok",
-   "offers": 8,
-   "checked_at": "2026-11-09T14:06:13+00:00",
-   "seconds": 39.8
+   "status": "failed",
+   "error": "RuntimeError: no results on 'Toutes nos excuses' (https://www.amazon.fr/s?k=cr%C3%A9atine%20monohydrate)",
+   "kept_offers": 8,
+   "last_ok": "2026-11-09T14:06:13+00:00",
+   "checked_at": "2026-11-10T13:38:14+00:00",
+   "seconds": 6.2
   },
   "masmusculo": {
    "name": "MASmusculo",
@@ -234,8 +246,8 @@
    "error": "RuntimeError: returned no creatine or whey offers",
    "kept_offers": 95,
    "last_ok": "2026-10-18T11:28:06+00:00",
-   "checked_at": "2026-11-09T14:06:13+00:00",
-   "seconds": 21.5
+   "checked_at": "2026-11-10T13:38:14+00:00",
+   "seconds": 20.8
   },
   "fitadium": {
    "name": "Fitadium",
@@ -243,21 +255,9 @@
    "url": "https://www.fitadium.com",
    "adapter": "jsonld",
    "status": "ok",
-   "offers": 150,
-   "checked_at": "2026-11-09T14:06:13+00:00",
-   "seconds": 307.5
-  },
-  "nutritienda": {
-   "name": "Nutritienda",
-   "market": "ES",
-   "url": "https://www.nutritienda.com/es/",
-   "adapter": "jsonld",
-   "status": "blocked",
-   "error": "Blocked: HTTP 403 (in-browser) for https://www.nutritienda.com/es/creatina-monohidrato",
-   "kept_offers": 21,
-   "last_ok": "2026-10-27T10:43:21+00:00",
-   "checked_at": "2026-11-09T14:06:13+00:00",
-   "seconds": 5.8
+   "offers": 149,
+   "checked_at": "2026-11-10T13:38:14+00:00",
+   "seconds": 321.6
   },
   "bulk-fr": {
    "name": "Bulk",
@@ -278,20 +278,20 @@
    "error": "Blocked: HTTP 403 / 'Un momento…' for https://www.goldnutricion.es/",
    "kept_offers": 17,
    "last_ok": "2026-11-07T11:50:09+00:00",
-   "checked_at": "2026-11-09T14:06:13+00:00",
-   "seconds": 44.3
+   "checked_at": "2026-11-10T13:38:14+00:00",
+   "seconds": 44.2
   },
-  "hsn": {
-   "name": "HSN",
+  "nutritienda": {
+   "name": "Nutritienda",
    "market": "ES",
-   "url": "https://www.hsnstore.com",
-   "adapter": "hsn",
+   "url": "https://www.nutritienda.com/es/",
+   "adapter": "jsonld",
    "status": "blocked",
-   "error": "Blocked: HTTP 403 / 'Un momento…' for https://www.hsnstore.com/nutricion-deportiva/proteinas",
-   "kept_offers": 26,
-   "last_ok": "2026-10-27T09:55:02+00:00",
-   "checked_at": "2026-11-10T12:48:27+00:00",
-   "seconds": 50.9
+   "error": "Blocked: HTTP 403 (in-browser) for https://www.nutritienda.com/es/creatina-monohidrato",
+   "kept_offers": 21,
+   "last_ok": "2026-10-27T10:43:21+00:00",
+   "checked_at": "2026-11-10T13:38:14+00:00",
+   "seconds": 4.1
   }
  },
  "offers": [
@@ -1742,7 +1742,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 33.27
   },
   {
@@ -1867,7 +1867,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 35.98
   },
   {
@@ -2392,7 +2392,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 42.71
   },
   {
@@ -2467,7 +2467,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 44.9
   },
   {
@@ -2892,7 +2892,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 49.95
   },
   {
@@ -2942,7 +2942,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 49.98
   },
   {
@@ -3019,6 +3019,31 @@
    "note": "",
    "captured_at": "2026-11-10T12:48:27+00:00",
    "eur_kg": 51.8
+  },
+  {
+   "shop": "fitadium",
+   "market": "FR",
+   "kind": "creatine",
+   "product": "Creatine Monohydrate Powder (250g)",
+   "url": "https://www.fitadium.com/5964-creatine-monohydrate-powder-250g.html",
+   "grams": 250.0,
+   "price": 12.99,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": "Olimp Sport Nutrition",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 51.96
   },
   {
    "shop": "decathlon-es",
@@ -3167,7 +3192,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 54.51
   },
   {
@@ -3517,7 +3542,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 56.42
   },
   {
@@ -3549,6 +3574,31 @@
    "shop": "fitadium",
    "market": "FR",
    "kind": "creatine",
+   "product": "Creatine Xplode Powder (500g)",
+   "url": "https://www.fitadium.com/5955-creatine-xplode-powder-500g.html",
+   "grams": 500.0,
+   "price": 28.49,
+   "list_price": null,
+   "available": false,
+   "flavours": 1,
+   "brand": "Olimp Sport Nutrition",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 56.98
+  },
+  {
+   "shop": "fitadium",
+   "market": "FR",
+   "kind": "creatine",
    "product": "Creatine Monohydrate Micronized (500g)",
    "url": "https://www.fitadium.com/3993-creatine-monohydrate-micronized-500g.html",
    "grams": 500.0,
@@ -3567,7 +3617,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 57.8
   },
   {
@@ -3942,7 +3992,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 59.8
   },
   {
@@ -4067,7 +4117,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 59.96
   },
   {
@@ -4192,7 +4242,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 59.98
   },
   {
@@ -4217,7 +4267,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 59.98
   },
   {
@@ -4242,7 +4292,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 59.98
   },
   {
@@ -4317,7 +4367,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 62.5
   },
   {
@@ -4543,6 +4593,31 @@
    "method": "page",
    "note": "",
    "captured_at": "2026-10-18T11:28:06+00:00",
+   "eur_kg": 63.9
+  },
+  {
+   "shop": "fitadium",
+   "market": "FR",
+   "kind": "creatine",
+   "product": "100% Creatine Monohydrate (1000g)",
+   "url": "https://www.fitadium.com/6193-100-creatine-monohydrate-1000g.html",
+   "grams": 1000.0,
+   "price": 63.9,
+   "list_price": null,
+   "available": false,
+   "flavours": 1,
+   "brand": "Biotech USA",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 63.9
   },
   {
@@ -4917,7 +4992,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 66.33
   },
   {
@@ -5317,7 +5392,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 69.98
   },
   {
@@ -5746,31 +5821,6 @@
    "eur_kg": 74.75
   },
   {
-   "shop": "fitadium",
-   "market": "FR",
-   "kind": "creatine",
-   "product": "Platinum Creatine (400g)",
-   "url": "https://www.fitadium.com/5915-platinum-creatine-400g.html",
-   "grams": 400.0,
-   "price": 29.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Muscletech",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
-   "eur_kg": 74.75
-  },
-  {
    "shop": "decathlon-fr",
    "market": "FR",
    "kind": "creatine",
@@ -5892,7 +5942,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 77.22
   },
   {
@@ -6092,7 +6142,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 78.85
   },
   {
@@ -6192,33 +6242,8 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 79.6
-  },
-  {
-   "shop": "fitadium",
-   "market": "FR",
-   "kind": "creatine",
-   "product": "Creatine Pro Zero (300g)",
-   "url": "https://www.fitadium.com/5832-creatine-pro-zero-300g.html",
-   "grams": 300.0,
-   "price": 23.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Eric favre",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
-   "eur_kg": 79.67
   },
   {
    "shop": "masmusculo",
@@ -6492,7 +6517,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 80.53
   },
   {
@@ -6592,7 +6617,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 83.0
   },
   {
@@ -6667,7 +6692,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 83.25
   },
   {
@@ -6692,7 +6717,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 83.3
   },
   {
@@ -7246,31 +7271,6 @@
    "eur_kg": 89.67
   },
   {
-   "shop": "fitadium",
-   "market": "FR",
-   "kind": "creatine",
-   "product": "Clear Pro Creatine (300g)",
-   "url": "https://www.fitadium.com/5828-clear-pro-creatine-300g.html",
-   "grams": 300.0,
-   "price": 26.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Eric favre",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
-   "eur_kg": 89.67
-  },
-  {
    "shop": "nutritienda",
    "market": "ES",
    "kind": "creatine",
@@ -7492,7 +7492,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 91.18
   },
   {
@@ -7567,7 +7567,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 91.45
   },
   {
@@ -7667,7 +7667,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 91.8
   },
   {
@@ -7717,7 +7717,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 91.96
   },
   {
@@ -7817,7 +7817,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 92.98
   },
   {
@@ -7917,7 +7917,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 96.2
   },
   {
@@ -7967,7 +7967,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 97.39
   },
   {
@@ -8192,7 +8192,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.5
   },
   {
@@ -8467,7 +8467,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.67
   },
   {
@@ -8492,7 +8492,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.67
   },
   {
@@ -8517,7 +8517,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.67
   },
   {
@@ -8542,7 +8542,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.67
   },
   {
@@ -8617,7 +8617,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.8
   },
   {
@@ -8642,7 +8642,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.83
   },
   {
@@ -8717,7 +8717,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.86
   },
   {
@@ -8846,31 +8846,6 @@
    "eur_kg": 99.97
   },
   {
-   "shop": "fitadium",
-   "market": "FR",
-   "kind": "creatine",
-   "product": "Creatine Creapure® (150g)",
-   "url": "https://www.fitadium.com/4564-creatine-creapure-150g.html",
-   "grams": 150.0,
-   "price": 15.25,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Nutrimuscle",
-   "seller": null,
-   "creapure": true,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
-   "eur_kg": 101.67
-  },
-  {
    "shop": "crown",
    "market": "ES",
    "kind": "creatine",
@@ -8967,7 +8942,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 104.92
   },
   {
@@ -9192,7 +9167,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 106.02
   },
   {
@@ -9517,7 +9492,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 110.56
   },
   {
@@ -9592,7 +9567,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 114.05
   },
   {
@@ -9642,7 +9617,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 114.14
   },
   {
@@ -9792,7 +9767,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 114.26
   },
   {
@@ -11133,31 +11108,6 @@
    "eur_kg": 27.21
   },
   {
-   "shop": "amazon-es",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Big Iso Aislado Proteina Cream 1 kG, Sin Sabor, One size, Vanilla",
-   "url": "https://www.amazon.es/dp/B07PPWRJYD",
-   "grams": 1000.0,
-   "price": 27.38,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": null,
-   "seller": null,
-   "creapure": false,
-   "whey_type": "isolate",
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": true,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "browser",
-   "note": "",
-   "captured_at": "2026-10-23T10:15:44+00:00",
-   "eur_kg": 27.38
-  },
-  {
    "shop": "myprotein-es",
    "market": "ES",
    "kind": "whey",
@@ -11764,31 +11714,6 @@
    "eur_kg": 28.93
   },
   {
-   "shop": "nutritienda",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Scitec Whey Infusion 2 kg",
-   "url": "https://www.nutritienda.com/es/scitec/whey-infusion-2-kg",
-   "grams": 2000.0,
-   "price": 59.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 3,
-   "brand": "Scitec",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-10-27T10:43:21+00:00",
-   "eur_kg": 29.95
-  },
-  {
    "shop": "goldnutricion",
    "market": "ES",
    "kind": "whey",
@@ -11811,6 +11736,31 @@
    "method": "page",
    "note": "",
    "captured_at": "2026-11-07T11:50:09+00:00",
+   "eur_kg": 29.95
+  },
+  {
+   "shop": "nutritienda",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Scitec Whey Infusion 2 kg",
+   "url": "https://www.nutritienda.com/es/scitec/whey-infusion-2-kg",
+   "grams": 2000.0,
+   "price": 59.9,
+   "list_price": null,
+   "available": true,
+   "flavours": 3,
+   "brand": "Scitec",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-10-27T10:43:21+00:00",
    "eur_kg": 29.95
   },
   {
@@ -12466,6 +12416,58 @@
    "eur_kg": 30.0
   },
   {
+   "shop": "hsn",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Evowhey protein",
+   "url": "https://www.hsnstore.com/marcas/sport-series/evowhey-protein",
+   "grams": 2000.0,
+   "price": 59.99,
+   "list_price": 89.99,
+   "available": true,
+   "flavours": 63,
+   "brand": "Sport Series",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": 78.0,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-10-27T09:55:02+00:00",
+   "eur_kg": 30.0,
+   "eur_kg_protein": 38.46
+  },
+  {
+   "shop": "hsn",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Evowhey protein sin edulcorantes",
+   "url": "https://www.hsnstore.com/marcas/sport-series/evowhey-protein-sin-edulcorantes",
+   "grams": 2000.0,
+   "price": 59.99,
+   "list_price": 89.99,
+   "available": true,
+   "flavours": 8,
+   "brand": "Sport Series",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": 74.0,
+   "unflavoured": false,
+   "sweetener_free": true,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-10-27T09:55:02+00:00",
+   "eur_kg": 30.0,
+   "eur_kg_protein": 40.54
+  },
+  {
    "shop": "myprotein-fr",
    "market": "FR",
    "kind": "whey",
@@ -12542,58 +12544,6 @@
    "captured_at": "2026-11-10T12:48:27+00:00",
    "eur_kg": 30.0,
    "eur_kg_protein": 44.12
-  },
-  {
-   "shop": "hsn",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Evowhey protein",
-   "url": "https://www.hsnstore.com/marcas/sport-series/evowhey-protein",
-   "grams": 2000.0,
-   "price": 59.99,
-   "list_price": 89.99,
-   "available": true,
-   "flavours": 63,
-   "brand": "Sport Series",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": 78.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "browser",
-   "note": "",
-   "captured_at": "2026-10-27T09:55:02+00:00",
-   "eur_kg": 30.0,
-   "eur_kg_protein": 38.46
-  },
-  {
-   "shop": "hsn",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Evowhey protein sin edulcorantes",
-   "url": "https://www.hsnstore.com/marcas/sport-series/evowhey-protein-sin-edulcorantes",
-   "grams": 2000.0,
-   "price": 59.99,
-   "list_price": 89.99,
-   "available": true,
-   "flavours": 8,
-   "brand": "Sport Series",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": 74.0,
-   "unflavoured": false,
-   "sweetener_free": true,
-   "tested": false,
-   "method": "browser",
-   "note": "",
-   "captured_at": "2026-10-27T09:55:02+00:00",
-   "eur_kg": 30.0,
-   "eur_kg_protein": 40.54
   },
   {
    "shop": "masmusculo",
@@ -13052,7 +13002,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 32.45,
    "eur_kg_protein": 43.85
   },
@@ -13080,6 +13030,32 @@
    "note": "",
    "captured_at": "2026-11-10T11:27:35+00:00",
    "eur_kg": 32.49
+  },
+  {
+   "shop": "hsn",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Evoexcel (whey protein isolate + concentrate)",
+   "url": "https://www.hsnstore.com/marcas/sport-series/evoexcel-whey-protein-isolate-concentrate",
+   "grams": 2000.0,
+   "price": 64.99,
+   "list_price": 111.99,
+   "available": true,
+   "flavours": 10,
+   "brand": "Sport Series",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "blend",
+   "native": false,
+   "protein_100g": 81.0,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-10-27T09:55:02+00:00",
+   "eur_kg": 32.49,
+   "eur_kg_protein": 40.11
   },
   {
    "shop": "bulk-es",
@@ -13184,32 +13160,6 @@
    "captured_at": "2026-11-10T12:48:27+00:00",
    "eur_kg": 32.49,
    "eur_kg_protein": 45.76
-  },
-  {
-   "shop": "hsn",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Evoexcel (whey protein isolate + concentrate)",
-   "url": "https://www.hsnstore.com/marcas/sport-series/evoexcel-whey-protein-isolate-concentrate",
-   "grams": 2000.0,
-   "price": 64.99,
-   "list_price": 111.99,
-   "available": true,
-   "flavours": 10,
-   "brand": "Sport Series",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "blend",
-   "native": false,
-   "protein_100g": 81.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "browser",
-   "note": "",
-   "captured_at": "2026-10-27T09:55:02+00:00",
-   "eur_kg": 32.49,
-   "eur_kg_protein": 40.11
   },
   {
    "shop": "fitnessboutique",
@@ -13818,7 +13768,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 33.45,
    "eur_kg_protein": 46.27
   },
@@ -13875,6 +13825,32 @@
    "eur_kg_protein": 46.51
   },
   {
+   "shop": "hsn",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Evoexcel (whey protein isolate + concentrate)",
+   "url": "https://www.hsnstore.com/marcas/sport-series/evoexcel-whey-protein-isolate-concentrate",
+   "grams": 500.0,
+   "price": 17.0,
+   "list_price": 29.99,
+   "available": true,
+   "flavours": 10,
+   "brand": "Sport Series",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "blend",
+   "native": false,
+   "protein_100g": 81.0,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-10-27T09:55:02+00:00",
+   "eur_kg": 34.0,
+   "eur_kg_protein": 41.98
+  },
+  {
    "shop": "bulk-es",
    "market": "ES",
    "kind": "whey",
@@ -13925,32 +13901,6 @@
    "captured_at": "2026-11-10T12:48:27+00:00",
    "eur_kg": 34.0,
    "eur_kg_protein": 47.89
-  },
-  {
-   "shop": "hsn",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Evoexcel (whey protein isolate + concentrate)",
-   "url": "https://www.hsnstore.com/marcas/sport-series/evoexcel-whey-protein-isolate-concentrate",
-   "grams": 500.0,
-   "price": 17.0,
-   "list_price": 29.99,
-   "available": true,
-   "flavours": 10,
-   "brand": "Sport Series",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "blend",
-   "native": false,
-   "protein_100g": 81.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "browser",
-   "note": "",
-   "captured_at": "2026-10-27T09:55:02+00:00",
-   "eur_kg": 34.0,
-   "eur_kg_protein": 41.98
   },
   {
    "shop": "hsn",
@@ -14236,31 +14186,6 @@
    "captured_at": "2026-10-18T11:28:06+00:00",
    "eur_kg": 34.95,
    "eur_kg_protein": 47.23
-  },
-  {
-   "shop": "amazon-es",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Whey Proteína Vainilla 1000 g – Proteína de suero en polvo con 78% de proteínas – 33 porciones – Batido de proteínas para el desarrollo musc",
-   "url": "https://www.amazon.es/dp/B0FF38F8LT",
-   "grams": 1000.0,
-   "price": 34.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": null,
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "browser",
-   "note": "",
-   "captured_at": "2026-10-23T10:15:44+00:00",
-   "eur_kg": 34.99
   },
   {
    "shop": "myprotein-es",
@@ -14775,7 +14700,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 36.09,
    "eur_kg_protein": 49.24
   },
@@ -15033,7 +14958,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 36.45,
    "eur_kg_protein": 45.0
   },
@@ -15111,7 +15036,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 36.52,
    "eur_kg_protein": 50.23
   },
@@ -15368,7 +15293,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 37.0,
    "eur_kg_protein": 47.44
   },
@@ -15651,7 +15576,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 37.45,
    "eur_kg_protein": 49.28
   },
@@ -15677,7 +15602,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 37.45,
    "eur_kg_protein": 48.64
   },
@@ -15703,7 +15628,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 37.45,
    "eur_kg_protein": 55.9
   },
@@ -17015,7 +16940,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 39.9,
    "eur_kg_protein": 52.5
   },
@@ -17041,7 +16966,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 39.9,
    "eur_kg_protein": 55.42
   },
@@ -17529,7 +17454,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 40.48,
    "eur_kg_protein": 55.68
   },
@@ -18014,7 +17939,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 41.23,
    "eur_kg_protein": 56.25
   },
@@ -18065,7 +17990,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 41.47,
    "eur_kg_protein": 57.6
   },
@@ -18655,7 +18580,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 42.45,
    "eur_kg_protein": 57.76
   },
@@ -18733,7 +18658,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 42.48,
    "eur_kg_protein": 54.46
   },
@@ -18861,7 +18786,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 42.95,
    "eur_kg_protein": 55.49
   },
@@ -19404,7 +19329,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 43.45,
    "eur_kg_protein": 54.31
   },
@@ -19508,7 +19433,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 43.69,
    "eur_kg_protein": 60.26
   },
@@ -19534,7 +19459,7 @@
    "tested": false,
    "method": "browser",
    "note": "",
-   "captured_at": "2026-10-23T10:15:44+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 43.7
   },
   {
@@ -20959,7 +20884,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 44.95,
    "eur_kg_protein": 64.21
   },
@@ -20985,7 +20910,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 44.95,
    "eur_kg_protein": 62.96
   },
@@ -21011,7 +20936,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 44.95,
    "eur_kg_protein": 63.22
   },
@@ -21137,7 +21062,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 45.05,
    "eur_kg_protein": 58.51
   },
@@ -21395,7 +21320,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 45.57,
    "eur_kg_protein": 50.63
   },
@@ -21447,7 +21372,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 45.75,
    "eur_kg_protein": 65.11
   },
@@ -21860,7 +21785,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 46.25,
    "eur_kg_protein": 62.25
   },
@@ -21886,7 +21811,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 46.45,
    "eur_kg_protein": 51.21
   },
@@ -22170,7 +22095,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 46.9,
    "eur_kg_protein": 63.98
   },
@@ -22196,7 +22121,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 47.25,
    "eur_kg_protein": 58.33
   },
@@ -22500,7 +22425,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 47.45,
    "eur_kg_protein": 64.73
   },
@@ -22526,7 +22451,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 47.45,
    "eur_kg_protein": 59.31
   },
@@ -22835,7 +22760,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 47.9,
    "eur_kg_protein": 67.46
   },
@@ -22861,7 +22786,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 47.9,
    "eur_kg_protein": 59.14
   },
@@ -23245,7 +23170,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 48.42,
    "eur_kg_protein": 66.6
   },
@@ -23322,7 +23247,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 48.45,
    "eur_kg_protein": 62.12
   },
@@ -23681,7 +23606,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 49.89,
    "eur_kg_protein": 68.06
   },
@@ -23707,7 +23632,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 49.89,
    "eur_kg_protein": 71.27
   },
@@ -23962,7 +23887,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 49.9,
    "eur_kg_protein": 62.37
   },
@@ -24552,7 +24477,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 50.5,
    "eur_kg_protein": 67.97
   },
@@ -24708,7 +24633,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 50.73,
    "eur_kg_protein": 67.64
   },
@@ -25171,7 +25096,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 51.82,
    "eur_kg_protein": 71.48
   },
@@ -25682,7 +25607,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 52.93,
    "eur_kg_protein": 67.86
   },
@@ -25867,6 +25792,31 @@
    "eur_kg_protein": 61.15
   },
   {
+   "shop": "amazon-es",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Olimp Sport Nutrition Whey Protein Complex 100% Vanille 700 g",
+   "url": "https://www.amazon.es/dp/B074QMMGBS",
+   "grams": 700.0,
+   "price": 37.26,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": null,
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 53.23
+  },
+  {
    "shop": "nutrimuscle",
    "market": "FR",
    "kind": "whey",
@@ -25913,7 +25863,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 53.32,
    "eur_kg_protein": 74.06
   },
@@ -25990,7 +25940,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 53.36,
    "eur_kg_protein": 59.96
   },
@@ -26096,31 +26046,6 @@
    "note": "",
    "captured_at": "2026-11-09T14:06:13+00:00",
    "eur_kg": 53.6
-  },
-  {
-   "shop": "amazon-es",
-   "market": "ES",
-   "kind": "whey",
-   "product": "100% Pure All Natural Whey Protein - Stevia - 454G",
-   "url": "https://www.amazon.es/dp/B07RHPFC8F",
-   "grams": 454.0,
-   "price": 24.36,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": null,
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": true,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "browser",
-   "note": "",
-   "captured_at": "2026-10-23T10:15:44+00:00",
-   "eur_kg": 53.66
   },
   {
    "shop": "bodyandfit",
@@ -26447,7 +26372,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 54.5,
    "eur_kg_protein": 63.37
   },
@@ -26550,7 +26475,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 54.83,
    "eur_kg_protein": 69.41
   },
@@ -26702,7 +26627,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 54.9,
    "eur_kg_protein": 63.97
   },
@@ -26780,7 +26705,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 54.96,
    "eur_kg_protein": 74.27
   },
@@ -27163,7 +27088,7 @@
    "tested": false,
    "method": "browser",
    "note": "",
-   "captured_at": "2026-10-23T10:15:44+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 55.39
   },
   {
@@ -27214,7 +27139,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 55.5,
    "eur_kg_protein": 76.03
   },
@@ -27240,7 +27165,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 55.5,
    "eur_kg_protein": 66.63
   },
@@ -27443,7 +27368,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 55.54,
    "eur_kg_protein": 74.95
   },
@@ -28053,7 +27978,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 56.6,
    "eur_kg_protein": 68.19
   },
@@ -28769,7 +28694,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 57.76,
    "eur_kg_protein": 68.76
   },
@@ -29072,7 +28997,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 58.28,
    "eur_kg_protein": 72.85
   },
@@ -29557,7 +29482,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 59.71,
    "eur_kg_protein": 74.64
   },
@@ -30287,7 +30212,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 59.95,
    "eur_kg_protein": 69.15
   },
@@ -30723,9 +30648,34 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 60.56,
    "eur_kg_protein": 81.84
+  },
+  {
+   "shop": "amazon-es",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Optimum Nutrition Gold Standard 100% Whey, Double Rich Chocolate - 2263g",
+   "url": "https://www.amazon.es/dp/B087JGQX5S",
+   "grams": 2263.0,
+   "price": 137.14,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": null,
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 60.6
   },
   {
    "shop": "masmusculo",
@@ -31133,7 +31083,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 61.8,
    "eur_kg_protein": 73.57
   },
@@ -31184,9 +31134,34 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 62.11,
    "eur_kg_protein": 84.73
+  },
+  {
+   "shop": "amazon-es",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Allnutrition Whey Delicious Coconut 2270G",
+   "url": "https://www.amazon.es/dp/B0BJ7VLP7W",
+   "grams": 2270.0,
+   "price": 141.17,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": null,
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 62.19
   },
   {
    "shop": "toutelanutrition",
@@ -31336,7 +31311,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 62.45,
    "eur_kg_protein": 75.61
   },
@@ -31569,7 +31544,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 62.72,
    "eur_kg_protein": 74.67
   },
@@ -31647,7 +31622,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 62.81,
    "eur_kg_protein": 79.51
   },
@@ -31799,7 +31774,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 63.22,
    "eur_kg_protein": 88.54
   },
@@ -32541,7 +32516,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 65.58,
    "eur_kg_protein": 79.01
   },
@@ -32618,7 +32593,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 65.76,
    "eur_kg_protein": 88.74
   },
@@ -32644,7 +32619,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 65.95,
    "eur_kg_protein": 81.22
   },
@@ -32773,7 +32748,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 66.56,
    "eur_kg_protein": 84.25
   },
@@ -32799,7 +32774,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 66.56,
    "eur_kg_protein": 79.24
   },
@@ -33226,7 +33201,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 67.38,
    "eur_kg_protein": 84.22
   },
@@ -33462,6 +33437,31 @@
    "eur_kg_protein": 76.67
   },
   {
+   "shop": "amazon-es",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Optimum nutrition Whey gold standard - 2,25 kg Delicious Strawberry",
+   "url": "https://www.amazon.es/dp/B074K3V51C",
+   "grams": 2250.0,
+   "price": 154.0,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": null,
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 68.44
+  },
+  {
    "shop": "fitnessboutique",
    "market": "FR",
    "kind": "whey",
@@ -33661,7 +33661,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 69.8,
    "eur_kg_protein": 95.23
   },
@@ -33821,6 +33821,31 @@
    "eur_kg_protein": 98.04
   },
   {
+   "shop": "amazon-es",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Optimum nutrition Whey gold standard - 2,25 kg Extreme milk Chocolate",
+   "url": "https://www.amazon.es/dp/B08BHC2MJD",
+   "grams": 2250.0,
+   "price": 158.0,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": null,
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 70.22
+  },
+  {
    "shop": "toutelanutrition",
    "market": "FR",
    "kind": "whey",
@@ -33893,7 +33918,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 70.54,
    "eur_kg_protein": 96.63
   },
@@ -34096,7 +34121,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 71.19,
    "eur_kg_protein": 85.46
   },
@@ -34147,7 +34172,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 71.3,
    "eur_kg_protein": 79.22
   },
@@ -34276,7 +34301,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 71.48,
    "eur_kg_protein": 82.16
   },
@@ -34327,7 +34352,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 71.8,
    "eur_kg_protein": 86.51
   },
@@ -34456,7 +34481,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 73.2,
    "eur_kg_protein": 87.14
   },
@@ -34482,7 +34507,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 73.22,
    "eur_kg_protein": 87.17
   },
@@ -34559,7 +34584,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 73.31,
    "eur_kg_protein": 88.33
   },
@@ -34585,7 +34610,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 73.68,
    "eur_kg_protein": 84.98
   },
@@ -34815,7 +34840,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 75.53,
    "eur_kg_protein": 95.61
   },
@@ -34841,7 +34866,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 75.68,
    "eur_kg_protein": 104.1
   },
@@ -35143,7 +35168,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 76.51,
    "eur_kg_protein": 90.01
   },
@@ -35244,7 +35269,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 76.63,
    "eur_kg_protein": 100.83
   },
@@ -35475,7 +35500,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 76.98,
    "eur_kg_protein": 91.64
   },
@@ -35629,7 +35654,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 78.16,
    "eur_kg_protein": 95.32
   },
@@ -35808,7 +35833,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 80.28,
    "eur_kg_protein": 102.92
   },
@@ -35860,7 +35885,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 81.39,
    "eur_kg_protein": 90.43
   },
@@ -35912,7 +35937,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 82.25,
    "eur_kg_protein": 115.2
   },
@@ -36043,6 +36068,31 @@
    "eur_kg": 85.71
   },
   {
+   "shop": "amazon-es",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Optimum Nutrition Gold Estándar 100% Proteína de Suero en Polvo, Deliciosa Fresa 910 g",
+   "url": "https://www.amazon.es/dp/B07V4L31NT",
+   "grams": 910.0,
+   "price": 78.0,
+   "list_price": 85.9,
+   "available": true,
+   "flavours": 1,
+   "brand": null,
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "browser",
+   "note": "",
+   "captured_at": "2026-11-10T13:38:14+00:00",
+   "eur_kg": 85.71
+  },
+  {
    "shop": "toutelanutrition",
    "market": "FR",
    "kind": "whey",
@@ -36090,7 +36140,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 85.76,
    "eur_kg_protein": 107.2
   },
@@ -36116,7 +36166,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 85.95,
    "eur_kg_protein": 108.8
   },
@@ -36242,7 +36292,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 87.89,
    "eur_kg_protein": 101.02
   },
@@ -36268,7 +36318,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 87.98,
    "eur_kg_protein": 107.29
   },
@@ -36294,7 +36344,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 89.67,
    "eur_kg_protein": 122.33
   },
@@ -36345,7 +36395,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 90.12,
    "eur_kg_protein": 120.16
   },
@@ -36472,7 +36522,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 91.29,
    "eur_kg_protein": 109.99
   },
@@ -36724,7 +36774,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 94.7,
    "eur_kg_protein": 118.38
   },
@@ -36776,7 +36826,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 97.8,
    "eur_kg_protein": 128.68
   },
@@ -36952,7 +37002,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 98.9,
    "eur_kg_protein": 117.74
   },
@@ -37003,7 +37053,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 99.98,
    "eur_kg_protein": 166.63
   },
@@ -37054,7 +37104,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 112.25,
    "eur_kg_protein": 133.63
   },
@@ -37155,7 +37205,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-09T14:06:13+00:00",
+   "captured_at": "2026-11-10T13:38:14+00:00",
    "eur_kg": 117.82,
    "eur_kg_protein": 168.31
   },
