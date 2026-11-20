@@ -2261,19 +2261,19 @@
 "tested": false
 },
 "https://www.toutelanutrition.com/products/100-whey-gold-isolate": {
-"checked": "2026-10-20",
+"checked": "2026-11-20",
 "net": null,
-"protein": 83.3,
+"protein": null,
 "tested": false
 },
 "https://www.toutelanutrition.com/products/100-whey-gold-standard": {
-"checked": "2026-10-20",
+"checked": "2026-11-20",
 "net": null,
 "protein": null,
 "tested": false
 },
 "https://www.toutelanutrition.com/products/clear-protein": {
-"checked": "2026-10-20",
+"checked": "2026-11-20",
 "net": null,
 "protein": null,
 "tested": false
@@ -2351,9 +2351,9 @@
 "tested": false
 },
 "https://www.toutelanutrition.com/products/snickers-protein-powder": {
-"checked": "2026-10-20",
-"net": 875.0,
-"protein": 57.1,
+"checked": "2026-11-20",
+"net": null,
+"protein": null,
 "tested": false
 },
 "https://www.toutelanutrition.com/products/whey-ht": {
