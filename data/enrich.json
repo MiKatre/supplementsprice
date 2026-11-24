@@ -111,6 +111,11 @@
 "protein": 76.0,
 "tested": false
 },
+"https://fr.myprotein.com/p/nutrition-sportive/myprotein-clear-whey-isolate/12608168/": {
+"checked": "2026-11-24",
+"protein": 76.0,
+"tested": false
+},
 "https://fr.myprotein.com/p/nutrition-sportive/myprotein-impact-whey-isolate-chocolate-smooth-30-servings-900g/17716565/": {
 "checked": "2026-10-28",
 "protein": 83.0,
@@ -1829,6 +1834,11 @@
 "https://www.myprotein.es/p/nutricion-deportiva/myprotein-clear-whey-isolate-retail/12608168/": {
 "checked": "2026-10-20",
 "protein": 78.0,
+"tested": true
+},
+"https://www.myprotein.es/p/nutricion-deportiva/myprotein-clear-whey-isolate/12608168/": {
+"checked": "2026-11-24",
+"protein": 76.0,
 "tested": true
 },
 "https://www.myprotein.es/p/nutricion-deportiva/myprotein-impact-whey-isolate-americano-2.52kg-90-servings/17716589/": {
