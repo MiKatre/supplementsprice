@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T16:02:05+00:00",
+ "generated_at": "2026-11-25T13:13:41+00:00",
  "sources": {
   "nutrimuscle": {
    "name": "Nutrimuscle",
@@ -7,11 +7,11 @@
    "url": "https://www.nutrimuscle.com",
    "adapter": "shopify",
    "status": "blocked",
-   "error": "Blocked: HTTP 403 (in-browser) for https://www.nutrimuscle.com/products.json?limit=250&page=1",
+   "error": "Blocked: HTTP 403 / 'Un momento…' for https://www.nutrimuscle.com/",
    "kept_offers": 27,
    "last_ok": "2026-11-03T11:05:01+00:00",
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 7.1
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 45.9
   },
   "toutelanutrition": {
    "name": "Toutelanutrition",
@@ -20,8 +20,8 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 42,
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 3.5
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 3.6
   },
   "novoma": {
    "name": "Novoma",
@@ -30,8 +30,8 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 1,
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 1.9
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 1.8
   },
   "inshape": {
    "name": "Inshape",
@@ -40,7 +40,7 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 3,
-   "checked_at": "2026-11-24T13:59:15+00:00",
+   "checked_at": "2026-11-25T13:13:41+00:00",
    "seconds": 1.9
   },
   "fitnessboutique": {
@@ -51,8 +51,8 @@
    "via": "browser",
    "status": "ok",
    "offers": 31,
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 39.6
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 41.2
   },
   "eiyolab": {
    "name": "Eiyolab",
@@ -61,8 +61,8 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 9,
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 2.7
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 2.4
   },
   "nutrimea": {
    "name": "Nutrimea",
@@ -71,7 +71,7 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 3,
-   "checked_at": "2026-11-24T13:59:15+00:00",
+   "checked_at": "2026-11-25T13:13:41+00:00",
    "seconds": 3.4
   },
   "crown": {
@@ -81,8 +81,8 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 3,
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 2.1
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 2.0
   },
   "226ers": {
    "name": "226ERS",
@@ -91,7 +91,7 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 6,
-   "checked_at": "2026-11-24T13:59:15+00:00",
+   "checked_at": "2026-11-25T13:13:41+00:00",
    "seconds": 1.8
   },
   "nutri9": {
@@ -101,7 +101,7 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 51,
-   "checked_at": "2026-11-24T13:59:15+00:00",
+   "checked_at": "2026-11-25T13:13:41+00:00",
    "seconds": 3.3
   },
   "quamtrax": {
@@ -111,7 +111,7 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 15,
-   "checked_at": "2026-11-24T13:59:15+00:00",
+   "checked_at": "2026-11-25T13:13:41+00:00",
    "seconds": 1.9
   },
   "bodyandfit": {
@@ -121,7 +121,7 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 56,
-   "checked_at": "2026-11-24T13:59:15+00:00",
+   "checked_at": "2026-11-25T13:13:41+00:00",
    "seconds": 4.8
   },
   "esn": {
@@ -131,7 +131,7 @@
    "adapter": "shopify",
    "status": "ok",
    "offers": 16,
-   "checked_at": "2026-11-24T13:59:15+00:00",
+   "checked_at": "2026-11-25T13:13:41+00:00",
    "seconds": 1.8
   },
   "hsn": {
@@ -174,9 +174,9 @@
    "url": "https://www.myprotein.es",
    "adapter": "jsonld",
    "status": "ok",
-   "offers": 120,
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 38.5
+   "offers": 118,
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 36.8
   },
   "myprotein-fr": {
    "name": "Myprotein France",
@@ -184,9 +184,9 @@
    "url": "https://fr.myprotein.com",
    "adapter": "jsonld",
    "status": "ok",
-   "offers": 113,
-   "checked_at": "2026-11-24T13:59:15+00:00",
-   "seconds": 33.7
+   "offers": 111,
+   "checked_at": "2026-11-25T13:13:41+00:00",
+   "seconds": 32.0
   },
   "prozis-es": {
    "name": "Prozis",
@@ -262,6 +262,18 @@
    "checked_at": "2026-11-24T16:02:05+00:00",
    "seconds": 576.7
   },
+  "nutritienda": {
+   "name": "Nutritienda",
+   "market": "ES",
+   "url": "https://www.nutritienda.com/es/",
+   "adapter": "jsonld",
+   "status": "blocked",
+   "error": "Blocked: HTTP 403 (in-browser) for https://www.nutritienda.com/es/creatina-monohidrato",
+   "kept_offers": 21,
+   "last_ok": "2026-10-27T10:43:21+00:00",
+   "checked_at": "2026-11-24T16:02:05+00:00",
+   "seconds": 4.9
+  },
   "bulk-fr": {
    "name": "Bulk",
    "market": "FR",
@@ -283,18 +295,6 @@
    "last_ok": "2026-11-07T11:50:09+00:00",
    "checked_at": "2026-11-24T16:02:05+00:00",
    "seconds": 44.2
-  },
-  "nutritienda": {
-   "name": "Nutritienda",
-   "market": "ES",
-   "url": "https://www.nutritienda.com/es/",
-   "adapter": "jsonld",
-   "status": "blocked",
-   "error": "Blocked: HTTP 403 (in-browser) for https://www.nutritienda.com/es/creatina-monohidrato",
-   "kept_offers": 21,
-   "last_ok": "2026-10-27T10:43:21+00:00",
-   "checked_at": "2026-11-24T16:02:05+00:00",
-   "seconds": 4.9
   }
  },
  "offers": [
@@ -1045,7 +1045,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 20.0
   },
   {
@@ -1070,7 +1070,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 20.0
   },
   {
@@ -1095,7 +1095,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 20.0
   },
   {
@@ -1120,7 +1120,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 20.0
   },
   {
@@ -1145,7 +1145,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 20.0
   },
   {
@@ -1170,7 +1170,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 20.0
   },
   {
@@ -1520,7 +1520,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 22.9
   },
   {
@@ -1620,7 +1620,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 23.96
   },
   {
@@ -1645,7 +1645,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 23.98
   },
   {
@@ -1720,8 +1720,33 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 25.98
+  },
+  {
+   "shop": "nutri9",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "Creatina Monohidratada Pura - Quamtrax",
+   "url": "https://nutri9.es/products/creatina-pura-quamtrax",
+   "grams": 500.0,
+   "price": 13.9,
+   "list_price": 15.9,
+   "available": true,
+   "flavours": 1,
+   "brand": "Quamtrax",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "feed",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 27.8
   },
   {
    "shop": "decathlon-fr",
@@ -1920,7 +1945,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 28.99
   },
   {
@@ -1970,8 +1995,33 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 29.8
+  },
+  {
+   "shop": "nutri9",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "Creatina Monohidratada Pura - Quamtrax",
+   "url": "https://nutri9.es/products/creatina-pura-quamtrax",
+   "grams": 600.0,
+   "price": 17.9,
+   "list_price": 19.9,
+   "available": true,
+   "flavours": 1,
+   "brand": "Quamtrax",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "feed",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 29.83
   },
   {
    "shop": "decathlon-es",
@@ -2074,31 +2124,6 @@
    "eur_kg": 31.63
   },
   {
-   "shop": "nutri9",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "Creatina Monohidratada Pura - Quamtrax",
-   "url": "https://nutri9.es/products/creatina-pura-quamtrax",
-   "grams": 500.0,
-   "price": 15.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Quamtrax",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "feed",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 31.8
-  },
-  {
    "shop": "bulk-es",
    "market": "ES",
    "kind": "creatine",
@@ -2195,7 +2220,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.38
   },
   {
@@ -2220,7 +2245,32 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 33.0
+  },
+  {
+   "shop": "nutri9",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "Creatina Monohidratada Pura - Quamtrax",
+   "url": "https://nutri9.es/products/creatina-pura-quamtrax",
+   "grams": 300.0,
+   "price": 9.9,
+   "list_price": 11.9,
+   "available": true,
+   "flavours": 1,
+   "brand": "Quamtrax",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "feed",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.0
   },
   {
@@ -2245,33 +2295,8 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.0
-  },
-  {
-   "shop": "nutri9",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "Creatina Monohidratada Pura - Quamtrax",
-   "url": "https://nutri9.es/products/creatina-pura-quamtrax",
-   "grams": 600.0,
-   "price": 19.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Quamtrax",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "feed",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 33.17
   },
   {
    "shop": "fitadium",
@@ -2345,7 +2370,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.65
   },
   {
@@ -2395,7 +2420,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.9
   },
   {
@@ -2445,7 +2470,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.99
   },
   {
@@ -2674,6 +2699,31 @@
    "eur_kg": 38.38
   },
   {
+   "shop": "quamtrax",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "Pure creatine",
+   "url": "https://quamtrax.com/products/pure-creatine",
+   "grams": 300.0,
+   "price": 11.64,
+   "list_price": 17.9,
+   "available": true,
+   "flavours": 6,
+   "brand": "QUAMTRAX",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": true,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "feed",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 38.8
+  },
+  {
    "shop": "decathlon-es",
    "market": "ES",
    "kind": "creatine",
@@ -2747,31 +2797,6 @@
    "note": "",
    "captured_at": "2026-11-24T15:01:05+00:00",
    "eur_kg": 39.42
-  },
-  {
-   "shop": "nutri9",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "Creatina Monohidratada Pura - Quamtrax",
-   "url": "https://nutri9.es/products/creatina-pura-quamtrax",
-   "grams": 300.0,
-   "price": 11.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Quamtrax",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "feed",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 39.67
   },
   {
    "shop": "decathlon-es",
@@ -2970,7 +2995,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.9
   },
   {
@@ -3072,31 +3097,6 @@
    "note": "",
    "captured_at": "2026-11-21T12:50:08+00:00",
    "eur_kg": 39.98
-  },
-  {
-   "shop": "quamtrax",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "Pure creatine",
-   "url": "https://quamtrax.com/products/pure-creatine",
-   "grams": 300.0,
-   "price": 12.29,
-   "list_price": 18.9,
-   "available": true,
-   "flavours": 6,
-   "brand": "QUAMTRAX",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": true,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "feed",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 40.97
   },
   {
    "shop": "goldnutricion",
@@ -3820,7 +3820,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.67
   },
   {
@@ -3870,7 +3870,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.8
   },
   {
@@ -3970,7 +3970,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.98
   },
   {
@@ -4020,8 +4020,33 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 50.0
+  },
+  {
+   "shop": "myprotein-es",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "THE Creatine Creapure®",
+   "url": "https://www.myprotein.es/p/nutricion-deportiva/the-creatine-creapure/10529740/",
+   "grams": 1000.0,
+   "price": 50.99,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": "Myprotein",
+   "seller": null,
+   "creapure": true,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": true,
+   "sweetener_free": false,
+   "tested": true,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 50.99
   },
   {
    "shop": "amazon-fr",
@@ -4570,7 +4595,32 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 55.98
+  },
+  {
+   "shop": "myprotein-es",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "THE Creatine Creapure®",
+   "url": "https://www.myprotein.es/p/nutricion-deportiva/the-creatine-creapure/10529740/",
+   "grams": 500.0,
+   "price": 27.99,
+   "list_price": null,
+   "available": true,
+   "flavours": 2,
+   "brand": "Myprotein",
+   "seller": null,
+   "creapure": true,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": true,
+   "sweetener_free": false,
+   "tested": true,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.98
   },
   {
@@ -4845,7 +4895,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.5
   },
   {
@@ -4895,7 +4945,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.6
   },
   {
@@ -4972,6 +5022,31 @@
    "note": "",
    "captured_at": "2026-11-21T12:50:08+00:00",
    "eur_kg": 59.65
+  },
+  {
+   "shop": "nutri9",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "Creatina Creapure - Quamtrax - 300 g",
+   "url": "https://nutri9.es/products/creatina-creapure-300-g-quamtrax",
+   "grams": 300.0,
+   "price": 17.9,
+   "list_price": 25.9,
+   "available": false,
+   "flavours": 1,
+   "brand": "Quamtrax",
+   "seller": null,
+   "creapure": true,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "feed",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 59.67
   },
   {
    "shop": "decathlon-es",
@@ -5282,7 +5357,7 @@
    "grams": 500.0,
    "price": 29.99,
    "list_price": null,
-   "available": true,
+   "available": false,
    "flavours": 1,
    "brand": "Body & Fit",
    "seller": null,
@@ -5295,7 +5370,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.98
   },
   {
@@ -5424,31 +5499,6 @@
    "eur_kg": 59.98
   },
   {
-   "shop": "myprotein-es",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "THE Creatine Creapure®",
-   "url": "https://www.myprotein.es/p/nutricion-deportiva/the-creatine-creapure/10529740/",
-   "grams": 1000.0,
-   "price": 59.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": true,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": true,
-   "sweetener_free": false,
-   "tested": true,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 59.99
-  },
-  {
    "shop": "prozis-es",
    "market": "ES",
    "kind": "creatine",
@@ -5545,7 +5595,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.36
   },
   {
@@ -5597,6 +5647,31 @@
    "note": "",
    "captured_at": "2026-11-24T16:02:05+00:00",
    "eur_kg": 62.5
+  },
+  {
+   "shop": "nutri9",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "Creatina Monohidratada - Optimum Nutrition",
+   "url": "https://nutri9.es/products/creatina-micronizada-optimum-nutrition",
+   "grams": 317.0,
+   "price": 19.9,
+   "list_price": 24.9,
+   "available": true,
+   "flavours": 1,
+   "brand": "Optimum Nutrition",
+   "seller": null,
+   "creapure": false,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "feed",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 62.78
   },
   {
    "shop": "decathlon-es",
@@ -5745,7 +5820,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.6
   },
   {
@@ -5770,7 +5845,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.6
   },
   {
@@ -5795,7 +5870,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.74
   },
   {
@@ -5820,7 +5895,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.8
   },
   {
@@ -6174,31 +6249,6 @@
    "eur_kg": 65.8
   },
   {
-   "shop": "myprotein-es",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "THE Creatine Creapure®",
-   "url": "https://www.myprotein.es/p/nutricion-deportiva/the-creatine-creapure/10529740/",
-   "grams": 500.0,
-   "price": 32.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 2,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": true,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": true,
-   "sweetener_free": false,
-   "tested": true,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 65.98
-  },
-  {
    "shop": "masmusculo",
    "market": "ES",
    "kind": "creatine",
@@ -6222,31 +6272,6 @@
    "note": "",
    "captured_at": "2026-10-18T11:28:06+00:00",
    "eur_kg": 66.0
-  },
-  {
-   "shop": "nutri9",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "Creatina Creapure - Quamtrax - 300 g",
-   "url": "https://nutri9.es/products/creatina-creapure-300-g-quamtrax",
-   "grams": 300.0,
-   "price": 19.9,
-   "list_price": 25.9,
-   "available": false,
-   "flavours": 1,
-   "brand": "Quamtrax",
-   "seller": null,
-   "creapure": true,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "feed",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 66.33
   },
   {
    "shop": "decathlon-es",
@@ -6499,6 +6524,31 @@
    "eur_kg": 67.7
   },
   {
+   "shop": "myprotein-es",
+   "market": "ES",
+   "kind": "creatine",
+   "product": "THE Creatine Creapure®",
+   "url": "https://www.myprotein.es/p/nutricion-deportiva/the-creatine-creapure/10529740/",
+   "grams": 250.0,
+   "price": 16.99,
+   "list_price": null,
+   "available": true,
+   "flavours": 1,
+   "brand": "Myprotein",
+   "seller": null,
+   "creapure": true,
+   "whey_type": null,
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": true,
+   "sweetener_free": false,
+   "tested": true,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 67.96
+  },
+  {
    "shop": "decathlon-es",
    "market": "ES",
    "kind": "creatine",
@@ -6595,7 +6645,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 68.28
   },
   {
@@ -6770,7 +6820,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 71.82
   },
   {
@@ -6945,7 +6995,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 72.83
   },
   {
@@ -6995,7 +7045,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 73.0
   },
   {
@@ -7145,7 +7195,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 74.3
   },
   {
@@ -7245,7 +7295,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 75.83
   },
   {
@@ -7424,31 +7474,6 @@
    "eur_kg": 78.3
   },
   {
-   "shop": "nutri9",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "Creatina Monohidratada - Optimum Nutrition",
-   "url": "https://nutri9.es/products/creatina-micronizada-optimum-nutrition",
-   "grams": 317.0,
-   "price": 24.9,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Optimum Nutrition",
-   "seller": null,
-   "creapure": false,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "feed",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 78.55
-  },
-  {
    "shop": "decathlon-es",
    "market": "ES",
    "kind": "creatine",
@@ -7520,7 +7545,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 78.85
   },
   {
@@ -7570,7 +7595,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 79.33
   },
   {
@@ -7670,7 +7695,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 79.78
   },
   {
@@ -7724,31 +7749,6 @@
    "eur_kg": 79.8
   },
   {
-   "shop": "myprotein-es",
-   "market": "ES",
-   "kind": "creatine",
-   "product": "THE Creatine Creapure®",
-   "url": "https://www.myprotein.es/p/nutricion-deportiva/the-creatine-creapure/10529740/",
-   "grams": 250.0,
-   "price": 19.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": true,
-   "whey_type": null,
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": true,
-   "sweetener_free": false,
-   "tested": true,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 79.96
-  },
-  {
    "shop": "amazon-fr",
    "market": "FR",
    "kind": "creatine",
@@ -7795,7 +7795,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 80.28
   },
   {
@@ -7820,7 +7820,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 80.53
   },
   {
@@ -7895,7 +7895,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 83.0
   },
   {
@@ -8845,7 +8845,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 89.67
   },
   {
@@ -8970,7 +8970,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 91.17
   },
   {
@@ -9070,7 +9070,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 91.45
   },
   {
@@ -9170,7 +9170,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 91.8
   },
   {
@@ -9370,7 +9370,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 93.0
   },
   {
@@ -9545,7 +9545,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 96.67
   },
   {
@@ -9595,7 +9595,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 97.99
   },
   {
@@ -9770,7 +9770,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 99.67
   },
   {
@@ -9795,7 +9795,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 99.67
   },
   {
@@ -9820,7 +9820,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 99.67
   },
   {
@@ -9845,7 +9845,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 99.67
   },
   {
@@ -10220,7 +10220,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 99.8
   },
   {
@@ -10345,7 +10345,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 99.86
   },
   {
@@ -10420,7 +10420,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 99.93
   },
   {
@@ -10520,7 +10520,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 101.97
   },
   {
@@ -10545,7 +10545,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 104.38
   },
   {
@@ -10570,7 +10570,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 104.78
   },
   {
@@ -10745,7 +10745,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 105.98
   },
   {
@@ -10920,7 +10920,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 106.33
   },
   {
@@ -10945,7 +10945,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 106.33
   },
   {
@@ -11120,7 +11120,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 109.67
   },
   {
@@ -11320,7 +11320,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 114.26
   },
   {
@@ -11495,7 +11495,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 115.96
   },
   {
@@ -11520,7 +11520,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 115.96
   },
   {
@@ -11545,7 +11545,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 116.33
   },
   {
@@ -11570,7 +11570,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 116.67
   },
   {
@@ -11670,7 +11670,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 119.8
   },
   {
@@ -11870,7 +11870,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 132.67
   },
   {
@@ -11920,7 +11920,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 138.84
   },
   {
@@ -11945,7 +11945,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 141.4
   },
   {
@@ -11970,7 +11970,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 146.67
   },
   {
@@ -12020,7 +12020,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 149.5
   },
   {
@@ -12551,7 +12551,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 23.89
   },
   {
@@ -12576,7 +12576,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 23.89
   },
   {
@@ -13153,7 +13153,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 25.83,
    "eur_kg_protein": 35.88
   },
@@ -13179,7 +13179,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 25.96
   },
   {
@@ -13204,7 +13204,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 26.32,
    "eur_kg_protein": 33.74
   },
@@ -13230,7 +13230,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 26.4
   },
   {
@@ -13255,7 +13255,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 26.54
   },
   {
@@ -13907,7 +13907,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 27.42,
    "eur_kg_protein": 38.08
   },
@@ -13933,7 +13933,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 27.42,
    "eur_kg_protein": 38.08
   },
@@ -14163,7 +14163,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 28.96,
    "eur_kg_protein": 40.22
   },
@@ -14189,34 +14189,9 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 28.96,
    "eur_kg_protein": 40.22
-  },
-  {
-   "shop": "goldnutricion",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Proteina Total Whey Gold Nutrition de la maxima calidad 1 kg",
-   "url": "https://www.goldnutricion.es/proteinas/total-whey-gold-nutrition/",
-   "grams": 1000.0,
-   "price": 29.95,
-   "list_price": null,
-   "available": false,
-   "flavours": 1,
-   "brand": "GOLD NUTRITION",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": null,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-07T11:50:09+00:00",
-   "eur_kg": 29.95
   },
   {
    "shop": "nutritienda",
@@ -14244,6 +14219,31 @@
    "eur_kg": 29.95
   },
   {
+   "shop": "goldnutricion",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Proteina Total Whey Gold Nutrition de la maxima calidad 1 kg",
+   "url": "https://www.goldnutricion.es/proteinas/total-whey-gold-nutrition/",
+   "grams": 1000.0,
+   "price": 29.95,
+   "list_price": null,
+   "available": false,
+   "flavours": 1,
+   "brand": "GOLD NUTRITION",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "concentrate",
+   "native": false,
+   "protein_100g": null,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-07T11:50:09+00:00",
+   "eur_kg": 29.95
+  },
+  {
    "shop": "bodyandfit",
    "market": "EU",
    "kind": "whey",
@@ -14265,7 +14265,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 29.99
   },
   {
@@ -14342,7 +14342,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.0
   },
   {
@@ -14536,7 +14536,7 @@
    "price": 72.99,
    "list_price": null,
    "available": true,
-   "flavours": 7,
+   "flavours": 6,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -14548,7 +14548,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.04,
    "eur_kg_protein": 41.72
   },
@@ -14562,7 +14562,7 @@
    "price": 72.99,
    "list_price": null,
    "available": true,
-   "flavours": 7,
+   "flavours": 6,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -14574,7 +14574,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.04,
    "eur_kg_protein": 41.72
   },
@@ -14625,7 +14625,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.36
   },
   {
@@ -14650,7 +14650,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.45,
    "eur_kg_protein": 42.29
   },
@@ -14676,7 +14676,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.45,
    "eur_kg_protein": 42.29
   },
@@ -14727,7 +14727,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.83
   },
   {
@@ -14752,7 +14752,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 30.91,
    "eur_kg_protein": 45.46
   },
@@ -14828,7 +14828,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 31.18,
    "eur_kg_protein": 45.85
   },
@@ -14906,7 +14906,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 31.77,
    "eur_kg_protein": 43.52
   },
@@ -15034,7 +15034,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 31.94,
    "eur_kg_protein": 46.97
   },
@@ -15060,7 +15060,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 31.94,
    "eur_kg_protein": 44.36
   },
@@ -15086,7 +15086,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.04,
    "eur_kg_protein": 42.16
   },
@@ -15164,7 +15164,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.22,
    "eur_kg_protein": 47.38
   },
@@ -15190,7 +15190,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.22,
    "eur_kg_protein": 44.75
   },
@@ -15241,7 +15241,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.49
   },
   {
@@ -15344,7 +15344,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.71
   },
   {
@@ -15369,7 +15369,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.75
   },
   {
@@ -15394,7 +15394,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.75
   },
   {
@@ -15432,7 +15432,7 @@
    "price": 117.99,
    "list_price": null,
    "available": true,
-   "flavours": 3,
+   "flavours": 2,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -15444,7 +15444,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.77,
    "eur_kg_protein": 48.19
   },
@@ -15470,7 +15470,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 32.77,
    "eur_kg_protein": 45.51
   },
@@ -15598,7 +15598,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.03,
    "eur_kg_protein": 55.42
   },
@@ -15624,7 +15624,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.04,
    "eur_kg_protein": 48.59
   },
@@ -15650,7 +15650,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.04,
    "eur_kg_protein": 45.89
   },
@@ -15826,7 +15826,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.32,
    "eur_kg_protein": 49.0
   },
@@ -15852,7 +15852,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.32,
    "eur_kg_protein": 46.28
   },
@@ -15878,7 +15878,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.32,
    "eur_kg_protein": 43.84
   },
@@ -15956,7 +15956,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.33,
    "eur_kg_protein": 49.01
   },
@@ -15982,7 +15982,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.33,
    "eur_kg_protein": 46.29
   },
@@ -16008,7 +16008,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.33,
    "eur_kg_protein": 49.01
   },
@@ -16034,7 +16034,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.33,
    "eur_kg_protein": 46.29
   },
@@ -16111,7 +16111,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.91,
    "eur_kg_protein": 49.87
   },
@@ -16137,7 +16137,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 33.91,
    "eur_kg_protein": 47.1
   },
@@ -16342,7 +16342,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 34.43,
    "eur_kg_protein": 50.63
   },
@@ -16368,7 +16368,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 34.43,
    "eur_kg_protein": 47.82
   },
@@ -16420,7 +16420,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 34.48
   },
   {
@@ -16495,7 +16495,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 34.95
   },
   {
@@ -16520,7 +16520,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 34.95,
    "eur_kg_protein": 48.07
   },
@@ -16546,7 +16546,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 34.95,
    "eur_kg_protein": 43.69
   },
@@ -16598,7 +16598,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 34.98,
    "eur_kg_protein": 48.58
   },
@@ -16700,7 +16700,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.05,
    "eur_kg_protein": 51.54
   },
@@ -16726,7 +16726,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.05,
    "eur_kg_protein": 48.68
   },
@@ -16752,7 +16752,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.2,
    "eur_kg_protein": 45.13
   },
@@ -16778,7 +16778,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.47,
    "eur_kg_protein": 55.42
   },
@@ -16804,7 +16804,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.47,
    "eur_kg_protein": 49.26
   },
@@ -16830,7 +16830,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.47,
    "eur_kg_protein": 52.16
   },
@@ -16856,7 +16856,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.47,
    "eur_kg_protein": 49.26
   },
@@ -16957,7 +16957,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.56,
    "eur_kg_protein": 47.41
   },
@@ -16983,7 +16983,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.62,
    "eur_kg_protein": 52.38
   },
@@ -17059,7 +17059,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 35.9,
    "eur_kg_protein": 49.18
   },
@@ -17315,7 +17315,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.32,
    "eur_kg_protein": 50.44
   },
@@ -17341,7 +17341,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.42
   },
   {
@@ -17470,7 +17470,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.64,
    "eur_kg_protein": 50.89
   },
@@ -17496,7 +17496,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.64,
    "eur_kg_protein": 50.89
   },
@@ -17522,7 +17522,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.66,
    "eur_kg_protein": 50.92
   },
@@ -17548,7 +17548,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.66,
    "eur_kg_protein": 53.91
   },
@@ -17574,7 +17574,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.66,
    "eur_kg_protein": 50.92
   },
@@ -17600,7 +17600,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.66,
    "eur_kg_protein": 50.92
   },
@@ -17626,7 +17626,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.76,
    "eur_kg_protein": 51.06
   },
@@ -17652,7 +17652,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.76,
    "eur_kg_protein": 51.06
   },
@@ -17678,7 +17678,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.88,
    "eur_kg_protein": 51.22
   },
@@ -17704,7 +17704,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 36.98
   },
   {
@@ -17905,7 +17905,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.17
   },
   {
@@ -17930,7 +17930,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.35,
    "eur_kg_protein": 51.88
   },
@@ -17956,7 +17956,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.44,
    "eur_kg_protein": 48.81
   },
@@ -17982,7 +17982,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.45,
    "eur_kg_protein": 48.64
   },
@@ -18198,7 +18198,7 @@
    "price": 169.9,
    "list_price": null,
    "available": false,
-   "flavours": 2,
+   "flavours": 1,
    "brand": "OPTIMUM NUTRITION",
    "seller": null,
    "creapure": false,
@@ -18210,7 +18210,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.51
   },
   {
@@ -18235,7 +18235,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.62,
    "eur_kg_protein": 58.78
   },
@@ -18313,7 +18313,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.77,
    "eur_kg_protein": 52.46
   },
@@ -18339,7 +18339,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.79,
    "eur_kg_protein": 52.49
   },
@@ -18391,7 +18391,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.9,
    "eur_kg_protein": 47.37
   },
@@ -18443,7 +18443,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.92,
    "eur_kg_protein": 54.96
   },
@@ -18469,7 +18469,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.92,
    "eur_kg_protein": 55.76
   },
@@ -18495,7 +18495,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.94
   },
   {
@@ -18572,7 +18572,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 37.99,
    "eur_kg_protein": 52.76
   },
@@ -18598,7 +18598,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.07,
    "eur_kg_protein": 52.88
   },
@@ -18624,7 +18624,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.07,
    "eur_kg_protein": 52.88
   },
@@ -18650,7 +18650,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.09
   },
   {
@@ -18675,7 +18675,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.13,
    "eur_kg_protein": 50.84
   },
@@ -18701,7 +18701,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.14,
    "eur_kg_protein": 50.18
   },
@@ -18727,7 +18727,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.17
   },
   {
@@ -18752,7 +18752,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.42,
    "eur_kg_protein": 53.36
   },
@@ -18778,7 +18778,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.45,
    "eur_kg_protein": 53.4
   },
@@ -18804,7 +18804,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.45,
    "eur_kg_protein": 53.4
   },
@@ -18930,7 +18930,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.73,
    "eur_kg_protein": 53.79
   },
@@ -18956,7 +18956,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.83
   },
   {
@@ -18981,7 +18981,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 38.99,
    "eur_kg_protein": 49.99
   },
@@ -19032,7 +19032,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.11,
    "eur_kg_protein": 57.51
   },
@@ -19058,7 +19058,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.19,
    "eur_kg_protein": 54.43
   },
@@ -19084,7 +19084,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.35,
    "eur_kg_protein": 54.65
   },
@@ -19135,7 +19135,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.6,
    "eur_kg_protein": 52.11
   },
@@ -19161,7 +19161,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.87
   },
   {
@@ -19366,7 +19366,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.99
   },
   {
@@ -19416,7 +19416,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.99,
    "eur_kg_protein": 55.54
   },
@@ -19442,7 +19442,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.99,
    "eur_kg_protein": 55.54
   },
@@ -19468,7 +19468,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 39.99,
    "eur_kg_protein": 55.54
   },
@@ -19519,7 +19519,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 40.0,
    "eur_kg_protein": 58.82
   },
@@ -19545,7 +19545,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 40.09,
    "eur_kg_protein": 55.68
   },
@@ -19596,7 +19596,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 40.22,
    "eur_kg_protein": 58.29
   },
@@ -19799,7 +19799,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 40.84,
    "eur_kg_protein": 60.06
   },
@@ -19825,7 +19825,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 40.84,
    "eur_kg_protein": 56.72
   },
@@ -20102,7 +20102,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 41.06,
    "eur_kg_protein": 57.03
   },
@@ -20153,7 +20153,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 41.19,
    "eur_kg_protein": 53.7
   },
@@ -20304,7 +20304,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 41.44,
    "eur_kg_protein": 55.25
   },
@@ -20456,7 +20456,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 41.54
   },
   {
@@ -20481,7 +20481,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 41.65,
    "eur_kg_protein": 57.85
   },
@@ -20507,7 +20507,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 41.65,
    "eur_kg_protein": 57.85
   },
@@ -20533,7 +20533,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 41.65,
    "eur_kg_protein": 57.85
   },
@@ -20736,7 +20736,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 42.2,
    "eur_kg_protein": 62.06
   },
@@ -21017,7 +21017,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 42.53
   },
   {
@@ -21042,7 +21042,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 42.65,
    "eur_kg_protein": 62.72
   },
@@ -21546,7 +21546,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 42.99,
    "eur_kg_protein": 67.17
   },
@@ -21572,7 +21572,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 42.99,
    "eur_kg_protein": 63.22
   },
@@ -21598,7 +21598,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 42.99,
    "eur_kg_protein": 59.71
   },
@@ -21649,35 +21649,9 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.01,
    "eur_kg_protein": 52.45
-  },
-  {
-   "shop": "myprotein-es",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Impact Whey Isolate Milkshake",
-   "url": "https://www.myprotein.es/p/nutricion-deportiva/impact-whey-isolate-milkshake/17816822/",
-   "grams": 2790.0,
-   "price": 119.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "isolate",
-   "native": false,
-   "protein_100g": 74.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": true,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 43.01,
-   "eur_kg_protein": 58.12
   },
   {
    "shop": "bulk-es",
@@ -21778,7 +21752,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.2,
    "eur_kg_protein": 60.0
   },
@@ -21804,7 +21778,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.2,
    "eur_kg_protein": 60.0
   },
@@ -21933,7 +21907,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.46,
    "eur_kg_protein": 60.36
   },
@@ -21959,7 +21933,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.46,
    "eur_kg_protein": 60.36
   },
@@ -21985,7 +21959,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.52,
    "eur_kg_protein": 59.86
   },
@@ -22011,7 +21985,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.66,
    "eur_kg_protein": 64.21
   },
@@ -22163,7 +22137,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.95,
    "eur_kg_protein": 56.35
   },
@@ -22189,7 +22163,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.95
   },
   {
@@ -22240,7 +22214,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.99
   },
   {
@@ -22265,7 +22239,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 43.99,
    "eur_kg_protein": 64.69
   },
@@ -22418,7 +22392,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.42,
    "eur_kg_protein": 65.32
   },
@@ -22444,7 +22418,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.43
   },
   {
@@ -22469,7 +22443,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.43,
    "eur_kg_protein": 54.18
   },
@@ -22495,7 +22469,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.43,
    "eur_kg_protein": 60.04
   },
@@ -22521,7 +22495,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.44,
    "eur_kg_protein": 54.2
   },
@@ -22547,7 +22521,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.44,
    "eur_kg_protein": 60.05
   },
@@ -22573,7 +22547,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.64,
    "eur_kg_protein": 61.15
   },
@@ -22724,7 +22698,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.89,
    "eur_kg_protein": 58.53
   },
@@ -22750,7 +22724,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.9,
    "eur_kg_protein": 55.43
   },
@@ -22776,7 +22750,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.9
   },
   {
@@ -22801,7 +22775,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.9,
    "eur_kg_protein": 49.89
   },
@@ -22903,7 +22877,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.95,
    "eur_kg_protein": 64.21
   },
@@ -22929,7 +22903,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.95
   },
   {
@@ -23208,7 +23182,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 44.97,
    "eur_kg_protein": 58.63
   },
@@ -23335,7 +23309,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.14,
    "eur_kg_protein": 70.53
   },
@@ -23361,35 +23335,9 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.16,
    "eur_kg_protein": 55.07
-  },
-  {
-   "shop": "myprotein-fr",
-   "market": "FR",
-   "kind": "whey",
-   "product": "Impact Whey Isolate Milkshake",
-   "url": "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-isolate-milkshake/17816822/",
-   "grams": 2790.0,
-   "price": 125.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "isolate",
-   "native": false,
-   "protein_100g": 74.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 45.16,
-   "eur_kg_protein": 61.03
   },
   {
    "shop": "amazon-es",
@@ -23438,7 +23386,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.44,
    "eur_kg_protein": 55.41
   },
@@ -23464,7 +23412,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.44,
    "eur_kg_protein": 61.41
   },
@@ -23490,7 +23438,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.57
   },
   {
@@ -23515,7 +23463,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.6
   },
   {
@@ -23565,7 +23513,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.67,
    "eur_kg_protein": 63.43
   },
@@ -23642,7 +23590,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.82,
    "eur_kg_protein": 61.92
   },
@@ -23668,7 +23616,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.9,
    "eur_kg_protein": 62.88
   },
@@ -23821,7 +23769,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.95,
    "eur_kg_protein": 66.59
   },
@@ -23847,7 +23795,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 45.95,
    "eur_kg_protein": 67.57
   },
@@ -23924,7 +23872,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.13,
    "eur_kg_protein": 64.07
   },
@@ -23950,7 +23898,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.13,
    "eur_kg_protein": 64.07
   },
@@ -24053,7 +24001,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.53,
    "eur_kg_protein": 60.43
   },
@@ -24259,7 +24207,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.66,
    "eur_kg_protein": 56.9
   },
@@ -24285,7 +24233,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.66,
    "eur_kg_protein": 63.05
   },
@@ -24311,7 +24259,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.75,
    "eur_kg_protein": 58.44
   },
@@ -24337,7 +24285,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.78,
    "eur_kg_protein": 59.22
   },
@@ -24388,7 +24336,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 46.86,
    "eur_kg_protein": 63.32
   },
@@ -24440,7 +24388,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.0,
    "eur_kg_protein": 64.38
   },
@@ -24517,7 +24465,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.3,
    "eur_kg_protein": 57.68
   },
@@ -24543,7 +24491,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.3,
    "eur_kg_protein": 63.92
   },
@@ -24569,7 +24517,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.45,
    "eur_kg_protein": 54.54
   },
@@ -24722,7 +24670,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.61
   },
   {
@@ -24747,7 +24695,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.61,
    "eur_kg_protein": 61.83
   },
@@ -24981,7 +24929,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.91,
    "eur_kg_protein": 58.43
   },
@@ -25007,7 +24955,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.91,
    "eur_kg_protein": 68.44
   },
@@ -25033,7 +24981,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.97,
    "eur_kg_protein": 66.62
   },
@@ -25059,61 +25007,9 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.97,
    "eur_kg_protein": 66.62
-  },
-  {
-   "shop": "myprotein-es",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Impact Whey Protein",
-   "url": "https://www.myprotein.es/p/nutricion-deportiva/impact-whey-protein/10530943/",
-   "grams": 500.0,
-   "price": 23.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": 72.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": true,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 47.98,
-   "eur_kg_protein": 66.64
-  },
-  {
-   "shop": "myprotein-fr",
-   "market": "FR",
-   "kind": "whey",
-   "product": "Impact Whey Protein",
-   "url": "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-protein/10530943/",
-   "grams": 500.0,
-   "price": 23.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "concentrate",
-   "native": false,
-   "protein_100g": 72.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": true,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 47.98,
-   "eur_kg_protein": 66.64
   },
   {
    "shop": "myprotein-fr",
@@ -25137,7 +25033,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 47.98,
    "eur_kg_protein": 70.56
   },
@@ -25188,7 +25084,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.25,
    "eur_kg_protein": 69.93
   },
@@ -25214,7 +25110,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.3
   },
   {
@@ -25239,7 +25135,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.33,
    "eur_kg_protein": 61.18
   },
@@ -25265,7 +25161,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.38,
    "eur_kg_protein": 59.0
   },
@@ -25291,7 +25187,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.38,
    "eur_kg_protein": 65.38
   },
@@ -25469,7 +25365,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.66,
    "eur_kg_protein": 62.38
   },
@@ -25495,7 +25391,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.66,
    "eur_kg_protein": 61.59
   },
@@ -25521,7 +25417,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.83,
    "eur_kg_protein": 57.45
   },
@@ -25585,7 +25481,7 @@
    "price": 43.99,
    "list_price": null,
    "available": true,
-   "flavours": 7,
+   "flavours": 9,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -25597,9 +25493,35 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.88,
    "eur_kg_protein": 59.61
+  },
+  {
+   "shop": "myprotein-es",
+   "market": "ES",
+   "kind": "whey",
+   "product": "Impact Whey Isolate Milkshake",
+   "url": "https://www.myprotein.es/p/nutricion-deportiva/impact-whey-isolate-milkshake/17816822/",
+   "grams": 900.0,
+   "price": 43.99,
+   "list_price": null,
+   "available": true,
+   "flavours": 2,
+   "brand": "Myprotein",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "isolate",
+   "native": false,
+   "protein_100g": 74.0,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": true,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 48.88,
+   "eur_kg_protein": 66.05
   },
   {
    "shop": "fitnessboutique",
@@ -25623,7 +25545,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 48.97
   },
   {
@@ -25774,7 +25696,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.01,
    "eur_kg_protein": 63.65
   },
@@ -25800,7 +25722,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.13
   },
   {
@@ -25825,7 +25747,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.2,
    "eur_kg_protein": 67.12
   },
@@ -25851,7 +25773,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.37
   },
   {
@@ -26003,7 +25925,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.46
   },
   {
@@ -26078,7 +26000,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.75,
    "eur_kg_protein": 68.15
   },
@@ -26584,7 +26506,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.9,
    "eur_kg_protein": 71.29
   },
@@ -26610,7 +26532,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.9,
    "eur_kg_protein": 60.85
   },
@@ -26738,7 +26660,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.95
   },
   {
@@ -26763,7 +26685,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.95
   },
   {
@@ -26788,7 +26710,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.97,
    "eur_kg_protein": 69.4
   },
@@ -26814,7 +26736,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.97,
    "eur_kg_protein": 69.4
   },
@@ -26865,7 +26787,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.98,
    "eur_kg_protein": 63.27
   },
@@ -26942,7 +26864,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.99,
    "eur_kg_protein": 63.28
   },
@@ -26968,7 +26890,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.99,
    "eur_kg_protein": 63.28
   },
@@ -26982,7 +26904,7 @@
    "price": 44.99,
    "list_price": null,
    "available": true,
-   "flavours": 7,
+   "flavours": 9,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -26994,7 +26916,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.99,
    "eur_kg_protein": 60.96
   },
@@ -27020,7 +26942,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.99,
    "eur_kg_protein": 60.96
   },
@@ -27046,9 +26968,35 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 49.99,
    "eur_kg_protein": 71.41
+  },
+  {
+   "shop": "myprotein-fr",
+   "market": "FR",
+   "kind": "whey",
+   "product": "Impact Whey Isolate Milkshake",
+   "url": "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-isolate-milkshake/17816822/",
+   "grams": 900.0,
+   "price": 44.99,
+   "list_price": null,
+   "available": true,
+   "flavours": 2,
+   "brand": "Myprotein",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "isolate",
+   "native": false,
+   "protein_100g": 74.0,
+   "unflavoured": false,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 49.99,
+   "eur_kg_protein": 67.55
   },
   {
    "shop": "decathlon-es",
@@ -27173,7 +27121,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 50.47,
    "eur_kg_protein": 61.55
   },
@@ -27199,7 +27147,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 50.5,
    "eur_kg_protein": 65.58
   },
@@ -27251,7 +27199,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 50.53,
    "eur_kg_protein": 59.45
   },
@@ -27277,7 +27225,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 50.64,
    "eur_kg_protein": 74.47
   },
@@ -27531,7 +27479,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.0,
    "eur_kg_protein": 67.11
   },
@@ -27582,7 +27530,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.09
   },
   {
@@ -27763,7 +27711,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.19,
    "eur_kg_protein": 62.43
   },
@@ -27814,7 +27762,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.58,
    "eur_kg_protein": 62.9
   },
@@ -27918,7 +27866,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.83,
    "eur_kg_protein": 71.99
   },
@@ -27944,7 +27892,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.83,
    "eur_kg_protein": 63.21
   },
@@ -27970,7 +27918,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.83,
    "eur_kg_protein": 71.99
   },
@@ -27996,7 +27944,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.9,
    "eur_kg_protein": 58.18
   },
@@ -28022,7 +27970,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 51.94
   },
   {
@@ -28123,7 +28071,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.07,
    "eur_kg_protein": 65.91
   },
@@ -28149,7 +28097,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.07,
    "eur_kg_protein": 65.91
   },
@@ -28175,7 +28123,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.08,
    "eur_kg_protein": 67.64
   },
@@ -28251,7 +28199,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.14,
    "eur_kg_protein": 72.42
   },
@@ -28277,7 +28225,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.14,
    "eur_kg_protein": 72.42
   },
@@ -28303,7 +28251,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.17,
    "eur_kg_protein": 62.11
   },
@@ -28380,7 +28328,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.32
   },
   {
@@ -28405,7 +28353,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.34,
    "eur_kg_protein": 63.83
   },
@@ -28584,7 +28532,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.69
   },
   {
@@ -28760,7 +28708,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 52.97,
    "eur_kg_protein": 73.57
   },
@@ -28786,7 +28734,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.08,
    "eur_kg_protein": 64.73
   },
@@ -28812,7 +28760,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.2,
    "eur_kg_protein": 68.21
   },
@@ -28838,7 +28786,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.2
   },
   {
@@ -28863,7 +28811,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.2
   },
   {
@@ -28913,7 +28861,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.31,
    "eur_kg_protein": 78.4
   },
@@ -28965,7 +28913,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.33
   },
   {
@@ -29066,7 +29014,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.49,
    "eur_kg_protein": 65.23
   },
@@ -29168,7 +29116,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.75
   },
   {
@@ -29243,7 +29191,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.83,
    "eur_kg_protein": 60.35
   },
@@ -29269,7 +29217,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.84,
    "eur_kg_protein": 68.15
   },
@@ -29345,7 +29293,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 53.98
   },
   {
@@ -29471,7 +29419,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.1
   },
   {
@@ -29496,7 +29444,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.15,
    "eur_kg_protein": 66.04
   },
@@ -29522,7 +29470,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.15,
    "eur_kg_protein": 73.18
   },
@@ -29700,7 +29648,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.9,
    "eur_kg_protein": 72.24
   },
@@ -29726,7 +29674,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.9
   },
   {
@@ -29829,7 +29777,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.95,
    "eur_kg_protein": 63.16
   },
@@ -29855,7 +29803,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.96,
    "eur_kg_protein": 65.43
   },
@@ -29881,7 +29829,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 54.96
   },
   {
@@ -29982,7 +29930,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.0
   },
   {
@@ -30007,7 +29955,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.0
   },
   {
@@ -30032,7 +29980,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.09,
    "eur_kg_protein": 67.18
   },
@@ -30058,7 +30006,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.12,
    "eur_kg_protein": 67.22
   },
@@ -30084,7 +30032,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.16
   },
   {
@@ -30109,7 +30057,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.33,
    "eur_kg_protein": 72.8
   },
@@ -30212,7 +30160,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.51,
    "eur_kg_protein": 63.8
   },
@@ -30238,7 +30186,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.53,
    "eur_kg_protein": 67.72
   },
@@ -30264,7 +30212,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.54
   },
   {
@@ -30366,7 +30314,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.55,
    "eur_kg_protein": 67.74
   },
@@ -30417,7 +30365,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.89,
    "eur_kg_protein": 68.16
   },
@@ -30443,7 +30391,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.89,
    "eur_kg_protein": 75.53
   },
@@ -30507,7 +30455,7 @@
    "price": 46.99,
    "list_price": null,
    "available": true,
-   "flavours": 3,
+   "flavours": 2,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -30519,7 +30467,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 55.94,
    "eur_kg_protein": 68.22
   },
@@ -30748,7 +30696,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 56.03,
    "eur_kg_protein": 70.92
   },
@@ -30774,7 +30722,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 56.18,
    "eur_kg_protein": 72.96
   },
@@ -30850,7 +30798,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 56.23
   },
   {
@@ -30900,7 +30848,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 56.23,
    "eur_kg_protein": 71.18
   },
@@ -30926,7 +30874,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 56.24
   },
   {
@@ -31003,7 +30951,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 56.4
   },
   {
@@ -31028,7 +30976,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 56.45,
    "eur_kg_protein": 59.42
   },
@@ -31256,7 +31204,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.13
   },
   {
@@ -31269,7 +31217,7 @@
    "price": 47.99,
    "list_price": null,
    "available": true,
-   "flavours": 3,
+   "flavours": 2,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -31281,7 +31229,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.13,
    "eur_kg_protein": 69.67
   },
@@ -31307,7 +31255,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.14,
    "eur_kg_protein": 69.68
   },
@@ -31333,7 +31281,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.2,
    "eur_kg_protein": 65.75
   },
@@ -31359,7 +31307,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.27,
    "eur_kg_protein": 69.84
   },
@@ -31385,7 +31333,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.27,
    "eur_kg_protein": 77.39
   },
@@ -31411,7 +31359,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.36,
    "eur_kg_protein": 72.61
   },
@@ -31439,58 +31387,6 @@
    "note": "",
    "captured_at": "2026-11-24T16:02:05+00:00",
    "eur_kg": 57.42
-  },
-  {
-   "shop": "myprotein-es",
-   "market": "ES",
-   "kind": "whey",
-   "product": "Myprotein Clear Whey Isolate",
-   "url": "https://www.myprotein.es/p/nutricion-deportiva/myprotein-clear-whey-isolate/12608168/",
-   "grams": 261.0,
-   "price": 15.0,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "isolate",
-   "native": false,
-   "protein_100g": 76.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": true,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 57.47,
-   "eur_kg_protein": 75.62
-  },
-  {
-   "shop": "myprotein-fr",
-   "market": "FR",
-   "kind": "whey",
-   "product": "Myprotein Clear Whey Isolate",
-   "url": "https://fr.myprotein.com/p/nutrition-sportive/myprotein-clear-whey-isolate/12608168/",
-   "grams": 261.0,
-   "price": 15.0,
-   "list_price": null,
-   "available": true,
-   "flavours": 1,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "isolate",
-   "native": false,
-   "protein_100g": 76.0,
-   "unflavoured": false,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 57.47,
-   "eur_kg_protein": 75.62
   },
   {
    "shop": "bulk-es",
@@ -31566,7 +31462,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.56
   },
   {
@@ -31642,7 +31538,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.76,
    "eur_kg_protein": 68.76
   },
@@ -31718,7 +31614,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.76,
    "eur_kg_protein": 70.44
   },
@@ -31744,7 +31640,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.76,
    "eur_kg_protein": 78.05
   },
@@ -31873,7 +31769,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.83,
    "eur_kg_protein": 75.1
   },
@@ -31899,7 +31795,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 57.96,
    "eur_kg_protein": 80.5
   },
@@ -31925,7 +31821,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.01,
    "eur_kg_protein": 70.74
   },
@@ -31951,7 +31847,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.04
   },
   {
@@ -32001,7 +31897,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.12
   },
   {
@@ -32026,7 +31922,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.27,
    "eur_kg_protein": 73.76
   },
@@ -32103,7 +31999,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.31,
    "eur_kg_protein": 83.3
   },
@@ -32129,7 +32025,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.31,
    "eur_kg_protein": 73.81
   },
@@ -32155,7 +32051,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.32,
    "eur_kg_protein": 71.12
   },
@@ -32181,7 +32077,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.32
   },
   {
@@ -32409,7 +32305,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 58.95,
    "eur_kg_protein": 71.89
   },
@@ -32510,7 +32406,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.12,
    "eur_kg_protein": 72.1
   },
@@ -32536,7 +32432,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.12,
    "eur_kg_protein": 79.89
   },
@@ -32562,7 +32458,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.25,
    "eur_kg_protein": 72.26
   },
@@ -32588,7 +32484,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.26,
    "eur_kg_protein": 72.27
   },
@@ -32664,7 +32560,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.59,
    "eur_kg_protein": 77.39
   },
@@ -32690,7 +32586,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.6,
    "eur_kg_protein": 75.44
   },
@@ -32844,7 +32740,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.94,
    "eur_kg_protein": 79.92
   },
@@ -33187,7 +33083,7 @@
    "price": 59.99,
    "list_price": null,
    "available": true,
-   "flavours": 4,
+   "flavours": 5,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -33199,7 +33095,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.99,
    "eur_kg_protein": 73.16
   },
@@ -33213,7 +33109,7 @@
    "price": 59.99,
    "list_price": null,
    "available": true,
-   "flavours": 4,
+   "flavours": 5,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -33225,7 +33121,33 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
+   "eur_kg": 59.99,
+   "eur_kg_protein": 75.94
+  },
+  {
+   "shop": "myprotein-fr",
+   "market": "FR",
+   "kind": "whey",
+   "product": "Impact Whey Isolate provenant d’animaux nourris exclusivement à l’herbe",
+   "url": "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-isolate-provenant-d-animaux-nourris-exclusivement-a-l-herbe/16795191/",
+   "grams": 1000.0,
+   "price": 59.99,
+   "list_price": null,
+   "available": true,
+   "flavours": 5,
+   "brand": "Myprotein",
+   "seller": null,
+   "creapure": false,
+   "whey_type": "isolate",
+   "native": false,
+   "protein_100g": 79.0,
+   "unflavoured": true,
+   "sweetener_free": false,
+   "tested": false,
+   "method": "page",
+   "note": "",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.99,
    "eur_kg_protein": 75.94
   },
@@ -33239,7 +33161,7 @@
    "price": 59.99,
    "list_price": null,
    "available": true,
-   "flavours": 4,
+   "flavours": 5,
    "brand": "Myprotein",
    "seller": null,
    "creapure": false,
@@ -33251,35 +33173,9 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 59.99,
    "eur_kg_protein": 73.16
-  },
-  {
-   "shop": "myprotein-fr",
-   "market": "FR",
-   "kind": "whey",
-   "product": "Impact Whey Isolate provenant d’animaux nourris exclusivement à l’herbe",
-   "url": "https://fr.myprotein.com/p/nutrition-sportive/impact-whey-isolate-provenant-d-animaux-nourris-exclusivement-a-l-herbe/16795191/",
-   "grams": 1000.0,
-   "price": 59.99,
-   "list_price": null,
-   "available": true,
-   "flavours": 4,
-   "brand": "Myprotein",
-   "seller": null,
-   "creapure": false,
-   "whey_type": "isolate",
-   "native": false,
-   "protein_100g": 79.0,
-   "unflavoured": true,
-   "sweetener_free": false,
-   "tested": false,
-   "method": "page",
-   "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
-   "eur_kg": 59.99,
-   "eur_kg_protein": 75.94
   },
   {
    "shop": "prozis-es",
@@ -33328,7 +33224,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 60.24,
    "eur_kg_protein": 73.46
   },
@@ -33431,7 +33327,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 60.89,
    "eur_kg_protein": 77.08
   },
@@ -33482,7 +33378,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.06,
    "eur_kg_protein": 68.45
   },
@@ -33508,7 +33404,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.09,
    "eur_kg_protein": 74.5
   },
@@ -33534,7 +33430,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.09,
    "eur_kg_protein": 82.55
   },
@@ -33560,7 +33456,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.29
   },
   {
@@ -33585,7 +33481,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.29,
    "eur_kg_protein": 69.65
   },
@@ -33636,7 +33532,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.45,
    "eur_kg_protein": 79.81
   },
@@ -33687,7 +33583,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 61.53,
    "eur_kg_protein": 75.04
   },
@@ -33764,7 +33660,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 62.0
   },
   {
@@ -33815,7 +33711,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 62.45,
    "eur_kg_protein": 75.24
   },
@@ -33967,7 +33863,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 62.48,
    "eur_kg_protein": 89.26
   },
@@ -34096,7 +33992,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 62.69
   },
   {
@@ -34121,7 +34017,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 62.72,
    "eur_kg_protein": 75.57
   },
@@ -34274,7 +34170,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.07,
    "eur_kg_protein": 79.84
   },
@@ -34300,7 +34196,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.1
   },
   {
@@ -34400,7 +34296,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.22,
    "eur_kg_protein": 76.17
   },
@@ -34452,7 +34348,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.27,
    "eur_kg_protein": 70.3
   },
@@ -34478,7 +34374,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.3
   },
   {
@@ -34503,7 +34399,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.32,
    "eur_kg_protein": 77.22
   },
@@ -34581,7 +34477,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.67
   },
   {
@@ -34606,7 +34502,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.73,
    "eur_kg_protein": 80.67
   },
@@ -34632,7 +34528,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 63.77
   },
   {
@@ -34783,7 +34679,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 64.27,
    "eur_kg_protein": 81.35
   },
@@ -34884,7 +34780,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 64.87,
    "eur_kg_protein": 68.28
   },
@@ -35012,7 +34908,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 65.23,
    "eur_kg_protein": 82.57
   },
@@ -35088,7 +34984,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 65.41,
    "eur_kg_protein": 82.8
   },
@@ -35114,7 +35010,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 65.44,
    "eur_kg_protein": 68.88
   },
@@ -35369,7 +35265,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 65.97,
    "eur_kg_protein": 69.44
   },
@@ -35420,7 +35316,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 66.27,
    "eur_kg_protein": 83.89
   },
@@ -35471,7 +35367,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 66.53,
    "eur_kg_protein": 76.47
   },
@@ -35699,7 +35595,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 66.64,
    "eur_kg_protein": 84.35
   },
@@ -35725,7 +35621,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 66.64,
    "eur_kg_protein": 81.27
   },
@@ -35876,7 +35772,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 67.29,
    "eur_kg_protein": 85.18
   },
@@ -36230,7 +36126,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 67.92,
    "eur_kg_protein": 85.97
   },
@@ -36256,7 +36152,7 @@
    "tested": false,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 67.92,
    "eur_kg_protein": 90.56
   },
@@ -36333,7 +36229,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 68.33,
    "eur_kg_protein": 71.93
   },
@@ -36384,7 +36280,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 68.84
   },
   {
@@ -36459,7 +36355,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 69.11,
    "eur_kg_protein": 87.48
   },
@@ -36536,7 +36432,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 69.8
   },
   {
@@ -36561,7 +36457,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 69.8
   },
   {
@@ -36612,7 +36508,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 69.86,
    "eur_kg_protein": 84.17
   },
@@ -36638,7 +36534,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 69.98,
    "eur_kg_protein": 102.91
   },
@@ -36715,7 +36611,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 70.0
   },
   {
@@ -36841,7 +36737,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 70.54,
    "eur_kg_protein": 96.63
   },
@@ -37120,7 +37016,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 71.4,
    "eur_kg_protein": 87.07
   },
@@ -37172,7 +37068,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 71.77,
    "eur_kg_protein": 90.85
   },
@@ -37198,7 +37094,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 71.77,
    "eur_kg_protein": 87.52
   },
@@ -37224,7 +37120,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 71.77,
    "eur_kg_protein": 95.69
   },
@@ -37401,7 +37297,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 72.47,
    "eur_kg_protein": 86.27
   },
@@ -37477,7 +37373,7 @@
    "tested": true,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 72.71,
    "eur_kg_protein": 76.54
   },
@@ -37503,7 +37399,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 72.9
   },
   {
@@ -37833,7 +37729,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 74.98
   },
   {
@@ -37858,7 +37754,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 75.16
   },
   {
@@ -38337,7 +38233,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 76.9,
    "eur_kg_protein": 93.78
   },
@@ -38363,7 +38259,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 76.98,
    "eur_kg_protein": 91.64
   },
@@ -38693,7 +38589,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 77.99
   },
   {
@@ -38769,7 +38665,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 79.8,
    "eur_kg_protein": 88.67
   },
@@ -38795,7 +38691,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 79.8,
    "eur_kg_protein": 101.01
   },
@@ -38821,7 +38717,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 79.8
   },
   {
@@ -38923,7 +38819,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 81.39,
    "eur_kg_protein": 90.43
   },
@@ -38949,7 +38845,7 @@
    "tested": true,
    "method": "page",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 81.97,
    "eur_kg_protein": 103.76
   },
@@ -39001,7 +38897,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 83.12
   },
   {
@@ -39076,7 +38972,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 85.39,
    "eur_kg_protein": 92.82
   },
@@ -39102,7 +38998,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 85.76,
    "eur_kg_protein": 102.1
   },
@@ -39205,7 +39101,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 87.38
   },
   {
@@ -39308,7 +39204,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 89.8
   },
   {
@@ -39509,7 +39405,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 91.29,
    "eur_kg_protein": 109.99
   },
@@ -39561,7 +39457,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 91.5
   },
   {
@@ -39686,7 +39582,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 92.71,
    "eur_kg_protein": 111.7
   },
@@ -39712,7 +39608,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 94.29
   },
   {
@@ -39813,7 +39709,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 95.79
   },
   {
@@ -40192,7 +40088,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 117.82
   },
   {
@@ -40217,7 +40113,7 @@
    "tested": false,
    "method": "feed",
    "note": "",
-   "captured_at": "2026-11-24T13:59:15+00:00",
+   "captured_at": "2026-11-25T13:13:41+00:00",
    "eur_kg": 117.82
   },
   {
