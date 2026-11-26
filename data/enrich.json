@@ -151,6 +151,11 @@
 "protein": 73.0,
 "tested": false
 },
+"https://fr.myprotein.com/p/nutrition-sportive/whey-proteine-hydrolysee/10529805/": {
+"checked": "2026-11-26",
+"protein": 78.0,
+"tested": false
+},
 "https://novoma.com/products/creatine": {
 "checked": "2026-11-18",
 "net": 180.0,
@@ -1812,7 +1817,7 @@
 "tested": true
 },
 "https://www.myprotein.es/p/nutricion-deportiva/impact-whey-protein-milkshake-chupa-chups/18051985/": {
-"checked": "2026-10-26",
+"checked": "2026-11-26",
 "protein": 69.0,
 "tested": true
 },
