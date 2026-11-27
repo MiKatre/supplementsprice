@@ -1312,6 +1312,12 @@
 "protein": null,
 "tested": true
 },
+"https://www.fitnessboutique.fr/products/optimum-nutrition-gold-standard-100-whey-prod-optwheygd2lk": {
+"checked": "2026-11-27",
+"net": 2260.0,
+"protein": null,
+"tested": true
+},
 "https://www.fitnessboutique.fr/products/pure-am-nutrition-pure-clear-whey-prod-purclear500t": {
 "checked": "2026-11-18",
 "net": 500.0,
@@ -1960,9 +1966,9 @@
 "tested": false
 },
 "https://www.nutrimea.com/products/whey-mix": {
-"checked": "2026-10-27",
+"checked": "2026-11-27",
 "net": 750.0,
-"protein": 73.3,
+"protein": 73.0,
 "tested": false
 },
 "https://www.nutrimea.com/products/whey-mix-fr": {
